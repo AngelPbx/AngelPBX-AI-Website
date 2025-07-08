@@ -1,0 +1,142 @@
+.cta {
+    width: 100%;
+    height: 500px;
+    position: relative;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.cta .bg {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.cta .textWrapper {
+    margin-bottom: 24px;
+}
+
+.cta .textWrapper h3 {
+    color: #1B1E3D;
+
+    /* Heading 2 */
+    font-family: Geist;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 57.6px */
+    letter-spacing: -1.44px;
+}
+
+.cta .textWrapper h3 span {
+    color: var(--PBX-Gradient-1, #1B1E3D);
+
+    /* Heading 2 */
+    font-family: Geist;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -1.44px;
+}
+
+.cta .logoWrapper {
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    transform: translateY(-50%);
+}
+
+.cta .chipWrapper {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: end
+}
+
+.cta .chipWrapper .chip {
+    padding: 8px 16px;
+
+    border-radius: 32px;
+    /* border: 1.5px solid rgba(255, 255, 255, 0.20); */
+    background: #FFF;
+    box-shadow: 0px -4px 16px 0px rgba(192, 170, 255, 0.15) inset, 0px 4px 12px 0px rgba(48, 92, 253, 0.12) inset, 0px 12px 40px 0px rgba(98, 105, 254, 0.08);
+    backdrop-filter: blur(4px);
+
+    color: #1B1E3D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.45px;
+
+    width: max-content;
+    position: relative;
+    z-index: 2;
+}
+
+.cta .chipWrapper .chip::before {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border: 2px solid rgba(255, 255, 255, 0.20);
+    border-radius: 32px;
+
+    background: linear-gradient(270deg, rgba(48, 92, 253, 0.6) 0%, rgba(217, 104, 255, 0.6) 100%) border-box;
+
+    --lyr: conic-gradient(red 0 0);
+    mask: var(--lyr) padding-box exclude, var(--lyr);
+
+    content: ''
+}
+
+.cta .chipWrapper .chip::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -150px;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+
+
+    background-image: url('/images/cta/Circle.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+    /* optional: make it semi-transparent */
+    z-index: -1;
+    /* behind the content */
+
+}
+
+.cta .chipWrapper .chip:nth-child(1) {
+    right: -128px;
+}
+
+.cta .chipWrapper .chip:nth-child(2) {
+    right: -90px;
+}
+
+.cta .chipWrapper .chip:nth-child(3) {
+    right: -80px;
+}
+
+.cta .chipWrapper .chip:nth-child(4) {
+    right: -90px;
+}
+
+.cta .chipWrapper .chip:nth-child(5) {
+    right: -130px;
+}

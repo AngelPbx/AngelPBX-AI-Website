@@ -1,0 +1,72 @@
+.topHead {
+    background: var(--clr-primary-blue);
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 11;
+}
+
+.topHead::after {
+    content: '';
+    position: absolute;
+    background-color: #D9D9D9;
+    width: 27px;
+    height: 77px;
+    transform: rotate(141deg);
+    opacity: 0.19;
+    top: -13.74px;
+    left: 50%;
+    filter: blur(6px);
+
+}
+
+.topHead::before {
+    content: '';
+    position: absolute;
+    background-color: #D9D9D9;
+    width: 27px;
+    height: 77px;
+    transform: rotate(140deg);
+    opacity: 0.19;
+    top: -41.74px;
+    left: 46%;
+    filter: blur(6px);
+}
+
+.topHead p {
+    color: var(--clr-white);
+    font-family: var(--font-Inter);
+    font-weight: 300;
+    font-size: 0.875rem;
+    color: var(--clr-bg-light-blue);
+
+    margin-bottom: 0;
+}
+
+.topHead p span {
+    font-weight: 600;
+}
+
+/* ==================== main header */
+
+.navbar {
+    background: var(--clr-header-bg) !important;
+    backdrop-filter: blur(10px);
+    padding-block: 16px;
+    z-index: 11;
+}
+
+.headerItem {
+    font-weight: 500;
+    color: var(--clr-text-secondary-gray);
+    padding-inline: 20px !important;
+}
+
+.headerItem:hover {
+    border-radius: 6px;
+    background: #F5F6F9;
+}

@@ -1,0 +1,83 @@
+.footer {
+    padding-top: 80px;
+    background-color: #fff;
+}
+
+.footer .companyDetails p {
+    color: #525768;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: -0.16px;
+
+    margin-top: 13px;
+}
+
+.linksWrapper label {
+    color: #1B1E3D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.linksWrapper ul {
+    margin: 0;
+    padding: 0;
+}
+
+.linksWrapper ul li {
+    padding: 6px 0px;
+}
+
+.linksWrapper ul li a {
+    color: #525768;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.14px;
+}
+
+.footer .socialMedia {
+    margin-top: 40px;
+}
+
+.socialMedia .socialBtn {
+    border: none;
+    background-color: #F4F4F4;
+
+    font-size: 24px;
+    color: #0F172A;
+
+    margin-right: 12px;
+}
+
+.bottomFooter {
+    padding: 24px 0;
+    margin-top: 55px;
+    border-top: 1px solid var(--Neutral-platinum-200, #E2E8F0);
+}
+
+.bottomFooter p,
+.bottomFooter a {
+    margin-bottom: 0;
+
+    color: #525768;
+
+    /* Body text 3 */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: -0.14px;
+}
+
+.bottomFooter a {
+    margin-right: 15px;
+}

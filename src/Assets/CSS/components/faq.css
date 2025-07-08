@@ -1,0 +1,79 @@
+.faq {
+    padding: 120px 0;
+}
+
+.faq .textWrapper h3 {
+    color: #1B1E3D;
+    font-family: Geist;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -1.2px;
+
+    margin-bottom: 15px;
+}
+
+.faq .textWrapper p {
+    color: #4D4F6B;
+    font-family: Geist;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+    margin-bottom: 40px;
+}
+
+.faq .accordion-item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.faq .accordion-item {
+    border-radius: 10px !important;
+    border: 1.5px solid var(--Neutral-platinum-300, #CBD5E1) !important;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.04), 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+}
+
+.faq .accordion-item .accordion-button {
+    background-color: transparent !important;
+    box-shadow: none;
+    border-radius: 10px 10px 0 0;
+    border-bottom: none !important;
+
+    color: var(--Neutral-platinum-800, #1E293B);
+    font-family: Geist;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 133.333% */
+    letter-spacing: -0.27px;
+}
+
+.faq .accordion-item .accordion-button:not(.collapsed) {
+    border: 1px solid #6269FE;
+}
+
+.faq .accordion-item .accordion-button:not(.collapsed)+.accordion-collapse {
+    border: 1px solid #E4A0E3;
+}
+
+.faq .accordion-item .accordion-collapse {
+    border-radius: 0 0 10px 10px;
+    border-top: none !important;
+}
+
+.faq .accordion-item .accordion-body {
+    color: var(--Neutral-platinum-600, #475569);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    letter-spacing: -0.384px;
+
+    padding-top: 0;
+}

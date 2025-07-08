@@ -1,0 +1,250 @@
+.features {
+    padding: 100px 0;
+    background: linear-gradient(40deg, rgba(255, 163, 211, 0.00) 65.9%, rgba(255, 163, 211, 0.71) 114.4%), #252E8F;
+
+    position: relative;
+}
+
+.features .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.features .textWrapper h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Geist;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -1.44px;
+
+    margin-bottom: 24px;
+}
+
+.features .textWrapper p {
+    color: #EEEFFD;
+    text-align: center;
+    font-family: Geist;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-bottom: 0;
+}
+
+.features .textWrapper {
+    margin-bottom: 64px;
+}
+
+.features article {
+    position: relative;
+    z-index: 5;
+}
+
+.features article .imgWrapper {
+    margin-bottom: 24px;
+    border-radius: 16px;
+    background-color: #1623B5;
+    position: relative;
+
+    width: 330px;
+    height: 160px;
+    overflow: hidden;
+}
+
+.features article .imgWrapper .fg {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+    width: auto;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.features article .imgWrapper .bg {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+
+    mix-blend-mode: overlay;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.features article .imgWrapper .bg.light1 {
+    top: -50px;
+    bottom: inherit;
+    mix-blend-mode: normal;
+    filter: blur(20px);
+
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.features article .imgWrapper .bg.light2 {
+    bottom: -50px;
+    right: -30px;
+    transform: inherit;
+    mix-blend-mode: normal;
+    filter: blur(25px);
+
+    left: inherit;
+    top: inherit;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.features article .content {
+    height: 220px;
+}
+
+.features article .content h5 {
+    color: #FFF;
+    font-family: Geist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+
+    margin-bottom: 12px;
+}
+
+.features article .content p {
+    color: rgba(255, 255, 255, 0.85);
+    font-family: Geist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+    margin-bottom: 24px;
+}
+
+.features article .content a {
+    color: #FFF !important;
+    font-family: Geist;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.features article .content a i {
+    margin-left: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.features article:hover .content a i {
+    margin-left: 10px;
+}
+
+.features article .content a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    background: linear-gradient(90deg, rgba(48, 92, 253, 1) 70%, rgba(222, 141, 214, 1) 100%);
+
+    transition: all 0.3s ease-in-out;
+}
+
+
+.features article .featureImgWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+
+.feature2 .featureImgWrapper .fg1 {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    width: 200px;
+    transition: all 0.3s ease-in-out;
+}
+
+.feature2 .featureImgWrapper .fg2 {
+    position: absolute;
+    bottom: -15px;
+    right: 10px;
+    width: 150px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.features article:hover .bg {
+    transform: translateX(-50%) scale(1.1);
+}
+
+.features article:hover .fg {
+    transform: translateX(-50%) scale(1.1);
+}
+
+.features article:hover .content a::after {
+    color: #fff;
+    width: 100%;
+}
+
+.feature2:hover .fg1 {
+    top: -15px !important;
+}
+
+.feature2:hover .fg2 {
+    bottom: -20px !important;
+}
+
+.feature3 .featureImgWrapper .fg1 {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    transition: all 0.3s ease-in-out;
+}
+
+.feature3 .featureImgWrapper .fg2 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.feature3:hover .fg1,
+.feature3:hover .fg2 {
+    transform: translateX(-50%) scale(1.1);
+}
+
+.feature3:hover .fg1 {
+    top: -10px;
+}
+
+.feature3:hover .fg2 {
+    bottom: 5px;
+}

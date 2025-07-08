@@ -1,0 +1,91 @@
+/* -------------------- google Geist font */
+/* @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap'); */
+/* -------------------- google Inter font */
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap'); */
+
+
+
+/* -------------------- all css file import here */
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+@import url('./components/button.css');
+@import url('./components/header.css');
+@import url('./components/footer.css');
+@import url('./components/faq.css');
+@import url('./components/cta.css');
+@import url('./components/features.css');
+
+@import url('./pages/home.css');
+
+
+
+:root {
+
+  --clr-white: #fff;
+  --clr-black: #000;
+  --clr-primary-blue: #000C8F;
+  --clr-secondary-blue: #305CFD;
+  --clr-dark-blue: #1B1E3D;
+
+  --clr-bg-light-gray: #EFF0FB;
+  --clr-bg-light: #F2F4FF;
+  --clr-bg-gray: #F6F3F2;
+  --clr-bg-light-red: #F0E2FA;
+  --clr-bg-light-blue: #ECF0FE;
+  --clr-header-bg: rgba(255, 255, 255, 0.80);
+
+  --clr-text-primary-gray: #4D4F6B;
+  --clr-text-secondary-gray: #525768;
+  --clr-text-subtle-gary: #475569;
+  --clr-text-subtle-dark: #1E293B;
+  --clr-text-accent: #7F838E;
+
+  /* --clr-border-primary: #000C8F; */
+  --clr-border-gray: #CBD5E1;
+
+
+
+
+  /* -------------- font family */
+
+  --font-Geist: "Geist", sans-serif;
+  --font-Inter: "Inter", sans-serif;
+
+
+}
+
+html {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-Geist);
+  background-color: var(--clr-white);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: var(--clr-text-primary-gray);
+  /* overflow: hidden; */
+}
+
+/* p {
+  margin: 0 !important;
+} */
+
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+li {
+  list-style-type: none;
+}
