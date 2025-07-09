@@ -61,12 +61,21 @@
 }
 
 .headerItem {
-    font-weight: 500;
-    color: var(--clr-text-secondary-gray);
+    color: var(--clr-text-secondary-gray) !important;
     padding-inline: 20px !important;
+    font-family: var(--font-Geist);
+    font-size: 1rem !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: -0.192px;
 }
 
 .headerItem:hover {
     border-radius: 6px;
     background: #F5F6F9;
+}
+.navbar-brand{
+    padding-right: 48px;
 }

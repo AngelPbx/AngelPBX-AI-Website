@@ -22,7 +22,7 @@ function Header() {
                 </div>
             </div>
 
-
+{/* 
             <Navbar bg="light" data-bs-theme="light">
                 <Container>
                     <Navbar.Brand href="#home">
@@ -67,8 +67,62 @@ function Header() {
                         <button className='primaryBtn'>Get a Demo <i className="fa-solid fa-arrow-right"></i></button>
                     </div>
                 </Container>
-            </Navbar>
+            </Navbar> */}
 
+
+            <nav className="navbar navbar-expand-lg">
+                <div className="container">
+                    <Link className="navbar-brand" href="#home">  <Image src={logo} alt="logo" className='img' /></Link>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li className="nav-item dropdown">
+                                <Link className="nav-link dropdown-toggle headerItem" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Products
+                                </Link>
+                                <ul className="dropdown-menu">
+                                    <li><Link className="dropdown-item" href="#">Action</Link></li>
+                                    <li><Link className="dropdown-item" href="#">Another action</Link></li>
+                                  
+                                </ul>
+                            </li>
+                            <li className="nav-item dropdown">
+                                <Link className="nav-link dropdown-toggle headerItem" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Resources
+                                </Link>
+                                <ul className="dropdown-menu">
+                                    <li><Link className="dropdown-item" href="#">Action</Link></li>
+                                    <li><Link className="dropdown-item" href="#">Another action</Link></li>
+                                  
+                                </ul>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link headerItem" href="#">Company</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link headerItem" href="#">Pricing</Link>
+                            </li>
+                           
+                        </ul>
+                        <div className='d-flex align-items-center'>
+                         <li className="nav-item dropdown">
+                                <Link className="nav-link dropdown-toggle headerItem" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    EN
+                                </Link>
+                                <ul className="dropdown-menu">
+                                    <li><Link className="dropdown-item" href="#">Action</Link></li>
+                                    <li><Link className="dropdown-item" href="#">Another action</Link></li>
+                                  
+                                </ul>
+                            </li>
+                        <button className='textBTn me-3'>Login</button>
+                        <button className='primaryBtn'>Get a Demo <i className="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    </div>
+                </div>
+            </nav>
         </>
     )
 }

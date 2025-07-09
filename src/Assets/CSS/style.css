@@ -47,7 +47,9 @@
 
   /* --clr-border-primary: #000C8F; */
   --clr-border-gray: #CBD5E1;
-
+  --clr-border-gray100: #DDF;
+  --clr-text-blue300: #373E92;
+--Neutral-platinum-200: #E2E8F0;
 
 
 
@@ -88,4 +90,8 @@ ul {
 
 li {
   list-style-type: none;
+}
+
+.panelGap {
+  padding-top: 120px;
 }
