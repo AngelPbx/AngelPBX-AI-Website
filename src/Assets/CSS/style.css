@@ -21,6 +21,7 @@
 @import url('./components/features.css');
 
 @import url('./pages/home.css');
+@import url('./components/responsive.css');
 
 
 
@@ -30,6 +31,7 @@
   --clr-black: #000;
   --clr-primary-blue: #000C8F;
   --clr-secondary-blue: #305CFD;
+  --clr-secondary-light-blue: #6269FE;
   --clr-dark-blue: #1B1E3D;
 
   --clr-bg-light-gray: #EFF0FB;
@@ -44,14 +46,17 @@
   --clr-text-subtle-gary: #475569;
   --clr-text-subtle-dark: #1E293B;
   --clr-text-accent: #7F838E;
+  --clr-text-light-accent: #8587A1;
+  /* --Neutral-platinum-300:  */
 
   /* --clr-border-primary: #000C8F; */
   --clr-border-gray: #CBD5E1;
   --clr-border-gray100: #DDF;
   --clr-text-blue300: #373E92;
---Neutral-platinum-200: #E2E8F0;
+  --Neutral-platinum-200: #E2E8F0;
 
-
+  --listing-head-bg: #F2F4FF;
+  --close-red: #FB7476;
 
   /* -------------- font family */
 
@@ -94,4 +99,10 @@ li {
 
 .panelGap {
   padding-top: 120px;
+}
+
+@media (max-width: 840px) {
+  .panelGap {
+    padding-top: 80px;
+  }
 }

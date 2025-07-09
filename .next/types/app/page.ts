@@ -1,4 +1,4 @@
-// File: C:\My Web Sites\WebsiteCopier\AngelPBX-AI-Website\src\app\page.js
+// File: C:\projects\AngelPBX-AI-Website\src\app\page.js
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

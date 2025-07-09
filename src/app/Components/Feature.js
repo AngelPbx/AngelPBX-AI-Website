@@ -28,7 +28,8 @@ const Feature = () => {
                         </div>
                         <div className='listingName'>
                             <div className='listing_hed'>
-                                <Image src="/images/sit-logo-blue.svg" alt="logo" width={183} height={26} />
+                                <Image src="/images/sit-logo-blue.svg" alt="logo" width={183} height={26} className='desk_futureLogo' />
+                                <Image src="/images/Top-logo.svg" alt="logo" width={96} height={120} className='mobile_futureLogo' />
                             </div>
                             <ul className='ps-0'>
                                 <li className='feature_listing'> <Image src="/images/tick.svg" alt="tick" width={42} height={42} /></li>
@@ -36,9 +37,9 @@ const Feature = () => {
                                 <li className='feature_listing'><Image src="/images/tick.svg" alt="tick" width={42} height={42} /></li>
                                 <li className='feature_listing'><Image src="/images/tick.svg" alt="tick" width={42} height={42} /></li>
                                 <li className='feature_listing'><Image src="/images/tick.svg" alt="tick" width={42} height={42} /></li>
-                                <li className='feature_listing'><Image src="/images/tick.svg" alt="tick" width={42} height={42} /></li>
+                                <li className='feature_listing border-bottom-0'><Image src="/images/tick.svg" alt="tick" width={42} height={42} /></li>
+                                <button className='primaryBtn w-100'>Get Started Now <i className="fa-solid fa-arrow-right"></i></button>
                             </ul>
-                             <button className='primaryBtn w-100'>Get Started Now <i className="fa-solid fa-arrow-right"></i></button>
                         </div>
                         <div className='listingName'>
                             <div className='listing_hed'>
@@ -56,7 +57,8 @@ const Feature = () => {
 
                     </div>
 
-                   
+
+
 
                 </div>
             </section>
