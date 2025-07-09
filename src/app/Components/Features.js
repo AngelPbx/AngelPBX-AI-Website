@@ -63,7 +63,11 @@ function Features() {
                     <div className='col-xl-4 col-12'>
                         <article className='feature4'>
                             <div className='imgWrapper'>
-                                <Image src={`/images/features/feature_4.svg`} className='fg' width={155} height={130} alt="figure" style={{ bottom: '10px' }} />
+                                <div className='featureImgWrapper'>
+                                    <Image src={`/images/features/feature_4_a.svg`} className='fg1' width={155} height={130} alt="figure" />
+                                    <Image src={`/images/features/feature_4_b.svg`} className='fg2' width={155} height={130} alt="figure" />
+                                    <Image src={`/images/features/feature_4_c.svg`} className='fg3' width={35} height={35} alt="figure" />
+                                </div>
                                 <FeatureImageComponent light1='light_1' light2='light_2' />
                             </div>
                             <div className='content'>
@@ -76,7 +80,10 @@ function Features() {
                     <div className='col-xl-4 col-12'>
                         <article className='feature5'>
                             <div className='imgWrapper'>
-                                <Image src={`/images/features/feature_5.svg`} className='fg' width={155} height={130} alt="figure" />
+                                <div className='featureImgWrapper'>
+                                    <Image src={`/images/features/feature_5_a.svg`} className='fg1' width={155} height={130} alt="figure" />
+                                    <Image src={`/images/features/feature_5_b.svg`} className='fg2' width={35} height={35} alt="figure" />
+                                </div>
                                 <FeatureImageComponent light1='light_1' light2='light_2' />
                             </div>
                             <div className='content'>
