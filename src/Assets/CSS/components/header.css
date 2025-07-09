@@ -79,3 +79,16 @@
 .navbar-brand{
     padding-right: 48px;
 }
+
+.mobile_nav{
+    display: none !important;
+}
+.rightSide_group{
+    align-items: center;
+}
+.rightSide_group .headerItem:hover{
+   background: transparent;
+}
+    .navbar-collapse.collapse.show{
+        padding-bottom: 30px;
+    }

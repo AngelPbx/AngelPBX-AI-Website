@@ -15,12 +15,12 @@ function Home() {
     return (
         <>
             <main>
-                <section className='container-fluid px-5'>
+                <section className='container-fluid px-3 px-xxl-5 px-xl-5 px-lg-5 px-mb-5 '>
                     <div className='banner'>
                         <div className='gardientBg'></div>
                         <div className='container'>
                             <div className='row align-items-center'>
-                                <div className='col-6'>
+                                <div className='col-lg-6 col-md-8 col-sm-12 col-12'>
                                     <h1 className='mainHeading'>AI Meets PBX, <br />
                                         Dialer, Meet & Tracker <br />
                                         <span className='textGradient'>All-in One Hub</span>
@@ -44,11 +44,10 @@ function Home() {
                 <LogoImageSlider />
                 <AIRevolution />
                 <Feature />
-                <ReviewSlider />
-
                 <Features />
+                <ReviewSlider />
                 <FAQ />
-                <CTA />
+                {/* <CTA /> */}
             </main>
         </>
     )

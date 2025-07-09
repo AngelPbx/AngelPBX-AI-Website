@@ -2,10 +2,10 @@ import React from 'react'
 
 function FAQ() {
     return (
-        <section className='faq'>
+        <section className='faq panelGap'>
             <div className='container'>
                 <div className='row justify-content-between'>
-                    <div className='col-xl-4'>
+                    <div className='col-xl-4 col-lg-5 mb-3'>
                         <div className='textWrapper'>
                             <h3>
                                 Frequently <br />Asked Questions
@@ -14,7 +14,7 @@ function FAQ() {
                             <button className='secondaryBtn'>Help Center</button>
                         </div>
                     </div>
-                    <div className='col-xl-7'>
+                    <div className='col-xl-8'>
                         <div className="accordion" id="accordionExample">
                             <div className="accordion-item">
                                 <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">

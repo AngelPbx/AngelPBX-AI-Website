@@ -3,11 +3,14 @@
     width: 100%;
 }
 
+.mb-6 {
+    margin-bottom: 4.5rem !important;
+}
 
 .mainHeading {
     color: var(--clr-dark-blue);
     font-family: var(--font-Geist);
-    font-size: clamp(2.8rem, 4vw, 4rem);
+    font-size: clamp(3rem, 4vw, 4rem);
     font-style: normal;
     font-weight: 600;
     line-height: 110%;
@@ -147,6 +150,7 @@
     align-self: stretch;
     position: relative;
     isolation: isolate;
+    /* overflow: hidden; */
 }
 
 /* .banner::after{
@@ -293,24 +297,6 @@ element.style {
 }
 
 
-
-/* .logoSlider::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 200px;
-    height: 200px;
-    transform: rotate(-169.459deg);
-    flex-shrink: 0;
-    border-radius: 443.451px;
-    opacity: 0.8;
-    background: linear-gradient(46deg, rgba(153, 158, 255, 1) 0%, rgba(223, 148, 214, 1) 70%);
-    filter: blur(146px);
-    z-index: -1;
-} */
-
-
 /* ========================= AI Revolution*/
 
 .sliderRevolution {
@@ -319,7 +305,7 @@ element.style {
     width: 100%;
 }
 
-.content {
+.panelGap .content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -333,7 +319,7 @@ element.style {
 
     /* Heading 2 */
     font-family: var(--font-Geist);
-    font-size: clamp(2.8rem, 4vw, 3rem);
+    font-size: clamp(2.375rem, 4vw, 3rem);
     font-style: normal;
     font-weight: 600;
     line-height: 120%;
@@ -453,7 +439,7 @@ element.style {
 .slider_wrap .tabSwiper {
     border-radius: 46px;
     border: 1px solid var(--Neutral-platinum-200);
-    background: #FFF;
+    background: var(--clr-white);
     display: flex;
     height: 61px;
     padding: 6px;
@@ -476,9 +462,9 @@ element.style {
 }
 
 .tabItem p {
-    color: #4D4F6B;
+    color: var(--clr-text-primary-gray);
     text-align: center;
-    font-family: Geist;
+    font-family: var(--font-Geist);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -489,15 +475,27 @@ element.style {
 
 .swiper-slide-thumb-active .tabItem {
 
-    background: var(--Primary-Dark, #000C8F);
-    color: #FFF;
+    background: var(--clr-primary-blue);
+    color: var(--clr-white);
 }
 
 .swiper-slide-thumb-active .tabItem p {
-    color: #FFF;
+    color: var(--clr-white);
+}
+.contxtSlid .swiper-slide {
+    width: 60% !important;
+    margin-inline: 20px;
 }
 
-
+.contxtSlid .swiper-slide.swiper-slide-prev {
+    margin-top: 66px;
+}
+.contxtSlid .swiper-slide.swiper-slide-next {
+    margin-top: 66px;
+}
+.contxtSlid .swiper-slide.swiper-slide-active {
+    margin-top: 0;
+}
 
 /* ================================ */
 
@@ -517,7 +515,7 @@ element.style {
     flex-shrink: 0;
     /* border-radius: 443.451px; */
     opacity: 0.4;
-    background: #305CFD;
+    background: var(--clr-secondary-blue);
     filter: blur(140px);
     z-index: -1;
 }
@@ -529,9 +527,10 @@ element.style {
     backdrop-filter: blur(4px);
     display: flex;
     position: relative;
-    box-shadow: 0px -1px 0px 1px #6269FE;
+    box-shadow: 0px -1px 0px 1px var(--clr-secondary-light-blue);
     margin-top: 58px;
-
+    padding: 10px;
+    padding-left: 0;
 }
 
 
@@ -547,7 +546,7 @@ element.style {
     flex-shrink: 0;
     /* border-radius: 443.451px; */
     opacity: 0.3;
-    background: #305CFD;
+    background: var(--clr-secondary-blue);
     filter: blur(204px);
     z-index: -1;
 }
@@ -581,9 +580,9 @@ element.style {
 }
 
 .heading4 {
-    color: #8587A1;
-    font-family: Geist;
-    font-size: 32px;
+    color: var(--clr-text-light-accent);
+    font-family: var(--font-Geist);
+    font-size: clamp(1rem, 3vw, 2rem);
     font-style: normal;
     font-weight: 500;
     line-height: 130%;
@@ -592,19 +591,21 @@ element.style {
 }
 
 .feature_listing {
-    display: flex;
-    padding: 16px 24px 16px 40px;
+    /* display: flex; */
+    align-content: center;
+    padding: 0 24px;
+    height: 110px;
     align-items: center;
     gap: 8px;
     align-self: stretch;
-    color: #1B1E3D;
-    font-family: Geist;
+    color: var(--clr-dark-blue);
+    font-family: var(--font-Geist);
     font-size: 22px;
     font-style: normal;
     font-weight: 500;
     line-height: 30px;
     stroke-width: 1px;
-    border-bottom: 1px solid var(--Neutral-platinum-300, #CBD5E1);
+    border-bottom: 1px solid var(--clr-border-gray);
     /* margin-block: 16px; */
     /* 136.364% */
 }
@@ -616,6 +617,13 @@ element.style {
 .listingName:nth-child(1) .feature_listing p {
     max-width: 304px;
     width: 100%;
+    color: var(--clr-dark-blue);
+    font-family: var(--font-Geist);
+    font-size: clamp(0.938rem, 2vw, 1.375rem);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 136.364% */
 }
 
 .listingName:nth-child(2) .feature_listing,
@@ -626,20 +634,28 @@ element.style {
     align-items: center;
 }
 
+.listingName:nth-child(2) .feature_listing {
+    height: 110px;
+    text-align: center;
+}
+
+.listingName:nth-child(3) .feature_listing {
+    height: 110px;
+    text-align: center;
+}
+
 .listingName:nth-child(2) {
     background-clip: padding-box;
     border: 1px solid transparent;
     border-radius: 20px;
-    margin-top: -30px;
+    margin-top: -25px;
     margin-left: -30px;
-    background: #fff;
+    background: var(--clr-white);
     position: relative;
-    display: flex;
-    justify-content: stretch;
-    align-items: center;
-    flex-direction: column;
+}
 
-
+.feature_listing:last-child {
+    border: 0;
 }
 
 .listingName:nth-child(2)::before {
@@ -656,62 +672,90 @@ element.style {
 }
 
 .listingName:nth-child(2) ul {
-    display: flex;
-    height: 743px;
-    padding: 23px 0px 10px 0px;
-    flex-direction: column;
-    align-items: center;
-    gap: 13px;
-    justify-content: space-between;
+    /* display: flex; */
+    /* height: 743px; */
+    padding: 48px 0px 0 0px;
+    overflow: hidden;
     width: 100%;
+    margin-bottom: 10px;
 
 }
 
+
 .listingName:nth-child(3) {
     border-radius: 16px;
-    border: 1.5px solid #FFF;
+    border: 1.5px solid var(--clr-white);
     background: linear-gradient(180deg, rgba(251, 116, 118, 0.00) -16.97%, rgba(251, 116, 118, 0.08) 80.68%), rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(8px);
     flex: auto;
-    margin: 10px;
+    margin-left: 10px;
 
 }
 
 .listingName:nth-child(2) .listing_hed {
     border-radius: 16px;
-    background: #F2F4FF;
+    background: var(--listing-head-bg);
 }
 
 .feature_listing .fa-xmark {
     width: 40px;
     height: 40px;
-    color: #FB7476;
+    color: var(--close-red);
 }
 
-.listingName:nth-child(3) .feature_listing {
+/* .listingName:nth-child(3) .feature_listing {
     padding: 40px 0;
-}
+} */
 
 
 /* ===================== */
 
 .reviewSlid {
     display: flex;
-    width: 877px;
-    height: 477px;
+    /* max-width: 877px;
+    min-width: 877px; */
+    width: 100%;
+    height: auto;
     padding: 24px 16px;
     align-items: flex-start;
     gap: 70px;
     flex-shrink: 0;
     border-radius: 12px;
-    background: #F6F3F2;
+
     border: none;
     box-shadow: none;
 }
 
+/* .slidWrap .swiper-slide.swiper-slide-active {
+
+    width: 819.333px !important;
+    margin-right: 77px;
+
+}
+ */
+ 
+
+.slidWrap .swiper-slide {
+    width: 45% !important;
+    margin-inline: 20px;
+}
+
+
+.reviewSlid.gary {
+    background: var(--clr-bg-gray);
+}
+
+.reviewSlid.blue {
+    background: #ECF0FE;
+}
+
+.reviewSlid.pink {
+    background: #F0E2FA;
+}
+
 .slidListContent h5 {
-    color: #1B1E3D;
-    font-family: Geist;
+    color: var(--clr-dark-blue);
+    font-family: var(--font-Geist);
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -720,8 +764,8 @@ element.style {
 }
 
 .client_info h6 {
-    color: #1B1E3D;
-    font-family: Geist;
+    color: var(--clr-dark-blue);
+    font-family: var(--font-Geist);
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -730,8 +774,8 @@ element.style {
 }
 
 .client_info p {
-    color: #1B1E3D;
-    font-family: Geist;
+    color: var(--clr-dark-blue);
+    font-family: var(--font-Geist);
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -739,10 +783,18 @@ element.style {
 }
 
 .para5 {
-    color: #1B1E3D;
-    font-family: Geist;
+    color: var(--clr-dark-blue);
+    font-family: var(--font-Geist);
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
 }
+
+.mobile_futureLogo {
+    display: none;
+}
+
+/* =================================== */
+
+/* =================================== */

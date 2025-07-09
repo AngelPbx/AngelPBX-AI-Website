@@ -21,6 +21,10 @@ const LogoImageSlider = () => {
             spaceBetween={30}
             slidesPerView={7}
             // slidesToScroll={1}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
             centeredSlides={false}
             breakpoints={{
               640: {
@@ -49,6 +53,13 @@ const LogoImageSlider = () => {
             // modules={[Autoplay]}
             className="mySwiper"
           >
+            <SwiperSlide><Image src="images/logo/logo1.svg" alt="logo" width={183} height={26} /></SwiperSlide>
+            <SwiperSlide><Image src="images/logo/logo2.svg" alt="logo" width={105} height={26} /></SwiperSlide>
+            <SwiperSlide><Image src="images/logo/logo3.svg" alt="logo" width={91} height={26} /></SwiperSlide>
+            <SwiperSlide><Image src="images/logo/logo4.svg" alt="logo" width={113} height={25} /></SwiperSlide>
+            <SwiperSlide><Image src="images/logo/logo5.svg" alt="logo" width={144} height={25} /></SwiperSlide>
+            <SwiperSlide><Image src="images/logo/logo6.svg" alt="logo" width={73} height={30} /></SwiperSlide>
+            <SwiperSlide><Image src="images/logo/logo7.svg" alt="logo" width={151} height={25} /></SwiperSlide>
             <SwiperSlide><Image src="images/logo/logo1.svg" alt="logo" width={183} height={26} /></SwiperSlide>
             <SwiperSlide><Image src="images/logo/logo2.svg" alt="logo" width={105} height={26} /></SwiperSlide>
             <SwiperSlide><Image src="images/logo/logo3.svg" alt="logo" width={91} height={26} /></SwiperSlide>

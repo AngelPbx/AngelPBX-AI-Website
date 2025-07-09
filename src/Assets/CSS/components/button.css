@@ -39,13 +39,30 @@
         inset 0px 4px 12px 0px #FFFFFF80,
         inset 0px 0.8px 0.5px 0px #FFFFFF66,
         inset 0px -1px 1px 0px #4C4C4C66;
-
     isolation: isolate;
     overflow: hidden;
 }
 
 .primaryBtn:hover::before {
     height: 100%;
+}
+/* .primaryBtn:hover i{
+    margin-right: -100%;
+}
+.primaryBtn:hover::after{
+      left: 116px;
+      opacity: 1;
+} */
+
+.primaryBtn::after {
+    content: "\f061";
+    font-family: "Font Awesome 6 Pro";
+    box-sizing: border-box;
+    font-weight: 900;
+    position: absolute;
+     transition: all 0.4s ease-in-out;
+    left: -50px;
+    opacity: 0;
 }
 
 .primaryBtn::before {
@@ -62,7 +79,6 @@
     border-radius: 6px;
     background: rgba(0, 0, 0, 0.30);
     filter: blur(10px);
-
 }
 
 
@@ -74,12 +90,12 @@
     background: rgba(255, 255, 255, 0.50);
     padding: 10px 16px;
     color: var(--Primary-Dark, #000C8F);
-    font-family:  var(--font-Geist);
+    font-family: var(--font-Geist);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 22px;
-  transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
     letter-spacing: -0.24px;
 }
 
