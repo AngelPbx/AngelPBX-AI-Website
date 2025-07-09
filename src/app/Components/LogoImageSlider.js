@@ -21,8 +21,10 @@ const LogoImageSlider = () => {
             spaceBetween={30}
             slidesPerView={7}
             // slidesToScroll={1}
+            speed={3000}
+            loop={true}
             autoplay={{
-              delay: 2500,
+              delay: 0,
               disableOnInteraction: false,
             }}
             centeredSlides={false}
@@ -44,13 +46,9 @@ const LogoImageSlider = () => {
                 spaceBetween: 50,
               },
             }}
-            // autoplay={{
-            //   delay: 2500,
-            //   disableOnInteraction: true,
-            // }}
             pagination={false}
             navigation={false}
-            // modules={[Autoplay]}
+            modules={[Autoplay]}
             className="mySwiper"
           >
             <SwiperSlide><Image src="images/logo/logo1.svg" alt="logo" width={183} height={26} /></SwiperSlide>
