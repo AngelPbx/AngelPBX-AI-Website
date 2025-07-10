@@ -79,13 +79,13 @@ const AIRevolution = () => {
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12 '>
                                         <div className='slidListContent'>
-                                            <h3 className='heading_H3'>Run Smarter Phone Systems (SmartPBX)</h3>
-                                            <p className='paragraph3'>Smarter calls, happier teams—AI handles routing, learns caller behavior, and powers your business phone system.</p>
+                                            <h3 className='heading_H3'>Run Smarter Phone Systems (AI-powered SmartPBX)</h3>
+                                            <p className='paragraph3'>Smarter Calls, happier teams - AI handles call routing, learns caller sentiment and powers up your business phone system  </p>
                                             <ul className='ai_list'>
-                                                <li>Automatically routes calls to the right person/team</li>
-                                                <li>Perceives caller behavior for better service</li>
-                                                <li>Set up smart voice menus without codes</li>
-                                                <li>Filters out spam calls using DTMF Input</li>
+                                                <li>Auto-routes calls to the right person/team</li>
+                                                <li>Smart Call Content Search enabled</li>
+                                                <li>Possession of Visual IVR Builder</li>
+                                                <li>Blocks spam with smart filters</li>
                                             </ul>
                                             <button className='primaryBtn'>Get a Demo <i className="fa-solid fa-arrow-right"></i></button>
                                         </div>
@@ -103,13 +103,13 @@ const AIRevolution = () => {
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12 '>
                                         <div className='slidListContent'>
-                                            <h3 className='heading_H3'>Run Smarter Phone Systems (SmartPBX)</h3>
-                                            <p className='paragraph3'>Smarter calls, happier teams—AI handles routing, learns caller behavior, and powers your business phone system.</p>
+                                            <h3 className='heading_H3'>Your 24/7 AI Agent Always Ready (Humanoid AI Agent)</h3>
+                                            <p className='paragraph3'>Enable human like communications to take place instantly with our AngelAI - working round the clock for you, in multiple dialects</p>
                                             <ul className='ai_list'>
-                                                <li>Automatically routes calls to the right person/team</li>
-                                                <li>Perceives caller behavior for better service</li>
-                                                <li>Set up smart voice menus without codes</li>
-                                                <li>Filters out spam calls using DTMF Input</li>
+                                                <li>Understands caller intent and mood in realtime</li>
+                                                <li>No waiting lines, just faster resolutions</li>
+                                                <li>Work across all time zones, channels</li>
+                                                <li>Speaks like a person in multiple languages</li>
                                             </ul>
                                             <button className='primaryBtn'>Get a Demo <i className="fa-solid fa-arrow-right"></i></button>
                                         </div>
@@ -127,13 +127,13 @@ const AIRevolution = () => {
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12 '>
                                         <div className='slidListContent'>
-                                            <h3 className='heading_H3'>Run Smarter Phone Systems (SmartPBX)</h3>
-                                            <p className='paragraph3'>Smarter calls, happier teams—AI handles routing, learns caller behavior, and powers your business phone system.</p>
+                                            <h3 className='heading_H3'>One place for all conversations (Omnichannel Messaging) </h3>
+                                            <p className='paragraph3'>Manage every communication channel- all your chats, texts, emails and FAX in one place with the ease of AI that does everything for your business  </p>
                                             <ul className='ai_list'>
-                                                <li>Automatically routes calls to the right person/team</li>
-                                                <li>Perceives caller behavior for better service</li>
-                                                <li>Set up smart voice menus without codes</li>
-                                                <li>Filters out spam calls using DTMF Input</li>
+                                                <li>Manages SMS, Emails, Fax and more from one portal  </li>
+                                                <li>Enabled AI-auto replies using intent-aware  </li>
+                                                <li>AI-powered Internal Messaging and effective collaboration  </li>
+                                                <li>File and Media Sharing in quick seconds  </li>
                                             </ul>
                                             <button className='primaryBtn'>Get a Demo <i className="fa-solid fa-arrow-right"></i></button>
                                         </div>
@@ -151,13 +151,13 @@ const AIRevolution = () => {
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12 '>
                                         <div className='slidListContent'>
-                                            <h3 className='heading_H3'>Run Smarter Phone Systems (SmartPBX)</h3>
-                                            <p className='paragraph3'>Smarter calls, happier teams—AI handles routing, learns caller behavior, and powers your business phone system.</p>
+                                            <h3 className='heading_H3'>Track calls, leads, and performance (AngelTracker AI) </h3>
+                                            <p className='paragraph3'>Track calls, leads, and performance (AngelTracker AI) </p>
                                             <ul className='ai_list'>
-                                                <li>Automatically routes calls to the right person/team</li>
-                                                <li>Perceives caller behavior for better service</li>
-                                                <li>Set up smart voice menus without codes</li>
-                                                <li>Filters out spam calls using DTMF Input</li>
+                                                <li>Track inbound calls from social media, campaigns and others  </li>
+                                                <li>Enabled AI-powered filtering to block spam calls</li>
+                                                <li>AI measures your campaign returns (ROI)  </li>
+                                                <li>AI checks call scores and detects campaign leads </li>
                                             </ul>
                                             <button className='primaryBtn'>Get a Demo <i className="fa-solid fa-arrow-right"></i></button>
                                         </div>
@@ -175,13 +175,13 @@ const AIRevolution = () => {
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12 '>
                                         <div className='slidListContent'>
-                                            <h3 className='heading_H3'>Run Smarter Phone Systems (SmartPBX)</h3>
-                                            <p className='paragraph3'>Smarter calls, happier teams—AI handles routing, learns caller behavior, and powers your business phone system.</p>
+                                            <h3 className='heading_H3'>Smarter Meetings and Calls (AI-Powered Video Calls)  </h3>
+                                            <p className='paragraph3'>In meetings and calls, our AI auto-joins and translates and also notes down the summaries at the end for the ease of convenience of your team  </p>
                                             <ul className='ai_list'>
-                                                <li>Automatically routes calls to the right person/team</li>
-                                                <li>Perceives caller behavior for better service</li>
-                                                <li>Set up smart voice menus without codes</li>
-                                                <li>Filters out spam calls using DTMF Input</li>
+                                                <li>High quality meetings with no background noise  </li>
+                                                <li>Auto-joins and records with multi-language translation  </li>
+                                                <li>Sends recap instantly via emails  </li>
+                                                <li>Smart scheduling as per time zones  </li>
                                             </ul>
                                             <button className='primaryBtn'>Get a Demo <i className="fa-solid fa-arrow-right"></i></button>
                                         </div>
