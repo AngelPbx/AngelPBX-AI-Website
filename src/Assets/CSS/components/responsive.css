@@ -99,6 +99,12 @@
     .graphBg {
         right: -24%;
         scale: 0.5;
+        width: 100%;
+        height: 400px;
+    }
+
+    .graphBg .heroTabs {
+        display: none;
     }
 
     .slider_wrap .tabSwiper.swiper {
@@ -126,6 +132,12 @@
 
     .slidListContent {
         padding-right: 0;
+    }
+
+    .animated-circle {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        height: auto;
     }
 }
 
@@ -181,12 +193,16 @@
     }
 
     .panelGap {
-        padding-top: 80px;
+        padding-top: 40px;
     }
 
     .sliderRevolution .sliderContent .slidBox img {
         width: 100%;
         height: auto;
+    }
+
+    .cta {
+        margin-top: 50px;
     }
 
 

@@ -12,7 +12,7 @@ import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import Image from 'next/image';
 
-const LogoImageSlider = () => {
+const BrandTicker = () => {
   return (
     <>
       <section className='logoSlider'>
@@ -73,4 +73,4 @@ const LogoImageSlider = () => {
   )
 }
 
-export default LogoImageSlider
+export default BrandTicker

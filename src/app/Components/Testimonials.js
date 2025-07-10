@@ -9,10 +9,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 
 // import required modules
-import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
+import { Autoplay, FreeMode, Navigation, Thumbs } from 'swiper/modules';
 import Image from 'next/image';
 
-const ReviewSlider = () => {
+const Testimonials = () => {
     return (
         <>
             <section className='sliderRevolution panelGap'>
@@ -27,9 +27,11 @@ const ReviewSlider = () => {
                         slidesPerView={3}
                         centeredSlides={false}
                         spaceBetween={20}
+                        loop={true}
                         autoplay={{
                             delay: 2500,
-                            disableOnInteraction: false,
+                            disableOnInteraction: true,
+                            pauseOnMouseEnter: true,
                         }}
                         pagination={{
                             type: 'fraction',
@@ -53,7 +55,7 @@ const ReviewSlider = () => {
                             },
                         }}
                         navigation={false}
-                        // modules={[Pagination, Navigation]}
+                        modules={[Autoplay]}
                         className="mySwiper"
                     >
                         <SwiperSlide>
@@ -179,4 +181,4 @@ const ReviewSlider = () => {
     )
 }
 
-export default ReviewSlider
+export default Testimonials

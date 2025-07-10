@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const Feature = () => {
+const Comparision = () => {
     return (
         <>
             <section className='fetureBox_Wrap panelGap'>
@@ -66,4 +66,4 @@ const Feature = () => {
     )
 }
 
-export default Feature
+export default Comparision

@@ -26,7 +26,7 @@ function Header() {
                 <div className="container">
                     <Link className="navbar-brand" href="#home">  <Image src={logo} alt="logo" className='img' /></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <i class="fa-solid fa-bars"></i>
+                        <i className="fa-solid fa-bars"></i>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -61,15 +61,15 @@ function Header() {
                         <div className='d-flex rightSide_group'>
                             <li className="nav-item dropdown">
                                 <Link className="nav-link dropdown-toggle headerItem" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    {/* <i class="fa-light fa-language"></i>   */}
+                                    {/* <i className="fa-light fa-language"></i>   */}
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" className='me-2'>
-                                        <g clip-path="url(#clip0_53224_6275)">
-                                            <path d="M4.1665 6.66663L9.1665 11.6666M3.33317 11.6666L8.33317 6.66663L9.99984 4.16663M1.6665 4.16663H11.6665M5.83317 1.66663H6.6665M18.3332 18.3333L14.1665 9.99996L9.99984 18.3333M11.6665 15H16.6665" stroke="url(#paint0_linear_53224_6275)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <g clipPath="url(#clip0_53224_6275)">
+                                            <path d="M4.1665 6.66663L9.1665 11.6666M3.33317 11.6666L8.33317 6.66663L9.99984 4.16663M1.6665 4.16663H11.6665M5.83317 1.66663H6.6665M18.3332 18.3333L14.1665 9.99996L9.99984 18.3333M11.6665 15H16.6665" stroke="url(#paint0_linear_53224_6275)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                         </g>
                                         <defs>
                                             <linearGradient id="paint0_linear_53224_6275" x1="9.99984" y1="1.66663" x2="9.99984" y2="18.3333" gradientUnits="userSpaceOnUse">
-                                                <stop stop-color="#305CFD" />
-                                                <stop offset="1" stop-color="#6269FE" />
+                                                <stop stopColor="#305CFD" />
+                                                <stop offset="1" stopColor="#6269FE" />
                                             </linearGradient>
                                             <clipPath id="clip0_53224_6275">
                                                 <rect width="20" height="20" fill="white" />
@@ -89,9 +89,9 @@ function Header() {
                         </div>
                     </div>
                 </div>
-            </nav>  
+            </nav>
 
-     
+
         </>
     )
 }

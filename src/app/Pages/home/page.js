@@ -3,7 +3,9 @@ import Home from './Home'
 
 function page() {
     return (
-        <Home />
+        <>
+            <Home />
+        </>
     )
 }
 

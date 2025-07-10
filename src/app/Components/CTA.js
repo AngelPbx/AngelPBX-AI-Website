@@ -34,7 +34,8 @@ function CTA() {
                             </div>
                         </div>
                         <div className='logoWrapper'>
-                            <Image alt="logo" src={'/images/cta/apbx-static.svg'} width={400} height={400} />
+                            <div className='apbx-logo' />
+                            {/* <Image alt="logo" src={'/images/cta/apbx-static.svg'} width={400} height={400} /> */}
                         </div>
 
                     </div>

@@ -50,7 +50,7 @@
 .cta .logoWrapper {
     position: absolute;
     top: 50%;
-    right: 4%;
+    right: 3%;
     transform: translateY(-50%);
 }
 
@@ -139,4 +139,31 @@
 
 .cta .chipWrapper .chip:nth-child(5) {
     right: -130px;
+}
+
+.apbx-logo {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-size: 100% 100%;
+    animation: apbxLogo 3s linear infinite;
+
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+@keyframes apbxLogo {
+    0% {
+        background-image: url('/images/cta/apbx-1.svg');
+    }
+
+    50% {
+        background-image: url('/images/cta/apbx-2.svg');
+    }
+
+    100% {
+        background-image: url('/images/cta/apbx-3.svg');
+    }
 }

@@ -5,13 +5,29 @@ import CTA from '@/app/Components/CTA'
 import FAQ from '@/app/Components/FAQ'
 import Features from '@/app/Components/Features'
 // import LogoImageSlider from '@/app/Components/LogoImageSlider'
-import Feature from '@/app/Components/Feature';
-import LogoImageSlider from '@/app/Components/LogoImageSlider'
-import ReviewSlider from '@/app/Components/ReviewSlider';
+import BrandTicker from '@/app/Components/BrandTicker'
 import Image from 'next/image'
-import React from 'react'
+import React, { useRef, useState } from 'react'
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectFade } from 'swiper/modules';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-fade';
+import Testimonials from '@/app/Components/Testimonials';
+import Comparision from '@/app/Components/Comparision';
 
 function Home() {
+    const [activeTab, setActiveTab] = useState(0);
+    const swiperRef = useRef(null);
+
+    const handleTabClick = (index) => {
+        setActiveTab(index);
+        if (swiperRef.current) {
+            swiperRef.current.slideTo(index);
+        }
+    };
+
     return (
         <>
             <main>
@@ -34,20 +50,59 @@ function Home() {
                                         <button className='secondaryBtn'>Contact Sales</button>
                                     </div>
                                 </div>
+                                <div className='col-lg-6 col-md-4 col-sm-12 col-12'>
+                                    <div className='graphBg'>
+                                        <div className="animated-circle"></div>
+                                        <Image src='/images/home/inner_ring.svg' alt={'inner_ring'} width={570} height={570} className='inner_ring' />
+                                        <Swiper
+                                            slidesPerView={1}
+                                            onSwiper={(swiper) => (swiperRef.current = swiper)}
+                                            onSlideChange={(swiper) => setActiveTab(swiper.activeIndex)}
+                                            className="hero_slider"
+                                        >
+                                            <SwiperSlide>
+                                                <Image src='/images/home/pbx_ring.svg' alt={'brand_logo'} width={800} height={800} className='brand_ring' />
+                                            </SwiperSlide>
+                                            <SwiperSlide>
+                                                <Image src='/images/home/hero_logo.svg' alt={'brand_logo'} width={750} height={750} className='brand_ring' />
+                                            </SwiperSlide>
+                                        </Swiper>
+                                        <Image src='/images/home/outer_ring.svg' alt={'outer_ring'} width={750} height={750} className='outer_ring' />
+                                        {/* <Image src="images/banner.svg" alt="logo" width={720} height={776} /> */}
+                                        <div className='heroTabs'>
+                                            {["Private PBX System", "Omnichannel", "Echo Agent"].map((tab, index) => (
+                                                <div
+                                                    key={index}
+                                                    className={`heroTab ${activeTab === index ? "active" : ""}`}
+                                                    onClick={() => handleTabClick(index)}
+                                                >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                                                        <path fillRule="evenodd" clipRule="evenodd" d="M8.52539 1.43033C8.6108 1.47787 8.67783 1.55265 8.71579 1.64273C8.75374 1.73281 8.76044 1.833 8.73481 1.92733L7.57281 6.18742H11.8125C11.8977 6.18742 11.9811 6.21234 12.0524 6.25911C12.1237 6.30588 12.1798 6.37245 12.2137 6.45066C12.2477 6.52887 12.2581 6.61529 12.2436 6.69931C12.2291 6.78333 12.1903 6.86128 12.1321 6.92358L6.00714 13.4861C5.94043 13.5577 5.85162 13.6049 5.75492 13.6201C5.65822 13.6353 5.55922 13.6176 5.47375 13.5699C5.38828 13.5222 5.32127 13.4472 5.28345 13.3569C5.24563 13.2667 5.23919 13.1663 5.26514 13.0719L6.42714 8.81242H2.18747C2.10221 8.81241 2.01881 8.78749 1.94752 8.74073C1.87623 8.69396 1.82016 8.62738 1.7862 8.54917C1.75224 8.47097 1.74187 8.38454 1.75637 8.30052C1.77087 8.2165 1.8096 8.13855 1.86781 8.07625L7.99281 1.51375C8.05952 1.44238 8.1482 1.39539 8.24472 1.38027C8.34124 1.36515 8.44005 1.38278 8.52539 1.43033Z" fill="url(#paint0_linear_53349_4916)" />
+                                                        <defs>
+                                                            <linearGradient id="paint0_linear_53349_4916" x1="11.4186" y1="-1.14625" x2="1.22242" y2="11.0444" gradientUnits="userSpaceOnUse">
+                                                                <stop stopColor="#AAADFA" />
+                                                                <stop offset="1" stopColor="#568BFF" />
+                                                            </linearGradient>
+                                                        </defs>
+                                                    </svg>
+                                                    {tab}
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div className='graphBg'>
-                            <Image src="images/banner.svg" alt="logo" width={720} height={776} />
                         </div>
                     </div>
                 </section>
-                <LogoImageSlider />
+
+                <BrandTicker />
                 <AIRevolution />
-                <Feature />
+                <Comparision />
                 <Features />
-                <ReviewSlider />
+                <Testimonials />
                 <FAQ />
-                {/* <CTA /> */}
+                <CTA />
             </main>
         </>
     )
