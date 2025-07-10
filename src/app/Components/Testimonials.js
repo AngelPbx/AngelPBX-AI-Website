@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 
 // import required modules
-import { Autoplay, FreeMode, Navigation, Thumbs } from 'swiper/modules';
+import { Autoplay, FreeMode, Navigation, Thumbs, Pagination } from 'swiper/modules';
 import Image from 'next/image';
 
 const Testimonials = () => {
@@ -54,8 +54,11 @@ const Testimonials = () => {
                                 spaceBetween: 20,
                             },
                         }}
-                        navigation={false}
-                        modules={[Autoplay]}
+                        pagination={{
+                            el: ".custom-pagination",
+                            clickable: true,
+                        }}
+                        modules={[Autoplay, Pagination]}
                         className="mySwiper"
                     >
                         <SwiperSlide>
@@ -175,6 +178,7 @@ const Testimonials = () => {
                         </SwiperSlide>
 
                     </Swiper>
+                    <div className="custom-pagination"></div>
                 </div>
             </section >
         </>
