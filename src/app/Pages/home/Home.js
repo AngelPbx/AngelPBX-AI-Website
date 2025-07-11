@@ -46,7 +46,11 @@ function Home() {
                                         and video for smarter communication runs 24/7.
                                     </p>
                                     <div className='btnGroup'>
-                                        <button className='primaryBtn'>Get a Demo <i className="fa-solid fa-arrow-right"></i></button>
+                                        <button className='primaryBtn'>Get a Demo
+                                            <span className='arrow'>
+                                                <i className="fa-solid fa-arrow-right"></i>
+                                            </span>
+                                        </button>
                                         <button className='secondaryBtn'>Contact Sales</button>
                                     </div>
                                 </div>

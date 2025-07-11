@@ -51,7 +51,11 @@ function CTA() {
                                 <h3>Ready to power your <br /> business <span className='textGradient'>calls with AI?</span></h3>
                             </div>
                             <div className='d-flex'>
-                                <button className="primaryBtn me-3">Get a Demo <i className="fa-solid fa-arrow-right"></i></button>
+                                <button className="primaryBtn me-3">Get a Demo
+                                    <span className='arrow'>
+                                        <i className="fa-solid fa-arrow-right"></i>
+                                    </span>
+                                </button>
                                 <button className='secondaryBtn'>Contact Sales</button>
                             </div>
                         </div>
@@ -94,7 +98,11 @@ function CTA() {
                                 <h3>Ready to power your <br /> business <span className='textGradient'>calls with AI?</span></h3>
                             </div>
                             <div className='d-flex btnGroup'>
-                                <button className="primaryBtn me-3">Get a Demo <i className="fa-solid fa-arrow-right"></i></button>
+                                <button className="primaryBtn me-3">Get a Demo
+                                    <span className='arrow'>
+                                        <i className="fa-solid fa-arrow-right"></i>
+                                    </span>
+                                </button>
                                 <button className='secondaryBtn'>Contact Sales</button>
                             </div>
                         </div>

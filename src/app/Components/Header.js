@@ -85,7 +85,11 @@ function Header() {
                                 </ul>
                             </li>
                             <button className='textBTn me-3'>Login</button>
-                            <button className='primaryBtn'>Get a Demo <i className="fa-solid fa-arrow-right"></i></button>
+                            <button className='primaryBtn'>Get a Demo
+                                <span className='arrow'>
+                                    <i className="fa-solid fa-arrow-right"></i>
+                                </span>
+                            </button>
                         </div>
                     </div>
                 </div>

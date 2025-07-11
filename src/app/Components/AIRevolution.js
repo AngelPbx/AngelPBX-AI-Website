@@ -87,7 +87,11 @@ const AIRevolution = () => {
                                                 <li>Possession of Visual IVR Builder</li>
                                                 <li>Blocks spam with smart filters</li>
                                             </ul>
-                                            <button className='primaryBtn'>Get a Demo <i className="fa-solid fa-arrow-right"></i></button>
+                                            <button className='primaryBtn'>Get a Demo
+                                                <span className='arrow'>
+                                                    <i className="fa-solid fa-arrow-right"></i>
+                                                </span>
+                                            </button>
                                         </div>
                                     </div>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12  '>
@@ -111,7 +115,11 @@ const AIRevolution = () => {
                                                 <li>Work across all time zones, channels</li>
                                                 <li>Speaks like a person in multiple languages</li>
                                             </ul>
-                                            <button className='primaryBtn'>Get a Demo <i className="fa-solid fa-arrow-right"></i></button>
+                                            <button className='primaryBtn'>Get a Demo
+                                                <span className='arrow'>
+                                                    <i className="fa-solid fa-arrow-right"></i>
+                                                </span>
+                                            </button>
                                         </div>
                                     </div>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12  '>
@@ -135,7 +143,11 @@ const AIRevolution = () => {
                                                 <li>AI-powered Internal Messaging and effective collaboration  </li>
                                                 <li>File and Media Sharing in quick seconds  </li>
                                             </ul>
-                                            <button className='primaryBtn'>Get a Demo <i className="fa-solid fa-arrow-right"></i></button>
+                                            <button className='primaryBtn'>Get a Demo
+                                                <span className='arrow'>
+                                                    <i className="fa-solid fa-arrow-right"></i>
+                                                </span>
+                                            </button>
                                         </div>
                                     </div>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12  '>
@@ -159,7 +171,11 @@ const AIRevolution = () => {
                                                 <li>AI measures your campaign returns (ROI)  </li>
                                                 <li>AI checks call scores and detects campaign leads </li>
                                             </ul>
-                                            <button className='primaryBtn'>Get a Demo <i className="fa-solid fa-arrow-right"></i></button>
+                                            <button className='primaryBtn'>Get a Demo
+                                                <span className='arrow'>
+                                                    <i className="fa-solid fa-arrow-right"></i>
+                                                </span>
+                                            </button>
                                         </div>
                                     </div>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12  '>
@@ -183,7 +199,11 @@ const AIRevolution = () => {
                                                 <li>Sends recap instantly via emails  </li>
                                                 <li>Smart scheduling as per time zones  </li>
                                             </ul>
-                                            <button className='primaryBtn'>Get a Demo <i className="fa-solid fa-arrow-right"></i></button>
+                                            <button className='primaryBtn'>Get a Demo
+                                                <span className='arrow'>
+                                                    <i className="fa-solid fa-arrow-right"></i>
+                                                </span>
+                                            </button>
                                         </div>
                                     </div>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12  '>
