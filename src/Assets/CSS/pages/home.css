@@ -1,4 +1,4 @@
-.bodytop_margin{
+.bodytop_margin {
     padding-top: 108px;
 }
 
@@ -1091,15 +1091,77 @@ img.flip3 {
     top: 15%;
     left: -10%;
 }
-.mobile_circularCanvas{
+
+.mobile_circularCanvas {
     display: none;
 }
+
 .mobile_circularCanvas img.card1 {
     left: 30px;
     top: 0;
 }
+
 .mobile_circularCanvas img.card2 {
-        right: 20px;
-        bottom: 0%;
-        /* animation: wobble 2s ease infinite; */
-    }
+    right: 20px;
+    bottom: 0%;
+    /* animation: wobble 2s ease infinite; */
+}
+
+
+
+/* ============ */
+
+
+.swiper-pagination-bullet {
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 16px !important;
+    background: rgba(204, 204, 233, 0.50) !important;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 26px !important;
+    background: #6269FE !important;
+}
+
+.swiper-button-prev,
+ .swiper-button-next{
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50px;
+    background: #fff;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    box-shadow: rgba(204, 204, 233, 0.50) 0 0 10px;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+     content: "\f060" !important;
+    font-family: "Font Awesome 6 Pro" !important;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    font-size: 19px !important;
+
+}
+.swiper-button-next::after,
+.swiper-rtl .swiper-button-next::after {
+   
+    content: "\f061" !important;
+    font-family: "Font Awesome 6 Pro" !important;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    font-size: 19px !important;
+
+
+}

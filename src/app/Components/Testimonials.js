@@ -21,13 +21,19 @@ const Testimonials = () => {
                         <h2 className='headingH2'>Real Voice of Users after interacting with AngelPBX.ai</h2>
                     </div>
                 </div>
+                <i class="fa-solid fa-arrow-right"></i>
                 <div className='w-100 slidWrap'>
                     <Swiper
+                        style={{
+                            '--swiper-navigation-color': '#000',
+                            '--swiper-pagination-color': '#000',
+                        }}
                         // onSwiper={setSwiperRef}
                         slidesPerView={3}
                         centeredSlides={false}
                         spaceBetween={20}
                         loop={true}
+                        navigation
                         autoplay={{
                             delay: 2500,
                             disableOnInteraction: true,
