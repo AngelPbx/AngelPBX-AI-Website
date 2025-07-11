@@ -383,6 +383,9 @@
     .circularCanvas {
         top: 5px;
     }
+    .contxtSlid::after, .slidWrap .swiper::before, .slidWrap .swiper::after, .contxtSlid::before{
+        content: none;
+    }
 }
 
 @media (max-width: 840px) {
