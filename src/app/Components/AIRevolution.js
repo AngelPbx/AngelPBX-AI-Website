@@ -60,8 +60,8 @@ const AIRevolution = () => {
                     </div>
                     <Swiper
                         style={{
-                            '--swiper-navigation-color': '#fff',
-                            '--swiper-pagination-color': '#fff',
+                            '--swiper-navigation-color': '#000',
+                            '--swiper-pagination-color': '#000',
                         }}
                         slidesPerView={"auto"}
                         spaceBetween={30}
