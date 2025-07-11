@@ -1,11 +1,13 @@
 import "../Assets/CSS/style.css";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
-import FAQ from "./Components/FAQ";
 
 export const metadata = {
   title: "AnglePBX AI",
   description: "AnglePBX AI",
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({ children }) {
