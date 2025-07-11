@@ -42,8 +42,7 @@ function Home() {
                                         <span className='textGradient'>All-in One Hub</span>
                                     </h1>
                                     <p className='commonPara'>
-                                        Explore AI voice infrastructure with AngelPBX.ai, unifying voice, chat, <br />
-                                        and video for smarter communication runs 24/7.
+                                        The future of AI-powered Communications is here. One login, One platform. All your calls, chats and meetings in sync & powered by AI, designed to bring success in every step
                                     </p>
                                     <div className='btnGroup'>
                                         <button className='primaryBtn'>Get a Demo

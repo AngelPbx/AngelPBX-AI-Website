@@ -12,7 +12,8 @@ function Footer() {
                             <div className='logoWrapper'>
                                 <Image alt="logo" className='footerLogo' src='/images/footer_logo.svg' width={176} height={32} />
                             </div>
-                            <p>Unify calls, messages, and customer interactions under one intelligent system.</p>
+                            <p>Your all-in-one space for calls, messages, meetings, and more powered by AI, built for teams.
+                                Everything you need to stay connected, on one smart platform</p>
 
                             <div className='socialMedia'>
                                 <button className='socialBtn'>

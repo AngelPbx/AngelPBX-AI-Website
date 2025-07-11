@@ -30,7 +30,7 @@ const AIRevolution = () => {
     const handleTabClick = (index) => {
         setActiveTab(index);
         if (swiperRef.current) {
-            swiperRef.current.slideTo(index);
+            swiperRef.current.slideToLoop(index);
         }
     };
 
@@ -48,7 +48,7 @@ const AIRevolution = () => {
                 </div>
                 <div className='slider_wrap'>
                     <div className='tabSwiper'>
-                        {["AI Powered SmartPBX", "Omnichannel", "AI Agent", "SmartDial AI", "Voice Intelligence"].map((tab, index) => (
+                        {["AI Powered SmartPBX", "Humanoid AI Agent", "Omnichannel Platforms", "AngelTracker AI", "AI-Powered Video Calls", "AngelDialer"].map((tab, index) => (
                             <div
                                 key={index}
                                 className={`tabItem ${activeTab === index ? "active" : ""}`}
@@ -65,11 +65,12 @@ const AIRevolution = () => {
                         }}
                         slidesPerView={"auto"}
                         spaceBetween={30}
+                        loop={true}
                         // watchSlidesVisibility={true}
                         centeredSlides={true}
 
                         onSwiper={(swiper) => (swiperRef.current = swiper)}
-                        onSlideChange={(swiper) => setActiveTab(swiper.activeIndex)}
+                        onSlideChange={(swiper) => setActiveTab(swiper.realIndex)}
                         modules={[FreeMode, Navigation]}
                         navigation
                         className="tabSwiper2 contxtSlid"
@@ -79,13 +80,14 @@ const AIRevolution = () => {
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12 '>
                                         <div className='slidListContent'>
-                                            <h3 className='heading_H3'>Run Smarter Phone Systems (AI-powered SmartPBX)</h3>
-                                            <p className='paragraph3'>Smarter Calls, happier teams - AI handles call routing, learns caller sentiment and powers up your business phone system  </p>
+                                            <h3 className='heading_H3'>Run Smarter Phone Systems</h3>
+                                            <p className='paragraph3'>Smarter Calls, happier teams - AI handles call routing, learns caller sentiment and powers up your business phone system </p>
                                             <ul className='ai_list'>
                                                 <li>Auto-routes calls to the right person/team</li>
                                                 <li>Smart Call Content Search enabled</li>
                                                 <li>Possession of Visual IVR Builder</li>
                                                 <li>Blocks spam with smart filters</li>
+                                                <li>Reach anyone in seconds with smart, one-click calling</li>
                                             </ul>
                                             <button className='primaryBtn'>Get a Demo
                                                 <span className='arrow'>
@@ -102,18 +104,19 @@ const AIRevolution = () => {
                                 </div>
                             </div>
                         </SwiperSlide>
+
                         <SwiperSlide>
                             <div className='sliderContent'>
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12 '>
                                         <div className='slidListContent'>
-                                            <h3 className='heading_H3'>Your 24/7 AI Agent Always Ready (Humanoid AI Agent)</h3>
-                                            <p className='paragraph3'>Enable human like communications to take place instantly with our AngelAI - working round the clock for you, in multiple dialects</p>
+                                            <h3 className='heading_H3'>Your 24/7 AI Agent Always Ready</h3>
+                                            <p className='paragraph3'>Enable human-like communications to take place instantly with our AngelECHO (AI) - working round the clock for you, in multiple dialects </p>
                                             <ul className='ai_list'>
-                                                <li>Understands caller intent and mood in realtime</li>
-                                                <li>No waiting lines, just faster resolutions</li>
-                                                <li>Work across all time zones, channels</li>
-                                                <li>Speaks like a person in multiple languages</li>
+                                                <li>In-depth learning of the caller's purpose and sentiment</li>
+                                                <li>No waiting lines, just faster resolutions  </li>
+                                                <li>Work across all time zones, channels </li>
+                                                <li>Speak like a person in multiple languages</li>
                                             </ul>
                                             <button className='primaryBtn'>Get a Demo
                                                 <span className='arrow'>
@@ -130,12 +133,13 @@ const AIRevolution = () => {
                                 </div>
                             </div>
                         </SwiperSlide>
+
                         <SwiperSlide>
                             <div className='sliderContent'>
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12 '>
                                         <div className='slidListContent'>
-                                            <h3 className='heading_H3'>One place for all conversations (Omnichannel Messaging) </h3>
+                                            <h3 className='heading_H3'>One place for all conversations</h3>
                                             <p className='paragraph3'>Manage every communication channel- all your chats, texts, emails and FAX in one place with the ease of AI that does everything for your business  </p>
                                             <ul className='ai_list'>
                                                 <li>Manages SMS, Emails, Fax and more from one portal  </li>
@@ -158,6 +162,7 @@ const AIRevolution = () => {
                                 </div>
                             </div>
                         </SwiperSlide>
+
                         <SwiperSlide>
                             <div className='sliderContent'>
                                 <div className='row wi-100 align-items-center'>
@@ -186,18 +191,48 @@ const AIRevolution = () => {
                                 </div>
                             </div>
                         </SwiperSlide>
+
                         <SwiperSlide>
                             <div className='sliderContent'>
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12 '>
                                         <div className='slidListContent'>
-                                            <h3 className='heading_H3'>Smarter Meetings and Calls (AI-Powered Video Calls)  </h3>
-                                            <p className='paragraph3'>In meetings and calls, our AI auto-joins and translates and also notes down the summaries at the end for the ease of convenience of your team  </p>
+                                            <h3 className='heading_H3'>Smarter Meetings and Calls</h3>
+                                            <p className='paragraph3'>In meetings and calls, our AI auto-joins and translates and also notes down the summaries at the end for the ease of convenience of your team </p>
                                             <ul className='ai_list'>
                                                 <li>High quality meetings with no background noise  </li>
-                                                <li>Auto-joins and records with multi-language translation  </li>
-                                                <li>Sends recap instantly via emails  </li>
-                                                <li>Smart scheduling as per time zones  </li>
+                                                <li>Auto-joins and records with multi-language translation </li>
+                                                <li>Sends recap instantly via Emails </li>
+                                                <li>Smart scheduling as per time zones </li>
+                                            </ul>
+                                            <button className='primaryBtn'>Get a Demo
+                                                <span className='arrow'>
+                                                    <i className="fa-solid fa-arrow-right"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12  '>
+                                        <div className='d-flex justify-content-end align-items-center slidBox'>
+                                            <Image src="/images/slider-img1.png" alt="abc" width={465} height={449} />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <div className='sliderContent'>
+                                <div className='row wi-100 align-items-center'>
+                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12 '>
+                                        <div className='slidListContent'>
+                                            <h3 className='heading_H3'>Smarter Outbound Calls </h3>
+                                            <p className='paragraph3'>Let AI handle outbound calls with better timing and logic- AngelDialer takes care of your customers like the way you would want them too, in seconds </p>
+                                            <ul className='ai_list'>
+                                                <li>Only dials when agents are ready to respond</li>
+                                                <li>Shares full context before transfer of the calls </li>
+                                                <li>AI-powered Auto-Dialer with precision sorting</li>
+                                                <li>Easy scheduling for better follow-ups </li>
                                             </ul>
                                             <button className='primaryBtn'>Get a Demo
                                                 <span className='arrow'>
