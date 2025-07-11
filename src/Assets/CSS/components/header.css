@@ -51,13 +51,24 @@
     font-weight: 600;
 }
 
+
 /* ==================== main header */
 
+.fixedTop{
+    position: fixed;
+    width: 100%;
+       z-index: 1111;
+       left: 0;
+       right: 0;
+       /* margin-bottom: 108px; */
+}
 .navbar {
     background: var(--clr-header-bg) !important;
     backdrop-filter: blur(10px);
     padding-block: 16px;
-    z-index: 11;
+    z-index: 1111;
+    /* position: sticky !important;
+    top: 0; */
 }
 
 .headerItem {

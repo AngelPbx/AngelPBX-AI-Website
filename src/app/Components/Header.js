@@ -10,7 +10,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Header() {
     return (
-        <>
+        <div className='fixedTop'>
             <div className='topHead'>
                 <div className='row w-100'>
                     <div className='col-xxl-11 col-xl-10 col-lg-10 col-md-10 col-sm-10 col-9 text-center align-content-center'>
@@ -96,7 +96,7 @@ function Header() {
             </nav>
 
 
-        </>
+        </div>
     )
 }
 

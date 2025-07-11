@@ -1,3 +1,8 @@
+.bodytop_margin{
+    padding-top: 108px;
+}
+
+
 .paragraphWidth {
     max-width: 579px;
     width: 100%;
@@ -839,8 +844,8 @@ element.style {
 }
 
 .animated-circle {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     background-size: 100% 100%;
     animation: morphAnimation 4s linear infinite;
@@ -940,3 +945,161 @@ element.style {
     width: 16px;
     height: 16px;
 }
+
+/* .graphBg {
+    background-color: #E4A0E3;
+} */
+
+.logo_group,
+.circularCanvas {
+    width: 500px;
+    height: 521px;
+    border-radius: 74%;
+    /* background: #000; */
+    /* border: 2px solid #b3b3b383; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    align-content: center;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+
+.logo_group img {
+    position: absolute;
+    /* animation:  customAni 2s ease-in-out 0s infinite normal none; */
+}
+
+img.brand_logo1 {
+    top: 10%;
+    right: 9%;
+}
+
+img.brand_logo4 {
+    left: 3%;
+    top: 17%;
+}
+
+img.brand_logo3 {
+    left: 43%;
+    top: -3%;
+}
+
+img.brand_logo2 {
+    left: -3%;
+    bottom: 22%;
+}
+
+img.brand_logo {
+    bottom: 37%;
+    right: -8%;
+}
+
+img.brand_logo5 {
+    bottom: -8%;
+    /* transform: translateY(71%); */
+    right: 40%;
+}
+
+/* Copy this code after the above code */
+/* Copy this code after the above code */
+/* @keyframes customAni {
+  0% {
+	transform: scale(1);
+  }
+
+  100% {
+	transform: scale(0.9);
+  }
+} */
+
+
+/* ====================== c ard */
+
+.circularCanvas img {
+    position: absolute;
+
+}
+
+img.card3 {
+    top: 0;
+    right: 16%;
+    /* animation: bounce2 2s ease infinite; */
+}
+
+img.card1 {
+    left: -20%;
+    top: 39%;
+    transform-origin: top center;
+    /* animation: shake 2s ease infinite; */
+}
+
+img.card2 {
+    right: -18%;
+    bottom: 2%;
+    /* animation: wobble 2s ease infinite; */
+}
+
+/* @keyframes bounce2 {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-5px);}
+	60% {transform: translateY(3px);}
+}
+
+
+.shake {
+  animation: shake 2s ease infinite;
+}
+@keyframes shake {
+	0%, 100% {transform: translateX(0);}
+	10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);}
+	20%, 40%, 60%, 80% {transform: translateX(10px);}
+} */
+
+
+/* ======================= */
+
+img.flip1 {
+    bottom: 0%;
+}
+
+img.flip5 {
+    left: -19%;
+    bottom: 9%;
+}
+
+img.flip4 {
+    right: -23%;
+    bottom: 21%;
+}
+
+img.flip2 {
+    right: -21%;
+    top: -5%;
+}
+
+img.flip6 {
+    left: 0;
+    top: -16%;
+    right: 0;
+    margin: auto;
+}
+
+img.flip3 {
+    top: 15%;
+    left: -10%;
+}
+.mobile_circularCanvas{
+    display: none;
+}
+.mobile_circularCanvas img.card1 {
+    left: 30px;
+    top: 0;
+}
+.mobile_circularCanvas img.card2 {
+        right: 20px;
+        bottom: 0%;
+        /* animation: wobble 2s ease infinite; */
+    }

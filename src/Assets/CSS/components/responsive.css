@@ -61,6 +61,45 @@
         /* scale: 0.9; */
         width: 706px;
     }
+
+    img.flip2 {
+        right: -5%;
+        top: 4%;
+    }
+
+    img.flip4 {
+        right: -9%;
+        bottom: 21%;
+    }
+
+    img.flip5 {
+        left: -10%;
+        bottom: 13%;
+    }
+
+    img.card1 {
+        left: -25%;
+        top: 32%;
+    }
+
+    .logo_group,
+    .circularCanvas {
+        width: 413px;
+        height: 413px;
+
+    }
+
+    img.card3 {
+        top: -7%;
+        right: 16%;
+        /* animation: bounce2 2s ease infinite; */
+    }
+
+    img.card2 {
+        right: -18%;
+        bottom: -13%;
+        /* animation: wobble 2s ease infinite; */
+    }
 }
 
 @media (max-width: 1199px) {
@@ -79,7 +118,7 @@
 
     .graphBg {
         width: 90dvw;
-
+        height: 800px;
     }
 
     /* .graphBg .inner_ring {
@@ -146,6 +185,44 @@
     .btnGroup {
         margin-bottom: 70px;
     }
+
+    img.card3 {
+        top: -26%;
+        /* animation: bounce2 2s ease infinite; */
+    }
+
+    img.card2 {
+        right: -20%;
+        bottom: 0%;
+        /* animation: wobble 2s ease infinite; */
+    }
+
+    img.card1 {
+        left: -42%;
+        top: 21%;
+    }
+
+    .logo_group,
+    .circularCanvas {
+        width: 500px;
+        height: 522px;
+        top: -83px;
+    }
+
+    img.flip4 {
+        right: -19%;
+        bottom: 21%;
+    }
+
+    img.flip5 {
+        left: -21%;
+        bottom: 13%;
+    }
+
+    img.flip1 {
+        bottom: -15%;
+    }
+
 }
 
 @media (max-width: 1099px) {
@@ -242,7 +319,7 @@
 
     .graphBg {
         position: relative;
-        height: 500px;
+        height: 800px;
     }
 
     .animated-circle {
@@ -252,12 +329,10 @@
         top: 50%;
     }
 
-    .graphBg .heroTabs {
-        display: none;
-    }
+
 
     .graphBg .inner_ring {
-        width: 120%;
+        width: 100%;
         top: 52%;
         left: 50%;
     }
@@ -279,6 +354,29 @@
         right: 100px;
         width: 303.451px;
         transform: unset;
+    }
+
+    img.card1 {
+        left: -65px;
+        top: 46%;
+    }
+
+    img.card3 {
+        top: 0;
+        /* animation: bounce2 2s ease infinite; */
+    }
+
+    .logoSlider {
+        margin-top: 0;
+    }
+
+    .banner {
+        padding: 150px 0px 60px 0;
+    }
+
+    .logo_group,
+    .circularCanvas {
+        top: 5px;
     }
 }
 
@@ -386,6 +484,71 @@
         overflow: hidden;
     }
 
+    .logo_group,
+    .circularCanvas {
+        width: 390px;
+        top: 0;
+    }
+
+    .graphBg .heroTabs {
+        display: none;
+    }
+
+    img.flip3 {
+        top: 15%;
+        left: 0;
+    }
+
+    img.flip4 {
+        right: 0;
+        bottom: 21%;
+    }
+
+    img.flip2 {
+        right: 0;
+        top: 4%;
+    }
+
+    img.flip5 {
+        left: 0;
+        bottom: 10%;
+    }
+
+    .hero_slider {
+        display: none !important;
+    }
+
+    /* =========== */
+    .mobile_circularCanvas {
+        display: block;
+    }
+
+    .graphBg {
+        position: relative;
+        height: 600px;
+    }
+
+    .banner::before {
+        width: 100%;
+        height: 333px;
+    }
+
+    .banner::after {
+        left: 0;
+        width: 100%;
+    }
+
+    .graphBg .inner_ring {
+        width: 100%;
+        top: 52%;
+        left: 50%;
+    }
+
+    .fetureBox_Wrap::before {
+        width: 100%;
+        height: 333px;
+    }
+
 }
 
 @media (max-width: 575px) {
@@ -463,5 +626,16 @@
 
     .slider_wrap {
         padding-inline: 15px;
+    }
+
+    .logo_group,
+    .circularCanvas {
+        width: 100%;
+        top: 0;
+    }
+
+    .mobile_futureLogo {
+        display: block;
+        width: 100%;
     }
 }

@@ -30,7 +30,7 @@ function Home() {
 
     return (
         <>
-            <main>
+            <main className='bodytop_margin'>
                 <section className='container-fluid px-3 px-xxl-5 px-xl-5 px-lg-5 px-mb-5 '>
                     <div className='banner'>
                         <div className='gardientBg'></div>
@@ -57,7 +57,12 @@ function Home() {
                                 <div className='col-lg-6 col-md-4 col-sm-12 col-12'>
                                     <div className='graphBg'>
                                         <div className="animated-circle"></div>
-                                        <Image src='/images/home/inner_ring.svg' alt={'inner_ring'} width={570} height={570} className='inner_ring' />
+                                        {/* <Image src='/images/home/inner_ring.svg' alt={'inner_ring'} width={570} height={570} className='inner_ring' /> */}
+                                        <Image src='/images/home/banner-circle-bg.svg' alt={'banner_circle_bg'} width={621} height={620} className='inner_ring' />
+                                        <div className='circularCanvas mobile_circularCanvas'>
+                                            <Image src='/images/home/mobile-card1.svg' alt={'card'} width={261} height={177} className='card1' />
+                                            <Image src='/images/home/mobile-card2.svg' alt={'card'} width={250} height={188} className='card2' />
+                                        </div>
                                         <Swiper
                                             slidesPerView={1}
                                             onSwiper={(swiper) => (swiperRef.current = swiper)}
@@ -66,15 +71,36 @@ function Home() {
                                         >
                                             <SwiperSlide>
                                                 <div className='circularCanvas'>
-
+                                                    <Image src='/images/home/Card-1.svg' alt={'card'} width={331} height={241} className='card1' />
+                                                    <Image src='/images/home/Card-2.svg' alt={'card'} width={367} height={206} className='card2' />
+                                                    <Image src='/images/home/Card.svg' alt={'card'} width={306} height={252} className='card3' />
                                                 </div>
-                                                <Image src='/images/home/pbx_ring.svg' alt={'brand_logo'} width={800} height={800} className='brand_ring' />
+                                                {/* <Image src='/images/home/pbx_ring.svg' alt={'brand_logo'} width={800} height={800} className='brand_ring' /> */}
                                             </SwiperSlide>
                                             <SwiperSlide>
-                                                <Image src='/images/home/hero_logo.svg' alt={'brand_logo'} width={750} height={750} className='brand_ring' />
+                                                <div className='logo_group'>
+                                                    <Image src='/images/home/logo/logo-1.svg' alt={'brand_logo'} width={59} height={59} className='brand_logo1' />
+                                                    <Image src='/images/home/logo/logo-2.svg' alt={'brand_logo'} width={59} height={59} className='brand_logo2' />
+                                                    <Image src='/images/home/logo/logo-3.svg' alt={'brand_logo'} width={59} height={59} className='brand_logo3' />
+                                                    <Image src='/images/home/logo/logo-4.svg' alt={'brand_logo'} width={59} height={59} className='brand_logo4' />
+                                                    <Image src='/images/home/logo/logo-5.svg' alt={'brand_logo'} width={59} height={59} className='brand_logo5' />
+                                                    <Image src='/images/home/logo/logo.svg' alt={'brand_logo'} width={59} height={59} className='brand_logo' />
+
+                                                </div>
+                                            </SwiperSlide>
+                                            <SwiperSlide>
+                                                <div className='logo_group'>
+                                                    <Image src='/images/home/Agents-1.svg' alt={'brand_logo'} width={207} height={145} className='flip1' />
+                                                    <Image src='/images/home/Agents-2.svg' alt={'brand_logo'} width={287} height={179} className='flip2' />
+                                                    <Image src='/images/home/Agents.svg' alt={'brand_logo'} width={242} height={169} className='flip3' />
+                                                    <Image src='/images/home/Logo.svg' alt={'brand_logo'} width={207} height={183} className='flip4' />
+                                                    <Image src='/images/home/Logo-1.svg' alt={'brand_logo'} width={192} height={183} className='flip5' />
+                                                    <Image src='/images/home/Logo-2.svg' alt={'brand_logo'} width={202} height={186} className='flip6' />
+
+                                                </div>
                                             </SwiperSlide>
                                         </Swiper>
-                                        <Image src='/images/home/outer_ring.svg' alt={'outer_ring'} width={750} height={750} className='outer_ring' />
+                                        {/* <Image src='/images/home/outer_ring.svg' alt={'outer_ring'} width={750} height={750} className='outer_ring' /> */}
                                         {/* <Image src="images/banner.svg" alt="logo" width={720} height={776} /> */}
                                         <div className='heroTabs'>
                                             {["Private PBX System", "Omnichannel", "Echo Agent"].map((tab, index) => (
