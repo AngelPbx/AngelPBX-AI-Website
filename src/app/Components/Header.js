@@ -14,7 +14,7 @@ function Header() {
             <div className='topHead'>
                 <div className='row w-100'>
                     <div className='col-xxl-11 col-xl-10 col-lg-10 col-md-10 col-sm-10 col-9 text-center align-content-center'>
-                        <p><span>We've just launched a new feature! </span> Offer 24/7 support with AI that answers questions, routes callers and send texts</p>
+                        <p><span>Built for How You Work</span>: AI-Powered Hub for Voice, Video, Text, Tracking and more</p>
                     </div>
                     <div className='col-xxl-1 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-3 text-start text-xl-end text-lg-end text-end text-xxl-start'>
                         <button className='freshBtn '><i className="fa-regular fa-xmark"></i></button>

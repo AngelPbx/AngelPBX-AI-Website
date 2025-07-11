@@ -100,8 +100,8 @@ function Features() {
                                 <FeatureImageComponent light1='light_1' light2='light_2' />
                             </div>
                             <div className='content align-content-start'>
-                                <h5>Semantic Search using CDR</h5>
-                                <p>Now find what you’re really looking for—faster. Every time, you obtain better results since our intelligent search comprehends more than simply the words you use.</p>
+                                <h5>Quick Searcher using keywords</h5>
+                                <p>Hear it once, find it forever. With Quick Searcher, you can find any call just by typing a word, phrase, or even the feeling behind the conversation.</p>
                                 <a>Learn More <i className='fa-solid fa-arrow-right' /></a>
                             </div>
                         </article>
