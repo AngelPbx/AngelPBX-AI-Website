@@ -10,7 +10,7 @@ function FAQ() {
                             <h3>
                                 Frequently <br />Asked Questions
                             </h3>
-                            <p>Got question? we've got answers! browse our FAQ or reach out anytime-we're here to help make you your journey smooth sailing</p>
+                            <p>Got Questions? We’ve Got You Covered. Find quick answers to common queries about AngelPBX.AI now</p>
                             <button className='secondaryBtn'>Help Center</button>
                         </div>
                     </div>
