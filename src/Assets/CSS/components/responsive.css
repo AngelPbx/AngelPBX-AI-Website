@@ -29,6 +29,11 @@
 }
 
 @media (max-width: 1350px) {
+
+    .logoSlider .swiper-slide img {
+        width: 80%;
+    }
+
     .graphBg {
         width: 44dvw;
         right: 0;
