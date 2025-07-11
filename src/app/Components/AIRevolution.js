@@ -156,7 +156,7 @@ const AIRevolution = () => {
                                     </div>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12  '>
                                         <div className='d-flex justify-content-end align-items-center slidBox'>
-                                            <Image src="/images/slider-img1.png" alt="abc" width={465} height={449} />
+                                            <Image src="/images/slider-img3.png" alt="abc" width={465} height={449} />
                                         </div>
                                     </div>
                                 </div>
