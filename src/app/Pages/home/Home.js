@@ -65,6 +65,9 @@ function Home() {
                                             className="hero_slider"
                                         >
                                             <SwiperSlide>
+                                                <div className='circularCanvas'>
+
+                                                </div>
                                                 <Image src='/images/home/pbx_ring.svg' alt={'brand_logo'} width={800} height={800} className='brand_ring' />
                                             </SwiperSlide>
                                             <SwiperSlide>

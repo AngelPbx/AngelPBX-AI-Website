@@ -82,13 +82,13 @@
 
     }
 
-    .graphBg .inner_ring {
+    /* .graphBg .inner_ring {
         position: absolute;
         top: 48%;
         left: 44%;
         transform: translate(-50%, -50%);
         width: unset;
-    }
+    } */
 
     .slidWrap .swiper-slide {
         width: 74% !important;
@@ -198,17 +198,6 @@
         padding: 32px 17px;
     }
 
-    /* .graphBg {
-        right: -24%;
-        scale: 0.5;
-        width: 100%;
-        height: 400px;
-    } */
-
-    .graphBg .heroTabs {
-        display: none;
-    }
-
     .slider_wrap .tabSwiper.swiper {
         max-width: 668px;
         width: 100% !important;
@@ -236,12 +225,6 @@
         padding-right: 0;
     }
 
-    /* .animated-circle {
-        width: 100%;
-        aspect-ratio: 1 / 1;
-        height: auto;
-    } */
-
     .desktopCta {
         display: none;
     }
@@ -250,17 +233,46 @@
         display: block;
     }
 
+    /* .graphBg {
+        right: -24%;
+        scale: 0.5;
+        width: 100%;
+        height: 400px;
+    } */
+
+    .graphBg {
+        position: relative;
+        height: 500px;
+    }
+
+    .animated-circle {
+        scale: 1;
+        width: 80%;
+        left: 50%;
+        top: 50%;
+    }
+
+    .graphBg .heroTabs {
+        display: none;
+    }
+
+    .graphBg .inner_ring {
+        width: 120%;
+        top: 52%;
+        left: 50%;
+    }
+
     .graphBg .brand_ring {
-        top: 37%;
-        left: 47%;
-        /* scale: 0.9; */
-        width: 900px;
+        top: 51%;
+        left: 50%;
+        scale: 1;
+        width: 110%;
     }
 
     .graphBg .outer_ring {
-        width: 800px;
-        top: 60%;
-        left: 52%;
+        width: 120%;
+        top: 50%;
+        left: 50%;
     }
 
     .gardientBg::before {
@@ -275,17 +287,6 @@
     .banner .col-md-8 {
         width: 100%;
     }
-
-    /* .graphBg {
-        right: 0;
-        scale: unset;
-        position: relative;
-    }
-
-    .graphBg img {
-        width: 100%;
-        height: auto;
-    } */
 
     .banner {
         padding: 100px 0px 0 0;
@@ -339,27 +340,6 @@
         margin-inline: 10px;
     }
 
-    .graphBg {
-        scale: 0.8;
-    }
-
-    .graphBg .inner_ring {
-        position: absolute;
-        top: 66%;
-        left: 54%;
-    }
-
-    .graphBg .brand_ring {
-        top: 59%;
-        left: 49%;
-    }
-
-    .graphBg .outer_ring {
-        width: 800px;
-        top: 67%;
-        left: 55%;
-    }
-
     .btnGroup {
         margin-bottom: 0;
     }
@@ -400,31 +380,6 @@
 
     .logoSlider {
         display: none;
-    }
-
-    .graphBg .outer_ring {
-        width: 627px;
-        top: 67%;
-        left: 56%;
-    }
-
-    .graphBg .brand_ring {
-        top: 61%;
-        left: 52%;
-    }
-
-    .graphBg .inner_ring {
-        position: absolute;
-        top: 67%;
-        left: 57%;
-        width: 500px;
-    }
-
-    .graphBg .inner_ring {
-        position: absolute;
-        top: 67%;
-        left: 57%;
-        width: 500px;
     }
 
     .banner .container {
@@ -506,34 +461,7 @@
         padding: 0;
     }
 
-    .graphBg .brand_ring {
-
-        width: 100%;
-    }
-
-    .graphBg .inner_ring {
-        width: 100%;
-                left: 50%;
-    }
-
-    .animated-circle {
-        width: 100%;
-        top: 57%;
-        left: 50%;
-    }
-
     .slider_wrap {
         padding-inline: 15px;
-    }
-
-    .graphBg {
-        margin-top: -114px;
-        width: 100%;
-        scale: 1;
-    }
-    .graphBg .outer_ring{
-        width: 100%;
-        height: 100%;
-                left: 49%;
     }
 }
