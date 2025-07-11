@@ -78,12 +78,12 @@ function Home() {
                                             </SwiperSlide>
                                             <SwiperSlide>
                                                 <div className='logo_group'>
-                                                    <Image src='/images/home/logo/logo-1.svg' alt={'brand_logo'} width={59} height={59} className='brand_logo1' />
-                                                    <Image src='/images/home/logo/logo-2.svg' alt={'brand_logo'} width={59} height={59} className='brand_logo2' />
-                                                    <Image src='/images/home/logo/logo-3.svg' alt={'brand_logo'} width={59} height={59} className='brand_logo3' />
-                                                    <Image src='/images/home/logo/logo-4.svg' alt={'brand_logo'} width={59} height={59} className='brand_logo4' />
-                                                    <Image src='/images/home/logo/logo-5.svg' alt={'brand_logo'} width={59} height={59} className='brand_logo5' />
-                                                    <Image src='/images/home/logo/logo.svg' alt={'brand_logo'} width={59} height={59} className='brand_logo' />
+                                                    <Image src='/images/home/logo-1.svg' alt={'brand_logo'} width={59} height={59} className='brand_logo1' />
+                                                    <Image src='/images/home/logo-2.svg' alt={'brand_logo'} width={59} height={59} className='brand_logo2' />
+                                                    <Image src='/images/home/logo-3.svg' alt={'brand_logo'} width={59} height={59} className='brand_logo3' />
+                                                    <Image src='/images/home/logo-4.svg' alt={'brand_logo'} width={59} height={59} className='brand_logo4' />
+                                                    <Image src='/images/home/logo-5.svg' alt={'brand_logo'} width={59} height={59} className='brand_logo5' />
+                                                    <Image src='/images/home/logo.svg' alt={'brand_logo'} width={59} height={59} className='brand_logo' />
 
                                                 </div>
                                             </SwiperSlide>
