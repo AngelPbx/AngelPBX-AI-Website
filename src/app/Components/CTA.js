@@ -116,7 +116,6 @@ function CTA() {
                                     spaceBetween={20}
                                     slidesPerView={3}
                                     // slidesToScroll={1}
-                                    i
                                     speed={3000}
                                     loop={true}
                                     autoplay={{

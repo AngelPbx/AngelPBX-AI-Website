@@ -22,7 +22,7 @@ const Testimonials = () => {
                     </div>
                 </div>
                 <div className='w-100 slidWrap'>
-                    <Swiper 
+                    <Swiper
                         style={{
                             '--swiper-navigation-color': '#000',
                             '--swiper-pagination-color': '#000',
@@ -31,7 +31,6 @@ const Testimonials = () => {
                         slidesPerView={3}
                         centeredSlides={true}
                         spaceBetween={20}
-                        clickable
                         loop={true}
                         navigation
                         autoplay={{
@@ -64,7 +63,7 @@ const Testimonials = () => {
                             el: ".custom-pagination",
                             clickable: true,
                         }}
-                         navigation={{
+                        navigation={{
                             el: ".custom-pagination",
                             clickable: true,
                         }}
