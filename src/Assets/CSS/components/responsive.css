@@ -113,6 +113,14 @@
         bottom: -13%;
         /* animation: wobble 2s ease infinite; */
     }
+
+    .cta .textWrapper h3 {
+        font-size: 35px;
+    }
+
+    .cta .textWrapper h3 span {
+        font-size: 35px;
+    }
 }
 
 @media (max-width: 1199px) {
