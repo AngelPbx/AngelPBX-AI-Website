@@ -1,6 +1,7 @@
 import "../Assets/CSS/style.css";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
+import { SwiperProvider } from "./SwiperContext";
 
 export const metadata = {
   title: "AnglePBX AI",
@@ -53,11 +54,13 @@ export default function RootLayout({ children }) {
 
       </head>
 
-      <body>
-        <Header />
-        {children}
-        <Footer />
-      </body>
+      <SwiperProvider>
+        <body>
+          <Header />
+          {children}
+          <Footer />
+        </body>
+      </SwiperProvider>
     </html>
   );
 }

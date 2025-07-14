@@ -12,11 +12,12 @@ import 'swiper/css/thumbs';
 // import required modules
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
 import Image from 'next/image';
+import { useSwiper } from '../SwiperContext';
 
 const AIRevolution = () => {
 
     const [activeTab, setActiveTab] = useState(0);
-    const swiperRef = useRef(null);
+    const { swiperRef } = useSwiper();
 
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
     const [secondSwiper, setSecondSwiper] = useState(null);
@@ -36,7 +37,7 @@ const AIRevolution = () => {
 
     return (
         <>
-            <section className='sliderRevolution panelGap'>
+            <section className='sliderRevolution panelGap' id="products">
                 <div className='container'>
                     <div className='content'>
                         <div className='gradientTextBox'>
@@ -46,7 +47,7 @@ const AIRevolution = () => {
                         <p className='commonPara text-center paragraphWidth'>AngelPBX.ai is your AI-powered command center—bringing every call, chat, and team together in one smart platform.</p>
                     </div>
                 </div>
-                <div className='slider_wrap'>
+                <div className='slider_wrap' >
                     <div className='tabSwiper'>
                         {["AI Powered SmartPBX", "Humanoid AI Agent", "Omnichannel Platforms", "AngelTracker AI", "AI-Powered Video Calls", "AngelDialer"].map((tab, index) => (
                             <div

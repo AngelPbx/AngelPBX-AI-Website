@@ -2,7 +2,7 @@ import React from 'react'
 
 function FAQ() {
     return (
-        <section className='faq panelGap'>
+        <section className='faq panelGap' id="faq">
             <div className='container'>
                 <div className='row justify-content-between'>
                     <div className='col-xl-4 col-lg-5 mb-3'>
