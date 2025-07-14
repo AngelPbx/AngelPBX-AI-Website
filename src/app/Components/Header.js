@@ -47,7 +47,7 @@ function Header() {
                                 <div className="dropdown-menu full-screen">
                                     <div className='container'>
                                         <div className='row my-3'>
-                                            <div className='col-xl-6 col-12'>
+                                            <div className='col-xl-12 col-12'>
                                                 <div className='menuWrapper'>
                                                     <label className='headLabel'>Products</label>
                                                     <ul>
@@ -108,9 +108,9 @@ function Header() {
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <div className='col-xl-6'>
+                                            {/* <div className='col-xl-6'>
                                                 <Image src={'/images/card.png'} width={600} height={300} className='menuCard' alt="card" />
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                     <div className='botPart'>
