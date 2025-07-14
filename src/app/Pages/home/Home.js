@@ -10,7 +10,7 @@ import Image from 'next/image'
 import React, { useRef, useState } from 'react'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectFade } from 'swiper/modules';
+import { Autoplay, EffectFade } from 'swiper/modules';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-fade';
@@ -67,6 +67,16 @@ function Home() {
                                             onSwiper={(swiper) => (swiperRef.current = swiper)}
                                             onSlideChange={(swiper) => setActiveTab(swiper.activeIndex)}
                                             className="hero_slider"
+                                            autoplay={{
+                                                delay: 3500,
+                                                disableOnInteraction: false,
+                                                pauseOnMouseEnter: false,
+                                            }}
+                                            modules={[Autoplay, EffectFade]}
+                                            fadeEffect={{
+                                                crossFade: true
+                                            }}
+                                            effect="fade"
                                         >
                                             <SwiperSlide>
                                                 <div className='circularCanvas'>
@@ -102,7 +112,7 @@ function Home() {
                                         {/* <Image src='/images/home/outer_ring.svg' alt={'outer_ring'} width={750} height={750} className='outer_ring' /> */}
                                         {/* <Image src="images/banner.svg" alt="logo" width={720} height={776} /> */}
                                         <div className='heroTabs'>
-                                            {["Private PBX System", "Omnichannel", "Echo Agent"].map((tab, index) => (
+                                            {["Cloud PBX System", "Omnichannel", "Echo Agent"].map((tab, index) => (
                                                 <div
                                                     key={index}
                                                     className={`heroTab ${activeTab === index ? "active" : ""}`}

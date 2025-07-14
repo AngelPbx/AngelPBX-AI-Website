@@ -35,7 +35,7 @@ const Testimonials = () => {
                         // navigation
                         autoplay={{
                             delay: 2500,
-                            disableOnInteraction: true,
+                            disableOnInteraction: false,
                             pauseOnMouseEnter: true,
                         }}
                         slidesPerView={"auto"}
@@ -43,7 +43,7 @@ const Testimonials = () => {
                         loop={true}
                         // watchSlidesVisibility={true}
                         centeredSlides={true}
-                        modules={[FreeMode, Navigation]}
+                        modules={[FreeMode, Navigation, Autoplay]}
                         navigation
                         pagination={{
                             type: 'fraction',
