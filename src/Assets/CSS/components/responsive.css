@@ -272,7 +272,7 @@
     }
 
     .navbar-nav {
-        padding-block: 20px;
+        /* padding-block: 20px; */
         /* overflow: auto; */
         /* max-height: 500px; */
 
@@ -298,8 +298,8 @@
     }
 
     .contxtSlid .swiper-slide {
-        width: 75% !important;
-        margin-inline: 10px;
+        width: 100% !important;
+        margin-inline: 0;
     }
 
     .sliderContent .primaryBtn {
@@ -476,8 +476,8 @@
     }
 
     .contxtSlid .swiper-slide {
-        width: 57% !important;
-        margin-inline: 10px;
+        width: 100% !important;
+        margin-inline: 0;
     }
 
     .btnGroup {
@@ -514,8 +514,8 @@
     }
 
     .contxtSlid .swiper-slide {
-        width: 88% !important;
-        margin-inline: 10px;
+        width: 100% !important;
+        margin-inline: 0;
     }
 
     .logoSlider {

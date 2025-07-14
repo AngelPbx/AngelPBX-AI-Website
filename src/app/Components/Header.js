@@ -38,7 +38,7 @@ function Header() {
                         <i className="fa-solid fa-bars"></i>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul className="navbar-nav me-auto">
                             <li className="nav-item dropdown position-static">
                                 <Link className="nav-link dropdown-toggle headerItem" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Products
