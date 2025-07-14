@@ -11,7 +11,15 @@
 
     .contxtSlid .swiper-slide {
         width: 80% !important;
-        margin-inline: 20px;
+        margin-inline: 10px;
+    }
+
+    .contxtSlid::after {
+        width: 200px;
+    }
+
+    .contxtSlid::before {
+        width: 200px;
     }
 }
 
@@ -383,7 +391,11 @@
     .circularCanvas {
         top: 5px;
     }
-    .contxtSlid::after, .slidWrap .swiper::before, .slidWrap .swiper::after, .contxtSlid::before{
+
+    .contxtSlid::after,
+    .slidWrap .swiper::before,
+    .slidWrap .swiper::after,
+    .contxtSlid::before {
         content: none;
     }
 }

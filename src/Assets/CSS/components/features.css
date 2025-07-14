@@ -67,7 +67,6 @@
     z-index: 4;
     width: auto;
     transition: all 0.3s ease-in-out;
-
 }
 
 .features article .imgWrapper .bg {
@@ -79,7 +78,6 @@
 
     mix-blend-mode: overlay;
     transition: all 0.3s ease-in-out;
-
 }
 
 .features article .imgWrapper .bg.light1 {
@@ -330,4 +328,41 @@
 .feature5:hover .fg2 {
     bottom: 5px;
     transform: translateX(-50%);
+}
+
+.feature1 .featureImgWrapper .fg1 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+    width: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.feature1 .featureImgWrapper .fg2 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+    width: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.feature1:hover .fg1 {
+    transform: translateX(-50%) scale(1.1);
+}
+
+.feature1:hover .fg2 {
+    transform: translateX(-50%) scale(1.05);
+    bottom: 15px;
+}
+
+.feature6 .fg {
+    bottom: -40px !important;
+}
+
+.feature6:hover .fg {
+    bottom: -25px !important;
 }

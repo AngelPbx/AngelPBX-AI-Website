@@ -357,6 +357,8 @@ element.style {
     border: 1px solid var(--clr-border-gray100);
     background: var(--clr-white);
     box-shadow: 0px 19px 39.2px 0px rgba(109, 109, 219, 0.10);
+
+    max-width: 1167px;
 }
 
 .ai_list {
@@ -504,8 +506,8 @@ element.style {
 }
 
 .contxtSlid .swiper-slide {
-    width: 60% !important;
-    margin-inline: 20px;
+    width: auto !important;
+    /* margin-inline: 20px; */
 }
 
 .contxtSlid .swiper-slide.swiper-slide-prev {
@@ -1124,11 +1126,13 @@ img.flip3 {
     width: 26px !important;
     background: #6269FE !important;
 }
-.swiper-button-prev{
-       left: 6% !important;
+
+.swiper-button-prev {
+    left: 6% !important;
 }
-.swiper-button-next{
-       right: 6% !important;
+
+.swiper-button-next {
+    right: 6% !important;
 }
 
 .swiper-button-prev,
@@ -1157,7 +1161,7 @@ img.flip3 {
     line-height: 1;
     text-rendering: auto;
     font-size: 19px !important;
- 
+
 
 
 }
@@ -1174,7 +1178,7 @@ img.flip3 {
     line-height: 1;
     text-rendering: auto;
     font-size: 19px !important;
-    
+
 
 }
 
@@ -1205,6 +1209,7 @@ img.flip3 {
     background: linear-gradient(269deg, rgba(255, 255, 255, 0) 40%, #FFF 100%);
     z-index: 9;
 }
+
 .contxtSlid::before {
     content: '';
     position: absolute;
