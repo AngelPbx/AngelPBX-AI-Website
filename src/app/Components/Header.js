@@ -108,7 +108,7 @@ function Header() {
                                                 </div>
                                             </div>
                                             <div className='col-xl-6'>
-                                                <Image src={'/images/card.png'} width={600} height={300} className='menuCard' />
+                                                <Image src={'/images/card.png'} width={600} height={300} className='menuCard' alt="card" />
                                             </div>
                                         </div>
                                     </div>
