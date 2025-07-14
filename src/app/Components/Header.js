@@ -45,7 +45,7 @@ function Header() {
                                 </Link>
                                 <div className="dropdown-menu full-screen">
                                     <div className='container'>
-                                        <div className='row'>
+                                        <div className='row my-3'>
                                             <div className='col-xl-6 col-12'>
                                                 <div className='menuWrapper'>
                                                     <label className='headLabel'>Products</label>

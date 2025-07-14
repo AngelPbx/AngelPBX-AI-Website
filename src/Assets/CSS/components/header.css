@@ -171,6 +171,7 @@
     font-weight: 500;
     line-height: 24px;
     margin-bottom: 0;
+    cursor: pointer;
 }
 
 .menuWrapper ul li span {
