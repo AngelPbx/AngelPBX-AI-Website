@@ -27,17 +27,24 @@ const Testimonials = () => {
                             '--swiper-navigation-color': '#000',
                             '--swiper-pagination-color': '#000',
                         }}
-                        // onSwiper={setSwiperRef}
-                        slidesPerView={3}
-                        centeredSlides={true}
-                        spaceBetween={20}
-                        loop={true}
-                        navigation
+
+                        // slidesPerView={3}
+                        // centeredSlides={true}
+                        // spaceBetween={20}
+                        // loop={true}
+                        // navigation
                         autoplay={{
                             delay: 2500,
                             disableOnInteraction: true,
                             pauseOnMouseEnter: true,
                         }}
+                        slidesPerView={"auto"}
+                        spaceBetween={30}
+                        loop={true}
+                        // watchSlidesVisibility={true}
+                        centeredSlides={true}
+                        modules={[FreeMode, Navigation]}
+                        navigation
                         pagination={{
                             type: 'fraction',
                         }}
@@ -59,15 +66,15 @@ const Testimonials = () => {
                                 spaceBetween: 20,
                             },
                         }}
-                        pagination={{
-                            el: ".custom-pagination",
-                            clickable: true,
-                        }}
-                        navigation={{
-                            el: ".custom-pagination",
-                            clickable: true,
-                        }}
-                        modules={[Autoplay, Pagination, Navigation]}
+                        // pagination={{
+                        //     el: ".custom-pagination",
+                        //     clickable: true,
+                        // }}
+                        // navigation={{
+                        //     el: ".custom-pagination",
+                        //     clickable: true,
+                        // }}
+                        // modules={[Autoplay, Pagination, Navigation]}
                         className="mySwiper slidSwip"
                     >
                         <SwiperSlide>
@@ -80,7 +87,7 @@ const Testimonials = () => {
                                     </div>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
                                         <div className=' d-flex gap-3 flex-column'>
-                                            <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' />
+                                            {/* <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' /> */}
 
                                             <h5 className='mt-4'>"Entirety of the business complexity is here under one place." </h5>
                                             <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time. </p>
@@ -103,7 +110,7 @@ const Testimonials = () => {
                                     </div>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
                                         <div className=' d-flex gap-3 flex-column'>
-                                            <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' />
+                                            {/* <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' /> */}
 
                                             <h5 className='mt-4'>"Entirety of the business complexity is here under one place." </h5>
                                             <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time. </p>
@@ -126,7 +133,7 @@ const Testimonials = () => {
                                     </div>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
                                         <div className=' d-flex gap-3 flex-column'>
-                                            <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' />
+                                            {/* <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' /> */}
 
                                             <h5 className='mt-4'>"Entirety of the business complexity is here under one place." </h5>
                                             <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time. </p>
@@ -149,7 +156,7 @@ const Testimonials = () => {
                                     </div>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
                                         <div className=' d-flex gap-3 flex-column'>
-                                            <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' />
+                                            {/* <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' /> */}
 
                                             <h5 className='mt-4'>"Entirety of the business complexity is here under one place." </h5>
                                             <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time. </p>
@@ -172,7 +179,7 @@ const Testimonials = () => {
                                     </div>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
                                         <div className=' d-flex gap-3 flex-column'>
-                                            <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' />
+                                            {/* <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' /> */}
 
                                             <h5 className='mt-4'>"Entirety of the business complexity is here under one place." </h5>
                                             <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time. </p>

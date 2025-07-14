@@ -287,7 +287,7 @@
 
 .logoSlider .swiper-slide img {
     display: block;
-    width: 100%;
+    width: 80%;
     height: 100%;
 }
 
@@ -763,6 +763,11 @@ element.style {
 .slidWrap .swiper-slide {
     width: 45% !important;
     margin-inline: 20px;
+}
+
+.reviewSlid .clientImg {
+    width: 100%;
+    object-fit: cover;
 }
 
 
