@@ -174,7 +174,7 @@ function Header() {
                                     EN
                                 </Link>
                             </li>
-                            <button className='textBTn me-3'>Login</button>
+                            <button className='textBTn me-3' onClick={() => window.location.href = 'https://service.angelpbx.ai/'}>Login</button>
                             <button className='primaryBtn'>Get a Demo
                                 <span className='arrow'>
                                     <i className="fa-solid fa-arrow-right"></i>
