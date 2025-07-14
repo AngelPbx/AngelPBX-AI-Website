@@ -75,7 +75,7 @@ const Testimonials = () => {
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
                                         <div className='d-flex '>
-                                            <Image src="/images/review1.png" alt="logo" width={343} height={426} className='clientImg' />
+                                            <Image src="/images/review2.png" alt="logo" width={343} height={426} className='clientImg' />
                                         </div>
                                     </div>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
@@ -98,7 +98,7 @@ const Testimonials = () => {
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 '>
                                         <div className='d-flex '>
-                                            <Image src="/images/review1.png" alt="logo" width={343} height={426} className='clientImg' />
+                                            <Image src="/images/review2.png" alt="logo" width={343} height={426} className='clientImg' />
                                         </div>
                                     </div>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
@@ -121,7 +121,7 @@ const Testimonials = () => {
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 '>
                                         <div className='d-flex '>
-                                            <Image src="/images/review1.png" alt="logo" width={343} height={426} className='clientImg' />
+                                            <Image src="/images/review2.png" alt="logo" width={343} height={426} className='clientImg' />
                                         </div>
                                     </div>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
@@ -144,7 +144,7 @@ const Testimonials = () => {
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 '>
                                         <div className='d-flex '>
-                                            <Image src="/images/review1.png" alt="logo" width={343} height={426} className='clientImg' />
+                                            <Image src="/images/review2.png" alt="logo" width={343} height={426} className='clientImg' />
                                         </div>
                                     </div>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
@@ -167,7 +167,7 @@ const Testimonials = () => {
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 '>
                                         <div className='d-flex '>
-                                            <Image src="/images/review1.png" alt="logo" width={343} height={426} className='clientImg' />
+                                            <Image src="/images/review2.png" alt="logo" width={343} height={426} className='clientImg' />
                                         </div>
                                     </div>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
