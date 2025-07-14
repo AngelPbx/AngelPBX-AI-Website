@@ -12,8 +12,7 @@ function Footer() {
                             <div className='logoWrapper'>
                                 <Image alt="logo" className='footerLogo' src='/images/footer_logo.svg' width={176} height={32} />
                             </div>
-                            <p>Your all-in-one space for calls, messages, meetings, and more powered by AI, built for teams.
-                                Everything you need to stay connected, on one smart platform</p>
+                            <p>AngelPBX.AI is an all-in-one platform that helps your team stay connected through calls, messages, meetings, and more. With built-in AI, it brings voice, video, chat, and smart tools into one place so your team can work faster, reply quicker, and give customers a better experience without jumping between apps. </p>
 
                             <div className='socialMedia'>
                                 <button className='socialBtn'>
