@@ -56,7 +56,7 @@ function Header() {
                                                             </svg>
                                                             <div>
                                                                 <label>AI Powered SmartPBX</label>
-                                                                <span>Learn more about international employment</span>
+                                                                <span>Handle all your business calls smartly with AI that routes, records, and supports in real time.</span>
                                                             </div>
                                                         </li>
                                                         <li onClick={() => handleLinkClick(4)}>
@@ -65,7 +65,7 @@ function Header() {
                                                             </svg>
                                                             <div>
                                                                 <label>AngelDialer</label>
-                                                                <span>Learn more about international employment</span>
+                                                                <span>Connect faster with auto-dialing that skips delays and helps your team talk more, dial less.</span>
                                                             </div>
                                                         </li>
                                                         <li onClick={() => handleLinkClick(3)}>
@@ -74,7 +74,7 @@ function Header() {
                                                             </svg>
                                                             <div>
                                                                 <label>AngelTracker AI</label>
-                                                                <span>Learn more about international employment</span>
+                                                                <span>Scores conversations, identifies the best-performing campaigns, and shows you which leads turn into real customers instantly</span>
                                                             </div>
                                                         </li>
                                                         <li onClick={() => handleLinkClick(2)}>
@@ -83,7 +83,7 @@ function Header() {
                                                             </svg>
                                                             <div>
                                                                 <label>OmniChannel Platforms</label>
-                                                                <span>Learn more about international employment</span>
+                                                                <span>See and reply to all customer messages - email, chat, or social all in one simple inbox.</span>
                                                             </div>
                                                         </li>
                                                         <li onClick={() => handleLinkClick(1)}>
@@ -92,7 +92,7 @@ function Header() {
                                                             </svg>
                                                             <div>
                                                                 <label>Humanoid AI Agent</label>
-                                                                <span>Learn more about international employment</span>
+                                                                <span>An AI that talks like a human, understands emotions, and works 24/7 for your business.</span>
                                                             </div>
                                                         </li>
                                                         <li onClick={() => handleLinkClick(4)}>
@@ -101,7 +101,7 @@ function Header() {
                                                             </svg>
                                                             <div>
                                                                 <label>AI Powered Video Calls</label>
-                                                                <span>Learn more about international employment</span>
+                                                                <span>Have clearer meetings with live translation, smart summaries, and auto-recording, powered by AI.</span>
                                                             </div>
                                                         </li>
                                                     </ul>
