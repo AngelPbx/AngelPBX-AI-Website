@@ -27,17 +27,24 @@ const Testimonials = () => {
                             '--swiper-navigation-color': '#000',
                             '--swiper-pagination-color': '#000',
                         }}
-                        // onSwiper={setSwiperRef}
-                        slidesPerView={3}
-                        centeredSlides={true}
-                        spaceBetween={20}
+
+                        // slidesPerView={3}
+                        // centeredSlides={true}
+                        // spaceBetween={20}
+                        // loop={true}
+                        // navigation
+                        // autoplay={{
+                        //     delay: 2500,
+                        //     disableOnInteraction: true,
+                        //     pauseOnMouseEnter: true,
+                        // }}
+                        slidesPerView={"auto"}
+                        spaceBetween={30}
                         loop={true}
+                        // watchSlidesVisibility={true}
+                        centeredSlides={true}
+                        modules={[FreeMode, Navigation]}
                         navigation
-                        autoplay={{
-                            delay: 2500,
-                            disableOnInteraction: true,
-                            pauseOnMouseEnter: true,
-                        }}
                         pagination={{
                             type: 'fraction',
                         }}
@@ -59,15 +66,15 @@ const Testimonials = () => {
                                 spaceBetween: 20,
                             },
                         }}
-                        pagination={{
-                            el: ".custom-pagination",
-                            clickable: true,
-                        }}
-                        navigation={{
-                            el: ".custom-pagination",
-                            clickable: true,
-                        }}
-                        modules={[Autoplay, Pagination, Navigation]}
+                        // pagination={{
+                        //     el: ".custom-pagination",
+                        //     clickable: true,
+                        // }}
+                        // navigation={{
+                        //     el: ".custom-pagination",
+                        //     clickable: true,
+                        // }}
+                        // modules={[Autoplay, Pagination, Navigation]}
                         className="mySwiper slidSwip"
                     >
                         <SwiperSlide>
