@@ -40,7 +40,7 @@ function Header() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item dropdown position-static">
-                                <Link className="nav-link dropdown-toggle headerItem" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <Link className="nav-link dropdown-toggle headerItem" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Products
                                 </Link>
                                 <div className="dropdown-menu full-screen">
