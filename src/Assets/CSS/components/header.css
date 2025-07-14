@@ -161,6 +161,7 @@
 .menuWrapper ul li svg {
     margin-right: 12px;
     transition: transform 0.5s ease;
+    flex-shrink: 0;
 }
 
 .menuWrapper ul li label {
