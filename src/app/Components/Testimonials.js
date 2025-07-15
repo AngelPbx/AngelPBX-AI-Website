@@ -28,53 +28,58 @@ const Testimonials = () => {
                             '--swiper-pagination-color': '#000',
                         }}
 
-                        // slidesPerView={3}
+                        // // slidesPerView={3}
                         // centeredSlides={true}
-                        // spaceBetween={20}
+                        // // spaceBetween={20}
+                        // // loop={true}
+                        // // navigation
+                        // autoplay={{
+                        //     delay: 2500,
+                        //     disableOnInteraction: false,
+                        //     pauseOnMouseEnter: true,
+                        // }}
+                        // slidesPerView={"auto"}
+                        // spaceBetween={30}
                         // loop={true}
+                        // // watchSlidesVisibility={true}
+                        // centeredSlides={true}
+                        // modules={[FreeMode, Navigation, Autoplay]}
                         // navigation
-                        autoplay={{
-                            delay: 2500,
-                            disableOnInteraction: false,
-                            pauseOnMouseEnter: true,
-                        }}
+                        // pagination={{
+                        //     type: 'fraction',
+                        // }}
+                        // breakpoints={{
+                        //     640: {
+                        //         slidesPerView: 1,
+                        //         spaceBetween: 20,
+                        //     },
+                        //     768: {
+                        //         slidesPerView: 1,
+                        //         spaceBetween: 20,
+                        //     },
+                        //     1024: {
+                        //         slidesPerView: 3,
+                        //         spaceBetween: 20,
+                        //     },
+                        //     1920: {
+                        //         slidesPerView: 3,
+                        //         spaceBetween: 20,
+                        //     },
+                        // }}
+
+          
                         slidesPerView={"auto"}
-                        spaceBetween={30}
+                        spaceBetween={0}
                         loop={true}
                         // watchSlidesVisibility={true}
                         centeredSlides={true}
-                        modules={[FreeMode, Navigation, Autoplay]}
+
+                        // onSwiper={(swiper) => (swiperRef.current = swiper)}
+                        // onSlideChange={(swiper) => setActiveTab(swiper.realIndex)}
+                        modules={[FreeMode, Navigation]}
                         navigation
-                        pagination={{
-                            type: 'fraction',
-                        }}
-                        breakpoints={{
-                            640: {
-                                slidesPerView: 1,
-                                spaceBetween: 20,
-                            },
-                            768: {
-                                slidesPerView: 2,
-                                spaceBetween: 20,
-                            },
-                            1024: {
-                                slidesPerView: 3,
-                                spaceBetween: 20,
-                            },
-                            1920: {
-                                slidesPerView: 3,
-                                spaceBetween: 20,
-                            },
-                        }}
-                        // pagination={{
-                        //     el: ".custom-pagination",
-                        //     clickable: true,
-                        // }}
-                        // navigation={{
-                        //     el: ".custom-pagination",
-                        //     clickable: true,
-                        // }}
-                        // modules={[Autoplay, Pagination, Navigation]}
+                        // className="tabSwiper2 contxtSlid"
+
                         className="mySwiper slidSwip"
                     >
                         <SwiperSlide>
@@ -127,7 +132,7 @@ const Testimonials = () => {
                             <div className='sliderContent reviewSlid blue'>
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 '>
-                                      <div className='logoBox'>
+                                        <div className='logoBox'>
                                             <Image src="/images/testimonials/Fairsfare.png" alt="logo" width={170} height={80} className='clientImg' />
                                         </div>
                                     </div>
@@ -150,7 +155,7 @@ const Testimonials = () => {
                             <div className='sliderContent reviewSlid gary'>
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 '>
-                                         <div className='logoBox'>
+                                        <div className='logoBox'>
                                             <Image src="/images/testimonials/Farefortravel.png" alt="logo" width={170} height={80} className='clientImg' />
                                         </div>
                                     </div>
@@ -173,7 +178,7 @@ const Testimonials = () => {
                             <div className='sliderContent reviewSlid pink'>
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 '>
-                                           <div className='logoBox'>
+                                        <div className='logoBox'>
                                             <Image src="/images/testimonials/Gogetatrip.png" alt="logo" width={170} height={80} className='clientImg' />
                                         </div>
                                     </div>
@@ -196,7 +201,7 @@ const Testimonials = () => {
                             <div className='sliderContent reviewSlid pink'>
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 '>
-                                           <div className='logoBox'>
+                                        <div className='logoBox'>
                                             <Image src="/images/testimonials/infinity_travels.png" alt="logo" width={170} height={80} className='clientImg' />
                                         </div>
                                     </div>
@@ -219,7 +224,7 @@ const Testimonials = () => {
                             <div className='sliderContent reviewSlid pink'>
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 '>
-                                           <div className='logoBox'>
+                                        <div className='logoBox'>
                                             <Image src="/images/testimonials/Justassist.png" alt="logo" width={170} height={80} className='clientImg' />
                                         </div>
                                     </div>
@@ -242,7 +247,7 @@ const Testimonials = () => {
                             <div className='sliderContent reviewSlid pink'>
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 '>
-                                           <div className='logoBox'>
+                                        <div className='logoBox'>
                                             <Image src="/images/testimonials/Mydreammemory.png" alt="logo" width={170} height={80} className='clientImg' />
                                         </div>
                                     </div>
@@ -265,7 +270,7 @@ const Testimonials = () => {
                             <div className='sliderContent reviewSlid pink'>
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 '>
-                                           <div className='logoBox'>
+                                        <div className='logoBox'>
                                             <Image src="/images/testimonials/Pnrdecode.png" alt="logo" width={170} height={80} className='clientImg' />
                                         </div>
                                     </div>
@@ -288,7 +293,7 @@ const Testimonials = () => {
                             <div className='sliderContent reviewSlid pink'>
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 '>
-                                           <div className='logoBox'>
+                                        <div className='logoBox'>
                                             <Image src="/images/testimonials/Webvio.png" alt="logo" width={170} height={80} className='clientImg' />
                                         </div>
                                     </div>
