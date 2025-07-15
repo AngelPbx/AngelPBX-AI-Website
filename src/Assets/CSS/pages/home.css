@@ -764,11 +764,11 @@ element.style {
     width: 45% !important;
     margin-inline: 20px;
 }
-
+/* 
 .reviewSlid .clientImg {
     width: 100%;
     object-fit: cover;
-}
+} */
 
 
 .reviewSlid.gary {
@@ -1237,4 +1237,14 @@ img.flip3 {
     flex-shrink: 0;
     background: linear-gradient(269deg, rgba(255, 255, 255, 0) 40%, #FFF 100%);
     z-index: 9;
+}
+
+.logoBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 343px;
+    height: 426px;
+    background-color: #fff;
+    border-radius: 10px;
 }
