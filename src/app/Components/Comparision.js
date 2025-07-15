@@ -16,7 +16,7 @@ const Comparision = () => {
                         <div className='fetureBox'>
                             <div className='listingName'>
                                 <div className='listing_hed'>
-                                    <h4 className='heading4'>Feature</h4>
+                                    <h4 className='heading4'>Key Features & Capabilities </h4>
                                 </div>
                                 <ul className='ps-0'>
                                     <li className='feature_listing'><p>AI-Powered Virtual Agent <span>Handles customer interactions, queries, and tasks just like a human</span></p></li>
