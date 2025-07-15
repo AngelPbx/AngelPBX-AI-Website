@@ -86,7 +86,7 @@ function CTA() {
                     </div>
                 </div>
 
-                <Image alt="background" className='bg' src={'/images/cta/Background_grad.svg'} width={1440} height={500} />
+                <Image alt="background" className='bg' src={'/images/cta/Background_grad.svg'} width={1440} height={500} priority />
             </section>
 
 
@@ -170,7 +170,7 @@ function CTA() {
                         </div>
                     </div>
                 </div>
-                <Image alt="background" className='bg' src={'/images/cta/cta-mobile-bg.svg'} width={412} height={636} />
+                <Image alt="background" className='bg' src={'/images/cta/cta-mobile-bg.svg'} width={412} height={636} priority />
             </section>
 
         </>

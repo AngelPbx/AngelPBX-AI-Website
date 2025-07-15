@@ -150,8 +150,13 @@
 
 .menuWrapper ul li:hover label,
 .menuWrapper ul li:hover svg path {
-    fill: #305cfd;
+    /* fill: #305cfd; */
     color: #305cfd;
+}
+.menuWrapper ul li label,
+.menuWrapper ul li svg path {
+    /* fill: #305cfd; */
+    color: #1B1E3D;
 }
 
 .menuWrapper ul li:hover svg {
