@@ -49,7 +49,7 @@ const AIRevolution = () => {
                 </div>
                 <div className='slider_wrap' >
                     <div className='tabSwiper'>
-                        {["AI Powered SmartPBX", "Humanoid AI Agent", "Omnichannel Platforms", "AngelTracker AI", "AI-Powered Video Calls", "AngelDialer"].map((tab, index) => (
+                        {["AI-Powered SmartPBX", "Humanoid AI Agent", "Omnichannel Platforms", "AngelTracker AI", "AI-Powered Video Calls", "AngelDialer"].map((tab, index) => (
                             <div
                                 key={index}
                                 className={`tabItem ${activeTab === index ? "active" : ""}`}
