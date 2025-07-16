@@ -58,7 +58,7 @@
     width: max-content;
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 25px;
     align-items: end
 }
 
@@ -130,15 +130,27 @@
 }
 
 .cta .chipWrapper .chip:nth-child(3) {
-    right: -80px;
+    right: -46px;
 }
 
 .cta .chipWrapper .chip:nth-child(4) {
+<<<<<<< Updated upstream
     right: -90px;
 }
 
 .cta .chipWrapper .chip:nth-child(5) {
     right: -130px;
+=======
+    right: -43px;
+}
+
+.cta .chipWrapper .chip:nth-child(5) {
+    right: -72px;
+}
+
+.cta .chipWrapper .chip:nth-child(6) {
+    right: -127px;
+>>>>>>> Stashed changes
 }
 
 .apbx-logo {
@@ -174,7 +186,11 @@
     top: 0;
     display: flex;
     justify-content: space-between;
+<<<<<<< Updated upstream
     gap: 209px;
+=======
+    gap: 141px;
+>>>>>>> Stashed changes
     align-items: center;
     height: 100%;
 }
