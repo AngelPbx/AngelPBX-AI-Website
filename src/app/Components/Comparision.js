@@ -56,7 +56,7 @@ const Comparision = () => {
                                         <li className='feature_listing'> <i className="fa-regular fa-xmark"></i></li>
                                         <li className='feature_listing'><i className="fa-regular fa-xmark"></i></li>
                                         <li className='feature_listing'><i className="fa-regular fa-xmark"></i></li>
-                                        <li className='feature_listing listing_flexBox'><Image src="/images/tick.svg" alt="tick" width={42} height={42} /><span> No option for multi-source real time tracking</span></li>
+                                        <li className='feature_listing listing_flexBox'><Image src="/images/tick.svg" alt="tick" width={42} height={42} /><span> No option for multi-<br />source real time tracking</span></li>
                                         <li className='feature_listing'><i className="fa-regular fa-xmark"></i></li>
                                         <li className='feature_listing'><i className="fa-regular fa-xmark"></i></li>
                                     </ul>
