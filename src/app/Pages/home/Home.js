@@ -112,7 +112,7 @@ function Home() {
                                         {/* <Image src='/images/home/outer_ring.svg' alt={'outer_ring'} width={750} height={750} className='outer_ring' /> */}
                                         {/* <Image src="images/banner.svg" alt="logo" width={720} height={776} /> */}
                                         <div className='heroTabs'>
-                                            {["Cloud PBX System", "Omnichannel", "Echo Agent"].map((tab, index) => (
+                                            {["Cloud PBX System", "Omnichannel Messaging", "Agentic AI"].map((tab, index) => (
                                                 <div
                                                     key={index}
                                                     className={`heroTab ${activeTab === index ? "active" : ""}`}
