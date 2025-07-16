@@ -1,8 +1,22 @@
+"use client";
 import Image from 'next/image'
 import React from 'react'
-import { Container } from 'react-bootstrap'
+import { useSwiper } from '../SwiperContext';
 
 function Footer() {
+    const { swiperRef } = useSwiper();
+    const handleLinkClick = (param) => {
+        const section = document.getElementById('products');
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+        if (swiperRef.current) {
+            swiperRef.current.slideToLoop(param);
+        }
+    }
+
+
+
     return (
         <section className='footer'>
             <div className='container'>
@@ -30,16 +44,20 @@ function Footer() {
                     <div className='col-xl-4 col-12'>
                         <div className='linksWrapper'>
                             <div className='row'>
-                                <div className='col-xl-4 col-6'>
+                                <div className='col-xl-5 col-6'>
                                     <label>Products</label>
                                     <ul>
-                                        <li><a>Enterprise PBX</a></li>
-                                        <li><a>Omnichannel</a></li>
-                                        <li><a>Integrations</a></li>
-                                        <li><a>API Documentation</a></li>
+                                        <li><a onClick={() => handleLinkClick(5)} className='pointer'>AngelDialer</a></li>
+                                        <li><a onClick={() => handleLinkClick(3)} className='pointer'>AngelTracker AI</a></li>
+                                        <li><a onClick={() => handleLinkClick(2)} className='pointer'>OmniChannel Platforms</a></li>
+                                        <li><a onClick={() => handleLinkClick(1)} className='pointer'>Humanoid AI Agent</a></li>
+                                        <li><a onClick={() => handleLinkClick(4)} className='pointer'>AI-Powered Video Calls</a></li>
+
+
+
                                     </ul>
                                 </div>
-                                <div className='col-xl-4 col-6'>
+                                <div className='col-xl-3 col-6'>
                                     <label>Resources</label>
                                     <ul>
                                         <li><a>Change log</a></li>
