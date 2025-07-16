@@ -18,7 +18,7 @@ function FAQ() {
                         <div className="accordion" id="accordionExample">
                             <div className="accordion-item">
                                 <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                    What makes our AI Agent different from the rest?
+                                    What makes our Agentic AI Agent different from the rest?
                                 </button>
 
                                 <div id="collapse1" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">

@@ -11,6 +11,7 @@ import 'swiper/css/navigation';
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import Image from 'next/image';
+import { allProducts } from '../Metadata/AllProducts';
 
 function CTA() {
     return (
@@ -23,19 +24,22 @@ function CTA() {
                     </div>
                     <div className='chipWrapper'>
                         <div className='chip'>
-                            SmartDial AI
+                            {allProducts[0].name}
                         </div>
                         <div className='chip'>
-                            AI Powered SmartPBX
+                            {allProducts[1].name}
                         </div>
                         <div className='chip'>
-                            Video and Voice Intelligence
+                            {allProducts[2].name}
                         </div>
                         <div className='chip'>
-                            Omnichannel Messaging
+                            {allProducts[3].name}
                         </div>
                         <div className='chip'>
-                            Personalize AI Agent
+                            {allProducts[4].name}
+                        </div>
+                        <div className='chip'>
+                            {allProducts[5].name}
                         </div>
                     </div>
                     <div className='logoWrapper'>
