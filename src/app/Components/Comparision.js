@@ -23,7 +23,7 @@ const Comparision = () => {
                                         <li className='feature_listing'><p>Smart Cloud PBX  <span>Click to call, Smart Call Routing instantly, Visual IVR  </span></p></li>
                                         <li className='feature_listing'><p>Agentic AI Agents   <span>Conversational AI that functions like human  </span></p></li>
                                         <li className='feature_listing'><p>OmniChannel Messaging Hub  <span>Unified Inbox with Internal messaging  </span></p></li>
-                                        <li className='feature_listing'><p> Smart AI tracker   <span>Call tracking from multi-sources with real time ROI </span></p></li>
+                                        <li className='feature_listing'><p> Smart AI tracker   <span>Track calls , leads and Ads Performance with real time ROI</span></p></li>
                                         <li className='feature_listing'><p>AI Video Meet   <span>Auto Joins and records with live transcript </span></p></li>
                                         <li className='feature_listing'><p> AI-powered Auto Dialer  <span>Emotion & intent detection, smart scheduling of calls </span></p></li>
 

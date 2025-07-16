@@ -12,7 +12,7 @@ function Features() {
                                 AI is the New Voice of Business <br />
                                 Ready to Power Yours?
                             </h3>
-                            <p>AngelPBX.ai meets all your business needs by unifying customer interactions—calls,<br /> messages, chats, videos, and FAX—under one AI-powered platform. Discover what this <br />personal assistant can do for your firm.</p>
+                            <p>AngelPBX.ai meets all your business needs by unifying customer interactions calls,<br /> messages, chats, videos, and FAX—under one AI-powered platform. Discover what this <br />personal assistant can do for your firm.</p>
                         </div>
                     </div>
                     <div className='col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12'>

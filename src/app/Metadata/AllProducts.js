@@ -9,7 +9,7 @@ export const allProducts = [
     },
     {
         id: 2,
-        name: 'OmniChannel Platforms',
+        name: 'OmniChannel Messaging',
     },
     {
         id: 3,
