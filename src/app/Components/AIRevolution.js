@@ -13,6 +13,7 @@ import 'swiper/css/thumbs';
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
 import Image from 'next/image';
 import { useSwiper } from '../SwiperContext';
+import { allProducts } from '../Metadata/AllProducts';
 
 const AIRevolution = () => {
 
@@ -49,7 +50,7 @@ const AIRevolution = () => {
                 </div>
                 <div className='slider_wrap' >
                     <div className='tabSwiper'>
-                        {["AI-Powered SmartPBX", "Humanoid AI Agent", "Omnichannel Platforms", "AngelTracker AI", "AI-Powered Video Calls", "AngelDialer"].map((tab, index) => (
+                        {[allProducts[0].name, allProducts[1].name, allProducts[2].name, allProducts[3].name, allProducts[4].name, allProducts[5].name].map((tab, index) => (
                             <div
                                 key={index}
                                 className={`tabItem ${activeTab === index ? "active" : ""}`}
@@ -111,13 +112,13 @@ const AIRevolution = () => {
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12 '>
                                         <div className='slidListContent'>
-                                            <h3 className='heading_H3'>Your 24/7 AI Agent Always Ready</h3>
-                                            <p className='paragraph3'>Enable human-like communications to take place instantly with our AngelECHO (AI) - working round the clock for you, in multiple dialects </p>
+                                            <h3 className='heading_H3'>Your Human-Like AI Agent — Always On, Always Capable</h3>
+                                            <p className='paragraph3'>Meet AIVA, your intelligent Agentic AI that goes beyond scripts and chatbots. It thinks, understands, responds, and follows through just like a real team member. Ready 24/7, fluent in multiple languages, and built to drive real outcomes.</p>
                                             <ul className='ai_list'>
-                                                <li>In-depth learning of the caller's purpose and sentiment</li>
-                                                <li>No waiting lines, just faster resolutions  </li>
-                                                <li>Work across all time zones, channels </li>
-                                                <li>Speak like a person in multiple languages</li>
+                                                <li>Understands caller intent, tone & emotion in real time</li>
+                                                <li>No queues — just instant, intelligent responses</li>
+                                                <li>Works seamlessly across time zones, channels & touch-points</li>
+                                                <li>Communicates naturally — in multiple languages, like a real person</li>
                                             </ul>
                                             <button className='primaryBtn'>Get a Demo
                                                 <span className='arrow'>
@@ -169,8 +170,8 @@ const AIRevolution = () => {
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12 '>
                                         <div className='slidListContent'>
-                                            <h3 className='heading_H3'>Track calls, leads, and performance (AngelTracker AI) </h3>
-                                            <p className='paragraph3'>Track calls, leads, and performance (AngelTracker AI) </p>
+                                            <h3 className='heading_H3'>Track calls, leads, and performance </h3>
+                                            <p className='paragraph3'>Empower the growth of your business with the help of AngelTracker- that checks leads and tracks performance quickly </p>
                                             <ul className='ai_list'>
                                                 <li>Track inbound calls from social media, campaigns and others  </li>
                                                 <li>Enabled AI-powered filtering to block spam calls</li>

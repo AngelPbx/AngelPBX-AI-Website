@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { useSwiper } from '../SwiperContext';
+import { allProducts } from '../Metadata/AllProducts';
 
 function Footer() {
     const { swiperRef } = useSwiper();
@@ -47,14 +48,12 @@ function Footer() {
                                 <div className='col-xl-5 col-6'>
                                     <label>Products</label>
                                     <ul>
-                                        <li><a onClick={() => handleLinkClick(5)} className='pointer'>AngelDialer</a></li>
-                                        <li><a onClick={() => handleLinkClick(3)} className='pointer'>AngelTracker AI</a></li>
-                                        <li><a onClick={() => handleLinkClick(2)} className='pointer'>OmniChannel Platforms</a></li>
-                                        <li><a onClick={() => handleLinkClick(1)} className='pointer'>Humanoid AI Agent</a></li>
-                                        <li><a onClick={() => handleLinkClick(4)} className='pointer'>AI-Powered Video Calls</a></li>
-
-
-
+                                        <li><a onClick={() => handleLinkClick(0)} className='pointer'>{allProducts[0].name}</a></li>
+                                        <li><a onClick={() => handleLinkClick(1)} className='pointer'>{allProducts[1].name}</a></li>
+                                        <li><a onClick={() => handleLinkClick(2)} className='pointer'>{allProducts[2].name}</a></li>
+                                        <li><a onClick={() => handleLinkClick(3)} className='pointer'>{allProducts[3].name}</a></li>
+                                        <li><a onClick={() => handleLinkClick(4)} className='pointer'>{allProducts[4].name}</a></li>
+                                        <li><a onClick={() => handleLinkClick(5)} className='pointer'>{allProducts[5].name}</a></li>
                                     </ul>
                                 </div>
                                 <div className='col-xl-3 col-6'>
