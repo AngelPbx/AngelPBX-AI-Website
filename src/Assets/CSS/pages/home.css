@@ -2,6 +2,9 @@
     padding-top: 108px;
 }
 
+.pointer {
+    cursor: pointer;
+}
 
 .paragraphWidth {
     max-width: 579px;
