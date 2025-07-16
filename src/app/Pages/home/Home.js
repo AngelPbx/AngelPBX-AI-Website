@@ -42,7 +42,7 @@ function Home() {
                                         <span className='textGradient'>All-in One Hub</span>
                                     </h1>
                                     <p className='commonPara'>
-                                        The future of AI-powered Communications is here. One login, One platform. All your calls, chats and meetings in sync & powered by AI, designed to bring success in every step.
+                                        The future of AI-powered Communications is here. One login, One platform. With Agentic AI Agents at the core, every call, chat, and meeting are not just managed — it's mastered, designed to bring success in every step.
                                     </p>
                                     <div className='btnGroup'>
                                         <button className='primaryBtn'>Get a Demo

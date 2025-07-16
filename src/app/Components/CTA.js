@@ -11,6 +11,7 @@ import 'swiper/css/navigation';
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import Image from 'next/image';
+import { allProducts } from '../Metadata/AllProducts';
 
 function CTA() {
     return (
@@ -23,24 +24,27 @@ function CTA() {
                     </div>
                     <div className='chipWrapper'>
                         <div className='chip'>
-                            SmartDial AI
+                            {allProducts[0].name}
                         </div>
                         <div className='chip'>
-                            AI Powered SmartPBX
+                            {allProducts[1].name}
                         </div>
                         <div className='chip'>
-                            Video and Voice Intelligence
+                            {allProducts[2].name}
                         </div>
                         <div className='chip'>
-                            Omnichannel Messaging
+                            {allProducts[3].name}
                         </div>
                         <div className='chip'>
-                            Personalize AI Agent
+                            {allProducts[4].name}
+                        </div>
+                        <div className='chip'>
+                            {allProducts[5].name}
                         </div>
                     </div>
                     <div className='logoWrapper'>
                         {/* <div className='apbx-logo' /> */}
-                        <Image alt="logo" src={'/images/cta/apbx-static.svg'} width={400} height={400} />
+                        <Image alt="logo" src={'/images/cta/Shape.png'} width={370} height={400} />
                     </div>
 
                 </div>
@@ -110,7 +114,7 @@ function CTA() {
                             <div className='d-flex justify-content-center flex-column align-items-center'>
                                 <div className='logoWrapper'>
                                     {/* <div className='apbx-logo' /> */}
-                                    <Image alt="logo" src={'/images/cta/apbx-static.svg'} width={400} height={400} />
+                                    <Image alt="logo" src={'/images/cta/Shape.png'} width={370} height={400} />
                                 </div>
                                 <Swiper
                                     spaceBetween={20}
@@ -146,24 +150,36 @@ function CTA() {
                                     modules={[Autoplay]}
                                     className="mySwiper"
                                 >
-                                    <SwiperSlide className="chipWrapper"> <div className='chip'>
-                                        SmartDial AI
-                                    </div></SwiperSlide>
-                                    <SwiperSlide className="chipWrapper"> <div className='chip'>
-                                        AI Powered SmartPBX
-                                    </div></SwiperSlide>
-                                    <SwiperSlide className="chipWrapper"><div className='chip'>
-                                        Video and Voice Intelligence
-                                    </div></SwiperSlide>
-                                    <SwiperSlide className="chipWrapper">  <div className='chip'>
-                                        Omnichannel Messaging
-                                    </div></SwiperSlide>
-                                    <SwiperSlide className="chipWrapper"><div className='chip'>
-                                        Personalize AI Agent
-                                    </div></SwiperSlide>
-
-
-
+                                    <SwiperSlide className="chipWrapper">
+                                        <div className='chip'>
+                                            {allProducts[0].name}
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide className="chipWrapper">
+                                        <div className='chip'>
+                                            {allProducts[1].name}
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide className="chipWrapper">
+                                        <div className='chip'>
+                                            {allProducts[2].name}
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide className="chipWrapper">
+                                        <div className='chip'>
+                                            {allProducts[3].name}
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide className="chipWrapper">
+                                        <div className='chip'>
+                                            {allProducts[4].name}
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide className="chipWrapper">
+                                        <div className='chip'>
+                                            {allProducts[5].name}
+                                        </div>
+                                    </SwiperSlide>
                                 </Swiper>
                             </div>
 

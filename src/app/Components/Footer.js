@@ -1,8 +1,23 @@
+"use client";
 import Image from 'next/image'
 import React from 'react'
-import { Container } from 'react-bootstrap'
+import { useSwiper } from '../SwiperContext';
+import { allProducts } from '../Metadata/AllProducts';
 
 function Footer() {
+    const { swiperRef } = useSwiper();
+    const handleLinkClick = (param) => {
+        const section = document.getElementById('products');
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+        if (swiperRef.current) {
+            swiperRef.current.slideToLoop(param);
+        }
+    }
+
+
+
     return (
         <section className='footer'>
             <div className='container'>
@@ -30,16 +45,18 @@ function Footer() {
                     <div className='col-xl-4 col-12'>
                         <div className='linksWrapper'>
                             <div className='row'>
-                                <div className='col-xl-4 col-6'>
+                                <div className='col-xl-5 col-6'>
                                     <label>Products</label>
                                     <ul>
-                                        <li><a>Enterprise PBX</a></li>
-                                        <li><a>Omnichannel</a></li>
-                                        <li><a>Integrations</a></li>
-                                        <li><a>API Documentation</a></li>
+                                        <li><a onClick={() => handleLinkClick(0)} className='pointer'>{allProducts[0].name}</a></li>
+                                        <li><a onClick={() => handleLinkClick(1)} className='pointer'>{allProducts[1].name}</a></li>
+                                        <li><a onClick={() => handleLinkClick(2)} className='pointer'>{allProducts[2].name}</a></li>
+                                        <li><a onClick={() => handleLinkClick(3)} className='pointer'>{allProducts[3].name}</a></li>
+                                        <li><a onClick={() => handleLinkClick(4)} className='pointer'>{allProducts[4].name}</a></li>
+                                        <li><a onClick={() => handleLinkClick(5)} className='pointer'>{allProducts[5].name}</a></li>
                                     </ul>
                                 </div>
-                                <div className='col-xl-4 col-6'>
+                                <div className='col-xl-3 col-6'>
                                     <label>Resources</label>
                                     <ul>
                                         <li><a>Change log</a></li>
