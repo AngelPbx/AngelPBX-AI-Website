@@ -20,12 +20,12 @@ const Comparision = () => {
                                         <h4 className='heading4'>Key Features & Capabilities </h4>
                                     </div>
                                     <ul className='ps-0'>
-                                        <li className='feature_listing'><p>Smart Cloud PBX <span>Click to call, Smart Call Routing instantly, Visual IVR </span></p></li>
-                                        <li className='feature_listing'><p>Agentic AI Agents  <span>Conversational AI that functions like human </span></p></li>
-                                        <li className='feature_listing'><p>OmniChannel Messaging Hub  <span>Unified Inbox with Internal messaging </span></p></li>
-                                        <li className='feature_listing'><p> Smart AI tracker  <span>Call tracking from multi-sources with real time ROI </span></p></li>
-                                        <li className='feature_listing'><p> AI Video Meet  <span>Auto Joins and records with live transcript </span></p></li>
-                                        <li className='feature_listing'><p> AI-powered Auto Dialer <span>Emotion & intent detection, smart scheduling of calls</span></p></li>
+                                        <li className='feature_listing'><p>Smart Cloud PBX  <span>Click to call, Smart Call Routing instantly, Visual IVR  </span></p></li>
+                                        <li className='feature_listing'><p>Agentic AI Agents   <span>Conversational AI that functions like human  </span></p></li>
+                                        <li className='feature_listing'><p>OmniChannel Messaging Hub  <span>Unified Inbox with Internal messaging  </span></p></li>
+                                        <li className='feature_listing'><p> Smart AI tracker   <span>Call tracking from multi-sources with real time ROI </span></p></li>
+                                        <li className='feature_listing'><p>AI Video Meet   <span>Auto Joins and records with live transcript </span></p></li>
+                                        <li className='feature_listing'><p> AI-powered Auto Dialer  <span>Emotion & intent detection, smart scheduling of calls </span></p></li>
 
                                     </ul>
                                 </div>
@@ -50,25 +50,25 @@ const Comparision = () => {
                                 </div>
                                 <div className='listingName'>
                                     <div className='listing_hed'>
-                                        <h4 className='heading4'>Call Tracking Tools </h4>
+                                        <h4 className='heading4'>Call Tracking Tools  </h4>
                                     </div>
                                     <ul className='ps-0'>
                                         <li className='feature_listing'> <i className="fa-regular fa-xmark"></i></li>
                                         <li className='feature_listing'><i className="fa-regular fa-xmark"></i></li>
                                         <li className='feature_listing'><i className="fa-regular fa-xmark"></i></li>
-                                        <li className='feature_listing listing_flexBox'><Image src="/images/tick.svg" alt="tick" width={42} height={42} /><span> No option for multi-<br />source real time tracking</span></li>
+                                        <li className='feature_listing listing_flexBox'><Image src="/images/tick.svg" alt="tick" width={42} height={42} /></li>
                                         <li className='feature_listing'><i className="fa-regular fa-xmark"></i></li>
                                         <li className='feature_listing'><i className="fa-regular fa-xmark"></i></li>
                                     </ul>
                                 </div>
                                 <div className='listingName'>
                                     <div className='listing_hed'>
-                                        <h4 className='heading4'>Omnichannel Messaging Tools </h4>
+                                        <h4 className='heading4'>Omnichannel Messaging Tools  </h4>
                                     </div>
                                     <ul className='ps-0'>
                                         <li className='feature_listing text-center'> <i className="fa-regular fa-xmark"></i></li>
                                         <li className='feature_listing text-center'><i className="fa-regular fa-xmark"></i></li>
-                                        <li className='feature_listing listing_flexBox'><Image src="/images/tick.svg" alt="tick" width={42} height={42} /><span> Lacks Internal Messaging</span></li>
+                                        <li className='feature_listing listing_flexBox'><Image src="/images/tick.svg" alt="tick" width={42} height={42} /></li>
                                         <li className='feature_listing text-center'><i className="fa-regular fa-xmark"></i></li>
                                         <li className='feature_listing text-center'><i className="fa-regular fa-xmark"></i></li>
                                         <li className='feature_listing text-center'><i className="fa-regular fa-xmark"></i></li>
@@ -76,15 +76,16 @@ const Comparision = () => {
                                 </div>
                                 <div className='listingName'>
                                     <div className='listing_hed'>
-                                        <h4 className='heading4'>Traditional Phone Systems </h4>
+                                        <h4 className='heading4'>Traditional PBX Systems  </h4>
                                     </div>
                                     <ul className='ps-0'>
-                                        <li className='feature_listing listing_flexBox'><Image src="/images/tick.svg" alt="tick" width={42} height={42} /><span> Only minimal functions </span></li>
+                                        <li className='feature_listing listing_flexBox'><Image src="/images/tick.svg" alt="tick" width={42} height={42} /></li>
                                         <li className='feature_listing text-center'><i className="fa-regular fa-xmark"></i></li>
                                         <li className='feature_listing text-center'><i className="fa-regular fa-xmark"></i></li>
                                         <li className='feature_listing text-center'><i className="fa-regular fa-xmark"></i></li>
-                                        <li className='feature_listing listing_flexBox'><Image src="/images/tick.svg" alt="tick" width={42} height={42} /><span>Basic functions only </span></li>
-                                        <li className='feature_listing text-center'><i className="fa-regular fa-xmark"></i></li>
+                                        <li className='feature_listing listing_flexBox'><Image src="/images/tick.svg" alt="tick" width={42} height={42} /></li>
+                                        <li className='feature_listing listing_flexBox'><Image src="/images/tick.svg" alt="tick" width={42} height={42} /></li>
+                                        {/* <li className='feature_listing text-center'><i className="fa-regular fa-xmark"></i></li> */}
                                     </ul>
                                 </div>
 
