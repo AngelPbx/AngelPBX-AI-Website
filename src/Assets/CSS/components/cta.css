@@ -100,7 +100,7 @@
     content: ''
 }
 
-.cta .chipWrapper .chip::after {
+/* .cta .chipWrapper .chip::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -115,34 +115,32 @@
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.5;
-    /* optional: make it semi-transparent */
     z-index: -1;
-    /* behind the content */
 
-}
+} */
 
 .cta .chipWrapper .chip:nth-child(1) {
-    right: -128px;
+    right: -146px;
 }
 
 .cta .chipWrapper .chip:nth-child(2) {
-    right: -90px;
+    right: -106px;
 }
 
 .cta .chipWrapper .chip:nth-child(3) {
-    right: -46px;
+    right: -128px;
 }
 
 .cta .chipWrapper .chip:nth-child(4) {
-    right: -43px;
+    right: -77px;
 }
 
 .cta .chipWrapper .chip:nth-child(5) {
-    right: -72px;
+    right: -137px;
 }
 
 .cta .chipWrapper .chip:nth-child(6) {
-    right: -127px;
+    right: -74px;
 }
 
 .apbx-logo {
@@ -178,13 +176,13 @@
     top: 0;
     display: flex;
     justify-content: space-between;
-    gap: 209px;
-    gap: 141px;
+    gap: 187px;
     align-items: center;
     height: 100%;
 }
+
 .circleBg {
-       position: absolute;
+    position: absolute;
     inset: 0;
     left: 18px;
     top: 0;
@@ -246,4 +244,3 @@
 .cta.mobileCta .chipWrapper .chip::after {
     display: none;
 }
-
