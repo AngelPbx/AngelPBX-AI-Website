@@ -560,9 +560,11 @@ element.style {
     width: fit-content;
 }
 
+/* .fetureBoxContainer{
+    position: relative;
+} */
 
-
-.fetureBox::before {
+.feturewrap::before {
     content: '';
     position: absolute;
     bottom: 105px;
@@ -578,7 +580,7 @@ element.style {
     z-index: -1;
 }
 
-.fetureBox::after {
+.feturewrap::after {
     content: '';
     position: absolute;
     top: -124px;
@@ -709,10 +711,15 @@ element.style {
     background: linear-gradient(to bottom, #6269FE, #E4A0E3);
 }
 
+.listingName:nth-child(1) ul {
+    padding: 29px 0px 0 0px;
+
+}
+
 .listingName:nth-child(2) ul {
     /* display: flex; */
     /* height: 743px; */
-    padding: 48px 0px 0 0px;
+    padding: 64px 0px 0 0px;
     overflow: hidden;
     width: 100%;
     margin-bottom: 10px;
@@ -727,7 +734,16 @@ element.style {
     backdrop-filter: blur(8px);
     flex: auto;
     margin-left: 10px;
+}
 
+.listingName:not(:nth-child(1), :nth-child(2)) .heading4 {
+    width: 165px;
+}
+
+.listingName:not(:nth-child(1), :nth-child(2)) .feature_listing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .listingName:nth-child(2) .listing_hed {
@@ -739,6 +755,9 @@ element.style {
     width: 40px;
     height: 40px;
     color: var(--close-red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* .listingName:nth-child(3) .feature_listing {
@@ -1274,6 +1293,8 @@ img.flip3 {
 .listing_flexBox span {
     font-size: 14px;
     color: var(--clr-text-light-accent);
+    line-height: normal;
+    text-align: center;
 }
 
 .fetureBoxContainer {
