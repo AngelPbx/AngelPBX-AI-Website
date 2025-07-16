@@ -40,7 +40,7 @@ function CTA() {
                     </div>
                     <div className='logoWrapper'>
                         {/* <div className='apbx-logo' /> */}
-                        <Image alt="logo" src={'/images/cta/apbx-static.svg'} width={400} height={400} />
+                        <Image alt="logo" src={'/images/cta/Shape.png'} width={370} height={400} />
                     </div>
 
                 </div>
@@ -110,7 +110,7 @@ function CTA() {
                             <div className='d-flex justify-content-center flex-column align-items-center'>
                                 <div className='logoWrapper'>
                                     {/* <div className='apbx-logo' /> */}
-                                    <Image alt="logo" src={'/images/cta/apbx-static.svg'} width={400} height={400} />
+                                    <Image alt="logo" src={'/images/cta/Shape.png'} width={370} height={400} />
                                 </div>
                                 <Swiper
                                     spaceBetween={20}
