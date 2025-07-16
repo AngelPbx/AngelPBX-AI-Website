@@ -122,11 +122,11 @@
 }
 
 .cta .chipWrapper .chip:nth-child(1) {
-    right: -128px;
+    right: -115px;
 }
 
 .cta .chipWrapper .chip:nth-child(2) {
-    right: -90px;
+    right: -70px;
 }
 
 .cta .chipWrapper .chip:nth-child(3) {
@@ -134,11 +134,15 @@
 }
 
 .cta .chipWrapper .chip:nth-child(4) {
-    right: -90px;
+    right: -40px;
 }
 
 .cta .chipWrapper .chip:nth-child(5) {
-    right: -130px;
+    right: -110px;
+}
+
+.cta .chipWrapper .chip:nth-child(6) {
+    right: -60px;
 }
 
 .apbx-logo {
@@ -178,8 +182,9 @@
     align-items: center;
     height: 100%;
 }
+
 .circleBg {
-       position: absolute;
+    position: absolute;
     inset: 0;
     left: 18px;
     top: 0;
@@ -241,4 +246,3 @@
 .cta.mobileCta .chipWrapper .chip::after {
     display: none;
 }
-

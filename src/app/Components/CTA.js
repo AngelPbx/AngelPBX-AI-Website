@@ -150,24 +150,36 @@ function CTA() {
                                     modules={[Autoplay]}
                                     className="mySwiper"
                                 >
-                                    <SwiperSlide className="chipWrapper"> <div className='chip'>
-                                        SmartDial AI
-                                    </div></SwiperSlide>
-                                    <SwiperSlide className="chipWrapper"> <div className='chip'>
-                                        AI Powered SmartPBX
-                                    </div></SwiperSlide>
-                                    <SwiperSlide className="chipWrapper"><div className='chip'>
-                                        Video and Voice Intelligence
-                                    </div></SwiperSlide>
-                                    <SwiperSlide className="chipWrapper">  <div className='chip'>
-                                        Omnichannel Messaging
-                                    </div></SwiperSlide>
-                                    <SwiperSlide className="chipWrapper"><div className='chip'>
-                                        Personalize AI Agent
-                                    </div></SwiperSlide>
-
-
-
+                                    <SwiperSlide className="chipWrapper">
+                                        <div className='chip'>
+                                            {allProducts[0].name}
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide className="chipWrapper">
+                                        <div className='chip'>
+                                            {allProducts[1].name}
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide className="chipWrapper">
+                                        <div className='chip'>
+                                            {allProducts[2].name}
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide className="chipWrapper">
+                                        <div className='chip'>
+                                            {allProducts[3].name}
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide className="chipWrapper">
+                                        <div className='chip'>
+                                            {allProducts[4].name}
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide className="chipWrapper">
+                                        <div className='chip'>
+                                            {allProducts[5].name}
+                                        </div>
+                                    </SwiperSlide>
                                 </Swiper>
                             </div>
 
