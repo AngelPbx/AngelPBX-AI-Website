@@ -459,6 +459,13 @@
     .slidWrap .swiper-slide {
         width: 90% !important;
     }
+
+    .contxtSlid .swiper-slide.swiper-slide-prev {
+        margin-top: 0;
+    }
+    .contxtSlid .swiper-slide.swiper-slide-next {
+        margin-top: 0;
+    }
 }
 
 @media (max-width: 840px) {
@@ -511,7 +518,7 @@
     }
 
     .cta {
-        margin-top: 50px;
+        margin-top: 0;
     }
 
 
