@@ -110,8 +110,20 @@ li {
 
 .goog-te-gadget .goog-te-combo {
   margin: 0;
-  /* width: 100%; */
+  width: 100%;
   /* height: auto; */
   padding: 3px 31px;
   cursor: pointer;
+}
+
+.language-icon {
+  color: #4285f4;
+  font-size: 16px;
+}
+
+.dropdown-icon {
+  color: #555;
+  cursor: pointer;
+  font-size: 12px;
+  transition: transform .2s;
 }

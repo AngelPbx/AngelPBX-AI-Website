@@ -239,7 +239,7 @@ function Header() {
                                 </Link>
                             </li> */}
                             <li className="nav-item dropdown ">
-                                <div className="language-selector me-3" style={{ position: "relative", zIndex: 9999 }}>
+                                <div className="language-selector me-3" style={{ position: "relative", zIndex: 1 }}>
                                     <i className="fa-solid fa-language language-icon"></i>
 
                                     <i
@@ -250,7 +250,7 @@ function Header() {
 
                                     <div
                                         id="google_translate_element"
-                                        style={{ position: "absolute", top: "0px", opacity: 0, left: "0" }}
+                                        style={{ position: "absolute", top: "0px", opacity: 0, left: "0", width: "100%" }}
                                     ></div>
                                 </div>
                             </li>
