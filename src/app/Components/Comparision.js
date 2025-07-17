@@ -5,7 +5,7 @@ const Comparision = () => {
     return (
         <>
             <section className='fetureBox_Wrap panelGap'>
-                <div className='container'>
+                <div className='container-xxl'>
                     <div className='content'>
                         <h2 className='headingH2 mb-3'>Here’s what makes
                             AngelPBX.ai unique from all</h2>
@@ -21,7 +21,7 @@ const Comparision = () => {
                                     </div>
                                     <ul className='ps-0' style={{ paddingTop: '20px' }}>
                                         <li className='feature_listing'><p>Smart Cloud PBX  <span>Click to call, Smart Call Routing instantly, Visual IVR | Semantic Search with CDR  </span></p></li>
-                                        <li className='feature_listing'><p>Agentic AI Agents   <span>Conversational AI that functions like human  </span></p></li>
+                                        <li className='feature_listing'><p>Agentic AI Agent   <span>Conversational AI that functions like human  </span></p></li>
                                         <li className='feature_listing'><p>OmniChannel Messaging Hub  <span>Unified Inbox with Internal messaging  </span></p></li>
                                         <li className='feature_listing'><p> Smart AI tracker   <span>Call tracking from multi-sources with real time ROI </span></p></li>
                                         <li className='feature_listing'><p>AI Video Meet   <span>Auto joins and records with live transcript </span></p></li>
@@ -52,7 +52,7 @@ const Comparision = () => {
                                 </div>
                                 <div className='listingName'>
                                     <div className='listing_hed'>
-                                        <h4 className='heading4'>Call Tracking Tools  </h4>
+                                        <h4 className='heading4'>Call Tracking <br />Tools  </h4>
                                     </div>
                                     <ul className='ps-0'>
                                         <li className='feature_listing'> <i className="fa-regular fa-xmark"></i></li>

@@ -61,7 +61,7 @@ function Header() {
                                                             </svg>
                                                             <div>
                                                                 <label>{allProducts[0].name}</label>
-                                                                <span>Handle all your business calls smartly with AI that routes, records, and supports in real time.</span>
+                                                                <span>Handle all your business calls smartly with AI that routes, records, and supports in real time</span>
                                                             </div>
                                                         </li>
                                                         <li onClick={() => handleLinkClick(1)}>
@@ -71,7 +71,7 @@ function Header() {
                                                             </svg>
                                                             <div>
                                                                 <label>{allProducts[1].name}</label>
-                                                                <span>An AI that talks like a human, understands emotions, and works 24/7 for your business.</span>
+                                                                <span>AngelEcho is powered by Agentic AI Agents that connect with people like humans and get real work done on their own</span>
                                                             </div>
                                                         </li>
                                                         <li onClick={() => handleLinkClick(2)}>
@@ -80,7 +80,7 @@ function Header() {
                                                             </svg>
                                                             <div>
                                                                 <label>{allProducts[2].name}</label>
-                                                                <span>See and reply to all customer messages - email, chat, or social all in one simple inbox.</span>
+                                                                <span>See and reply to all customer messages emails, chats, msgs – all in one intelligent AI workspace</span>
                                                             </div>
                                                         </li>
                                                         <li onClick={() => handleLinkClick(3)}>
@@ -101,7 +101,7 @@ function Header() {
                                                             </svg>
                                                             <div>
                                                                 <label>{allProducts[4].name}</label>
-                                                                <span>Have clearer meetings with live translation, smart summaries, and auto-recording, powered by AI.</span>
+                                                                <span>Have clearer meetings with live translation, smart summaries, and auto-recording, powered by AI</span>
                                                             </div>
                                                         </li>
                                                         <li onClick={() => handleLinkClick(5)}>
@@ -111,7 +111,7 @@ function Header() {
                                                             </svg>
                                                             <div>
                                                                 <label>{allProducts[5].name}</label>
-                                                                <span>Connect faster with auto-dialing that skips delays and helps your team talk more, dial less.</span>
+                                                                <span>Connect faster with auto-dialing that skips delays and helps your team talk more, dial less</span>
                                                             </div>
                                                         </li>
                                                     </ul>

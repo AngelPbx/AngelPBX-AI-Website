@@ -45,7 +45,7 @@ const AIRevolution = () => {
                             <p>Join the AI Revolution</p>
                         </div>
                         <h2 className='headingH2 mb-3'>Wondering what makes us the best? Check for yourself</h2>
-                        <p className='commonPara text-center paragraphWidth'>AngelPBX.ai is your AI-powered command center—bringing every call, chat, and team together in one smart platform.</p>
+                        <p className='commonPara text-center paragraphWidth'>AngelPBX.ai is your AI-powered command center—bringing every call, chat, and team together in one smart platform</p>
                     </div>
                 </div>
                 <div className='slider_wrap' >
@@ -97,7 +97,7 @@ const AIRevolution = () => {
                                                             <stop offset="1" stopColor="#DE8DD6" />
                                                         </linearGradient>
                                                     </defs>
-                                                </svg> AI Powered
+                                                </svg> <span>AI Powered</span>
                                             </div>
                                             <h3 className='heading_H3'>Run Smarter Phone Systems</h3>
                                             <p className='paragraph3'>Smarter Calls, happier teams - AI handles call routing, learns caller sentiment and powers up your business phone system </p>
@@ -129,7 +129,7 @@ const AIRevolution = () => {
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12 '>
                                         <div className='slidListContent'>
-                                                 <div className='chip'>
+                                            <div className='chip'>
                                                 {/* {allProducts[5].name} */}
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" className='me-1'>
                                                     <path d="M15.1785 11.6718C10.421 10.5975 9.68409 9.86053 8.60976 5.103C8.56054 4.88555 8.36699 4.73071 8.14333 4.73071C7.91967 4.73071 7.72612 4.88555 7.6769 5.103C6.60209 9.86053 5.86564 10.5975 1.10812 11.6718C0.890192 11.7215 0.735352 11.9146 0.735352 12.1382C0.735352 12.3619 0.890192 12.5549 1.10812 12.6046C5.86564 13.6795 6.60209 14.4164 7.6769 19.1734C7.72612 19.3909 7.91967 19.5457 8.14333 19.5457C8.36699 19.5457 8.56054 19.3909 8.60976 19.1734C9.68457 14.4164 10.421 13.6795 15.1785 12.6046C15.3965 12.5549 15.5508 12.3619 15.5508 12.1382C15.5508 11.9146 15.396 11.7215 15.1785 11.6718Z" fill="url(#paint0_linear_53638_7497)" />
@@ -144,7 +144,7 @@ const AIRevolution = () => {
                                                             <stop offset="1" stopColor="#DE8DD6" />
                                                         </linearGradient>
                                                     </defs>
-                                                </svg> AI Powered
+                                                </svg> <span>AI Powered</span>
                                             </div>
                                             <h3 className='heading_H3'>Your Human-Like AI Agent — Always On, Always Capable</h3>
                                             <p className='paragraph3'>Meet AIVA, your intelligent Agentic AI that goes beyond scripts and chatbots. It thinks, understands, responds, and follows through just like a real team member. Ready 24/7, fluent in multiple languages, and built to drive real outcomes.</p>
@@ -175,7 +175,7 @@ const AIRevolution = () => {
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12 '>
                                         <div className='slidListContent'>
-                                                 <div className='chip'>
+                                            <div className='chip'>
                                                 {/* {allProducts[5].name} */}
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" className='me-1'>
                                                     <path d="M15.1785 11.6718C10.421 10.5975 9.68409 9.86053 8.60976 5.103C8.56054 4.88555 8.36699 4.73071 8.14333 4.73071C7.91967 4.73071 7.72612 4.88555 7.6769 5.103C6.60209 9.86053 5.86564 10.5975 1.10812 11.6718C0.890192 11.7215 0.735352 11.9146 0.735352 12.1382C0.735352 12.3619 0.890192 12.5549 1.10812 12.6046C5.86564 13.6795 6.60209 14.4164 7.6769 19.1734C7.72612 19.3909 7.91967 19.5457 8.14333 19.5457C8.36699 19.5457 8.56054 19.3909 8.60976 19.1734C9.68457 14.4164 10.421 13.6795 15.1785 12.6046C15.3965 12.5549 15.5508 12.3619 15.5508 12.1382C15.5508 11.9146 15.396 11.7215 15.1785 11.6718Z" fill="url(#paint0_linear_53638_7497)" />
@@ -190,7 +190,7 @@ const AIRevolution = () => {
                                                             <stop offset="1" stopColor="#DE8DD6" />
                                                         </linearGradient>
                                                     </defs>
-                                                </svg> AI Powered
+                                                </svg> <span>AI Powered</span>
                                             </div>
                                             <h3 className='heading_H3'>One place for all conversations</h3>
                                             <p className='paragraph3'>Manage every communication channel- all your chats, texts, emails and FAX in one place with the ease of AI that does everything for your business  </p>
@@ -221,7 +221,7 @@ const AIRevolution = () => {
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12 '>
                                         <div className='slidListContent'>
-                                                 <div className='chip'>
+                                            <div className='chip'>
                                                 {/* {allProducts[5].name} */}
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" className='me-1'>
                                                     <path d="M15.1785 11.6718C10.421 10.5975 9.68409 9.86053 8.60976 5.103C8.56054 4.88555 8.36699 4.73071 8.14333 4.73071C7.91967 4.73071 7.72612 4.88555 7.6769 5.103C6.60209 9.86053 5.86564 10.5975 1.10812 11.6718C0.890192 11.7215 0.735352 11.9146 0.735352 12.1382C0.735352 12.3619 0.890192 12.5549 1.10812 12.6046C5.86564 13.6795 6.60209 14.4164 7.6769 19.1734C7.72612 19.3909 7.91967 19.5457 8.14333 19.5457C8.36699 19.5457 8.56054 19.3909 8.60976 19.1734C9.68457 14.4164 10.421 13.6795 15.1785 12.6046C15.3965 12.5549 15.5508 12.3619 15.5508 12.1382C15.5508 11.9146 15.396 11.7215 15.1785 11.6718Z" fill="url(#paint0_linear_53638_7497)" />
@@ -236,7 +236,7 @@ const AIRevolution = () => {
                                                             <stop offset="1" stopColor="#DE8DD6" />
                                                         </linearGradient>
                                                     </defs>
-                                                </svg> AI Powered
+                                                </svg> <span>AI Powered</span>
                                             </div>
                                             <h3 className='heading_H3'>Track calls, leads, and performance </h3>
                                             <p className='paragraph3'>Empower the growth of your business with the help of AngelTracker- that checks leads and tracks performance quickly </p>
@@ -267,7 +267,7 @@ const AIRevolution = () => {
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12 '>
                                         <div className='slidListContent'>
-                                                 <div className='chip'>
+                                            <div className='chip'>
                                                 {/* {allProducts[5].name} */}
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" className='me-1'>
                                                     <path d="M15.1785 11.6718C10.421 10.5975 9.68409 9.86053 8.60976 5.103C8.56054 4.88555 8.36699 4.73071 8.14333 4.73071C7.91967 4.73071 7.72612 4.88555 7.6769 5.103C6.60209 9.86053 5.86564 10.5975 1.10812 11.6718C0.890192 11.7215 0.735352 11.9146 0.735352 12.1382C0.735352 12.3619 0.890192 12.5549 1.10812 12.6046C5.86564 13.6795 6.60209 14.4164 7.6769 19.1734C7.72612 19.3909 7.91967 19.5457 8.14333 19.5457C8.36699 19.5457 8.56054 19.3909 8.60976 19.1734C9.68457 14.4164 10.421 13.6795 15.1785 12.6046C15.3965 12.5549 15.5508 12.3619 15.5508 12.1382C15.5508 11.9146 15.396 11.7215 15.1785 11.6718Z" fill="url(#paint0_linear_53638_7497)" />
@@ -282,7 +282,7 @@ const AIRevolution = () => {
                                                             <stop offset="1" stopColor="#DE8DD6" />
                                                         </linearGradient>
                                                     </defs>
-                                                </svg> AI Powered
+                                                </svg> <span>AI Powered</span>
                                             </div>
                                             <h3 className='heading_H3'>Smarter Meetings and Calls</h3>
                                             <p className='paragraph3'>In meetings and calls, our AI auto-joins and translates and also notes down the summaries at the end for the ease of convenience of your team </p>
@@ -313,7 +313,7 @@ const AIRevolution = () => {
                                 <div className='row wi-100 align-items-center'>
                                     <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-12 '>
                                         <div className='slidListContent'>
-                                                 <div className='chip'>
+                                            <div className='chip'>
                                                 {/* {allProducts[5].name} */}
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" className='me-1'>
                                                     <path d="M15.1785 11.6718C10.421 10.5975 9.68409 9.86053 8.60976 5.103C8.56054 4.88555 8.36699 4.73071 8.14333 4.73071C7.91967 4.73071 7.72612 4.88555 7.6769 5.103C6.60209 9.86053 5.86564 10.5975 1.10812 11.6718C0.890192 11.7215 0.735352 11.9146 0.735352 12.1382C0.735352 12.3619 0.890192 12.5549 1.10812 12.6046C5.86564 13.6795 6.60209 14.4164 7.6769 19.1734C7.72612 19.3909 7.91967 19.5457 8.14333 19.5457C8.36699 19.5457 8.56054 19.3909 8.60976 19.1734C9.68457 14.4164 10.421 13.6795 15.1785 12.6046C15.3965 12.5549 15.5508 12.3619 15.5508 12.1382C15.5508 11.9146 15.396 11.7215 15.1785 11.6718Z" fill="url(#paint0_linear_53638_7497)" />
@@ -328,7 +328,7 @@ const AIRevolution = () => {
                                                             <stop offset="1" stopColor="#DE8DD6" />
                                                         </linearGradient>
                                                     </defs>
-                                                </svg> AI Powered
+                                                </svg> <span>AI Powered</span>
                                             </div>
                                             <h3 className='heading_H3'>Smarter Outbound Calls </h3>
                                             <p className='paragraph3'>Let AI handle outbound calls with better timing and logic- AngelDialer takes care of your customers like the way you would want them too, in seconds </p>
