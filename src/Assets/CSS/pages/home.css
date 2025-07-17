@@ -531,20 +531,22 @@ element.style {
 .fetureBox_Wrap {
     position: relative;
     padding-bottom: 160px;
+    overflow: hidden;
+
 }
 
 .fetureBox_Wrap::before {
     content: '';
     position: absolute;
-    bottom: -0;
-    left: -0;
-    width: 443.451px;
-    height: 333px;
+    bottom: 15%;
+    left: 35%;
+    width: 337px;
+    height: 291px;
     /* transform: rotate(-169.459deg); */
     flex-shrink: 0;
     /* border-radius: 443.451px; */
-    opacity: 0.4;
-    background: var(--clr-secondary-blue);
+    opacity: 0.23;
+    background: #3464FD;
     filter: blur(140px);
     z-index: -1;
 }
@@ -561,24 +563,34 @@ element.style {
     padding: 10px;
     padding-left: 0;
     width: fit-content;
+    width: 100%;
 }
-
-/* .fetureBoxContainer{
-    position: relative;
+/* 
+.fetureBox::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -3px;
+    border-radius: inherit;
+    background: linear-gradient(to bottom, #6269FE, #E4A0E3);
 } */
 
 .feturewrap::before {
     content: '';
     position: absolute;
-    bottom: 105px;
-    left: 94px;
+    bottom: 0;
+    left: 50%;
     width: 443.451px;
     height: 333px;
     /* transform: rotate(-169.459deg); */
     flex-shrink: 0;
     /* border-radius: 443.451px; */
-    opacity: 0.3;
-    background: var(--clr-secondary-blue);
+    /* opacity: 0.3; */
+    background: radial-gradient(circle, rgb(138 115 239 / 32%) 47%, rgb(255 156 233 / 44%) 100%, rgb(52 100 253 / 36%) 20%);
     filter: blur(204px);
     z-index: -1;
 }
@@ -586,16 +598,19 @@ element.style {
 .feturewrap::after {
     content: '';
     position: absolute;
-    top: -124px;
-    right: 30px;
-    width: 393.451px;
-    height: 344.081px;
+    top: 23%;
+    right: 35px;
+    width: 700px;
+    height: 700px;
     flex-shrink: 0;
-    opacity: 0.4;
-    background: linear-gradient(46deg, rgba(170, 173, 250, 1) 27%, rgba(86, 139, 255, 1) 100%);
-    ;
-    filter: blur(148px);
+    /* opacity: 0.4; */
+    background: linear-gradient(179deg, rgb(173 120 253 / 10%) 25%, rgb(48 92 253 / 32%) 100%, rgb(242 150 236 / 20%) 30%);
+    /* background: radial-gradient(circle, rgb(48 92 253 / 30%) 0%, rgb(173 120 253 / 29%) 90%, rgb(242 150 236 / 80%) 100%); */
+    /* background: url(images/features/top_left.png) no-repeat bottom left; */
+    filter: blur(100px);
     z-index: -1;
+    border-radius: 100%;
+    transform: rotate(-148.683deg);
 }
 
 
@@ -642,8 +657,8 @@ element.style {
 }
 
 .listingName:nth-child(1) {
-    flex: 1 35%;
-    max-width: 330px;
+    /* flex: 1 35%; */
+    max-width: 360px;
 }
 
 .listingName:nth-child(1) .feature_listing p {
@@ -737,10 +752,12 @@ element.style {
     max-width: 180px;
     background: #fff;
     text-align: center;
+    max-width: 330px;
 }
 
 .listingName:not(:nth-child(1), :nth-child(2)) .heading4 {
     width: 165px;
+    margin: auto;
 }
 
 .listingName:not(:nth-child(1), :nth-child(2)) .feature_listing {
@@ -1301,7 +1318,7 @@ img.flip3 {
 }
 
 .fetureBoxContainer {
-    max-width: 1280px;
+    max-width: 1296px;
     overflow: auto;
     padding: 20px;
 }

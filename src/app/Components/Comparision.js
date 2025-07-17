@@ -41,11 +41,13 @@ const Comparision = () => {
                                         <li className='feature_listing'><Image src="/images/tick.svg" alt="tick" width={42} height={42} /></li>
                                         <li className='feature_listing'><Image src="/images/tick.svg" alt="tick" width={42} height={42} /></li>
                                         <li className='feature_listing border-bottom-0'><Image src="/images/tick.svg" alt="tick" width={42} height={42} /></li>
-                                        <button className='primaryBtn w-100'>Get Started Now
-                                            <span className='arrow'>
-                                                <i className="fa-solid fa-arrow-right"></i>
-                                            </span>
-                                        </button>
+                                        <li className=' px-2'>
+                                            <button className='primaryBtn w-100'>Get Started Now
+                                                <span className='arrow'>
+                                                    <i className="fa-solid fa-arrow-right"></i>
+                                                </span>
+                                            </button>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div className='listingName'>
