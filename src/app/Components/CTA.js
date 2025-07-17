@@ -17,29 +17,35 @@ function CTA() {
     return (
         <>
             <section className='cta desktopCta'>
+                <div className='circleBg'>
+                    {/* <div className='apbx-logo' /> */}
+                    <Image alt="logo" src={'/images/cta/circleBg.svg'} width={767} height={460} />
+                </div>
                 <div className='postionWrap'>
-                    <div className='circleBg'>
-                        {/* <div className='apbx-logo' /> */}
-                        <Image alt="logo" src={'/images/cta/circleBg.svg'} width={767} height={460} />
-                    </div>
                     <div className='chipWrapper'>
                         <div className='chip'>
-                            {allProducts[0].name}
+                            {/* {allProducts[0].name} */}
+                            Smart Cloud PBX
                         </div>
                         <div className='chip'>
-                            {allProducts[1].name}
+                            {/* {allProducts[1].name} */}
+                            Agentic AI Agents
                         </div>
                         <div className='chip'>
-                            {allProducts[2].name}
+                            {/* {allProducts[2].name} */}
+                            OmniChannel Messaging Hub
                         </div>
                         <div className='chip'>
-                            {allProducts[3].name}
+                            {/* {allProducts[3].name} */}
+                            Smart AI tracker
                         </div>
                         <div className='chip'>
-                            {allProducts[4].name}
+                            {/* {allProducts[4].name} */}
+                            AI Video Meet
                         </div>
                         <div className='chip'>
-                            {allProducts[5].name}
+                            {/* {allProducts[5].name} */}
+                            AI-powered Auto Dialer
                         </div>
                     </div>
                     <div className='logoWrapper'>
@@ -93,7 +99,6 @@ function CTA() {
                 <Image alt="background" className='bg' src={'/images/cta/Background_grad.svg'} width={1440} height={500} priority />
             </section>
 
-
             <section className='cta mobileCta'>
                 <div className='container h-100'>
                     <div className='row h-100 align-items-center'>
@@ -102,7 +107,7 @@ function CTA() {
                                 <h3>Ready to power your <br /> business <span className='textGradient'>calls with AI?</span></h3>
                             </div>
                             <div className='d-flex btnGroup'>
-                                <button className="primaryBtn me-3">Get a Demo
+                                <button className="primaryBtn">Get a Demo
                                     <span className='arrow'>
                                         <i className="fa-solid fa-arrow-right"></i>
                                     </span>
@@ -113,12 +118,12 @@ function CTA() {
                         <div className='col-xl-12'>
                             <div className='d-flex justify-content-center flex-column align-items-center'>
                                 <div className='logoWrapper'>
-                                    {/* <div className='apbx-logo' /> */}
                                     <Image alt="logo" src={'/images/cta/Shape.png'} width={370} height={400} />
                                 </div>
                                 <Swiper
                                     spaceBetween={20}
-                                    slidesPerView={3}
+                                    // slidesPerView={3}
+                                    slidesPerView={"auto"}
                                     // slidesToScroll={1}
                                     speed={3000}
                                     loop={true}
@@ -186,6 +191,7 @@ function CTA() {
                         </div>
                     </div>
                 </div>
+
                 <Image alt="background" className='bg' src={'/images/cta/cta-mobile-bg.svg'} width={412} height={636} priority />
             </section>
 

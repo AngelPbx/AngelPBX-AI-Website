@@ -1,23 +1,23 @@
 export const allProducts = [
     {
         id: 0,
-        name: 'AI Powered SmartPBX',
+        name: 'AngelPBX',
     },
     {
         id: 1,
-        name: 'Humanoid AI Agent',
+        name: 'AngelECHO',
     },
     {
         id: 2,
-        name: 'OmniChannel Messaging',
+        name: 'AngelGo',
     },
     {
         id: 3,
-        name: 'AngelTracker AI',
+        name: 'AngelTracker',
     },
     {
         id: 4,
-        name: 'AI-Powered Video Calls',
+        name: 'AngelMeet',
     },
     {
         id: 5,

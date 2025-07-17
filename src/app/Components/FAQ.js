@@ -45,7 +45,7 @@ function FAQ() {
 
                                 <div id="collapse3" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
-                                        The Unified Inbox brings all your customer messages—calls, chats, emails, and more—into one place. Every message reaches the right person fast, so nothing gets missed. At the same time, your team can chat internally, share notes, and get instant help from other departments—without switching tools. With AI assisting across channels, replies are faster, smarter, and everyone stays connected.
+                                        The Unified Inbox brings all your customer messages, calls, chats, emails, and more into one place. Every message reaches the right person fast, so nothing gets missed. At the same time, your team can chat internally, share notes, and get instant help from other departments without switching tools. With AI assisting across channels, replies are faster, smarter, and everyone stays connected.
                                     </div>
                                 </div>
                             </div>

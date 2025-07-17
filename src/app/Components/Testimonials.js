@@ -67,7 +67,7 @@ const Testimonials = () => {
                         //     },
                         // }}
 
-          
+
                         slidesPerView={"auto"}
                         spaceBetween={0}
                         loop={true}
@@ -94,11 +94,11 @@ const Testimonials = () => {
                                         <div className=' d-flex gap-3 flex-column'>
                                             {/* <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' /> */}
 
-                                            <h5 className='mt-4'>"Entirety of the business complexity is here under one place." </h5>
-                                            <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time. </p>
+                                            <h5 className='mt-4'>"AI Agent has reduced my manual dependency”</h5>
+                                            <p className='para5'>AngelECHO takes care of repetitive customer questions, books meetings, and even routes calls. We’ve seen a huge drop in response time and our agents can focus on more complex tasks. It just works</p>
                                             <div className='client_info mt-3'>
-                                                <h6>— Lena Moore</h6>
-                                                <p> Operations Manager, Noventa Group</p>
+                                                <h6>— Carlos Mendes</h6>
+                                                <p> Support Lead</p>
                                             </div>
                                         </div>
                                     </div>
@@ -117,11 +117,11 @@ const Testimonials = () => {
                                         <div className=' d-flex gap-3 flex-column'>
                                             {/* <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' /> */}
 
-                                            <h5 className='mt-4'>"Entirety of the business complexity is here under one place." </h5>
-                                            <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time. </p>
+                                            <h5 className='mt-4'>"Entirety of the business complexity is here under one place"</h5>
+                                            <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time</p>
                                             <div className='client_info mt-3'>
                                                 <h6>— Lena Moore</h6>
-                                                <p> Operations Manager, Noventa Group</p>
+                                                <p> Operations Manager</p>
                                             </div>
                                         </div>
                                     </div>
@@ -140,11 +140,11 @@ const Testimonials = () => {
                                         <div className=' d-flex gap-3 flex-column'>
                                             {/* <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' /> */}
 
-                                            <h5 className='mt-4'>"Entirety of the business complexity is here under one place." </h5>
-                                            <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time. </p>
+                                            <h5 className='mt-4'>"The dialer has elevated my business revenue for real"</h5>
+                                            <p className='para5'>AngelPBX’s AI dialer knows when to call, who to prioritize, and skips the dead ends. Our connect rate is up, and agents now talk to actual people, not answering machines. It’s boosted our sales big time</p>
                                             <div className='client_info mt-3'>
-                                                <h6>— Lena Moore</h6>
-                                                <p> Operations Manager, Noventa Group</p>
+                                                <h6>— Rachel Lin</h6>
+                                                <p>Sales Manager</p>
                                             </div>
                                         </div>
                                     </div>

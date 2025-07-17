@@ -74,7 +74,7 @@
 
 .headerItem {
     color: var(--clr-text-secondary-gray) !important;
-    padding-inline: 20px !important;
+    padding: 8px 20px !important;
     font-family: var(--font-Geist);
     font-size: 1rem !important;
     font-style: normal;
@@ -86,7 +86,7 @@
 
 .headerItem:hover {
     border-radius: 6px;
-    background: #F5F6F9;
+    background: #F5F6F9 !important;
 }
 
 .navbar-brand {
