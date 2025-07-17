@@ -45,7 +45,7 @@ function Footer() {
                     <div className='col-xl-4 col-12'>
                         <div className='linksWrapper'>
                             <div className='row'>
-                                <div className='col-xl-5 col-6'>
+                                <div className='col-xl-4 col-6'>
                                     <label>Products</label>
                                     <ul>
                                         <li><a onClick={() => handleLinkClick(0)} className='pointer'>{allProducts[0].name}</a></li>
@@ -56,7 +56,7 @@ function Footer() {
                                         <li><a onClick={() => handleLinkClick(5)} className='pointer'>{allProducts[5].name}</a></li>
                                     </ul>
                                 </div>
-                                <div className='col-xl-3 col-6'>
+                                <div className='col-xl-4 col-6'>
                                     <label>Resources</label>
                                     <ul>
                                         <li><a>Change log</a></li>

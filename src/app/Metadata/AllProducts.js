@@ -5,7 +5,7 @@ export const allProducts = [
     },
     {
         id: 1,
-        name: 'AngelEcho',
+        name: 'AngelECHO',
     },
     {
         id: 2,
