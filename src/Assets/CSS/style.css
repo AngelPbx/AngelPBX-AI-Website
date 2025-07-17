@@ -106,3 +106,12 @@ li {
     padding-top: 80px;
   }
 }
+
+
+.goog-te-gadget .goog-te-combo {
+  margin: 0;
+  /* width: 100%; */
+  /* height: auto; */
+  padding: 3px 31px;
+  cursor: pointer;
+}

@@ -97,7 +97,7 @@ const AIRevolution = () => {
                                                             <stop offset="1" stopColor="#DE8DD6" />
                                                         </linearGradient>
                                                     </defs>
-                                                </svg> <span>AI Powered</span>
+                                                </svg> <span>AI Powered Cloud PBX</span>
                                             </div>
                                             <h3 className='heading_H3'>Run Smarter Phone Systems</h3>
                                             <p className='paragraph3'>Smarter Calls, happier teams - AI handles call routing, learns caller sentiment and powers up your business phone system </p>
@@ -144,10 +144,10 @@ const AIRevolution = () => {
                                                             <stop offset="1" stopColor="#DE8DD6" />
                                                         </linearGradient>
                                                     </defs>
-                                                </svg> <span>AI Powered</span>
+                                                </svg> <span>Agentic AI Agent</span>
                                             </div>
-                                            <h3 className='heading_H3'>Your Human-Like AI Agent — Always On, Always Capable</h3>
-                                            <p className='paragraph3'>Meet AIVA, your intelligent Agentic AI that goes beyond scripts and chatbots. It thinks, understands, responds, and follows through just like a real team member. Ready 24/7, fluent in multiple languages, and built to drive real outcomes.</p>
+                                            <h3 className='heading_H3'>Real-time Agentic AI Agents that Understand You</h3>
+                                            <p className='paragraph3'>AngelECHO, your always-ready Agentic AI agent that's built to talk naturally, sense emotion and handle every customer interaction, task, or follow-up </p>
                                             <ul className='ai_list'>
                                                 <li>Understands caller intent, tone & emotion in real time</li>
                                                 <li>No queues — just instant, intelligent responses</li>
@@ -190,10 +190,10 @@ const AIRevolution = () => {
                                                             <stop offset="1" stopColor="#DE8DD6" />
                                                         </linearGradient>
                                                     </defs>
-                                                </svg> <span>AI Powered</span>
+                                                </svg> <span>AI Powered Omnichannel Messaging</span>
                                             </div>
                                             <h3 className='heading_H3'>One place for all conversations</h3>
-                                            <p className='paragraph3'>Manage every communication channel- all your chats, texts, emails and FAX in one place with the ease of AI that does everything for your business  </p>
+                                            <p className='paragraph3'>AngelGo combines everything from Instant Messaging (IMs) to Internal Chat into one single portal for a much more unified communication system </p>
                                             <ul className='ai_list'>
                                                 <li>Manages SMS, Emails, Fax and more from one portal  </li>
                                                 <li>Enabled AI-auto replies using intent-aware  </li>
@@ -236,10 +236,10 @@ const AIRevolution = () => {
                                                             <stop offset="1" stopColor="#DE8DD6" />
                                                         </linearGradient>
                                                     </defs>
-                                                </svg> <span>AI Powered</span>
+                                                </svg> <span>AI Powered Call Tracker</span>
                                             </div>
                                             <h3 className='heading_H3'>Track calls, leads, and performance </h3>
-                                            <p className='paragraph3'>Empower the growth of your business with the help of AngelTracker- that checks leads and tracks performance quickly </p>
+                                            <p className='paragraph3'>AngelTracker tracks calls and performance, checks lead quality and shows your true ROI, helping you scale smarter and faster </p>
                                             <ul className='ai_list'>
                                                 <li>Track inbound calls from social media, campaigns and others  </li>
                                                 <li>Enabled AI-powered filtering to block spam calls</li>
@@ -282,10 +282,10 @@ const AIRevolution = () => {
                                                             <stop offset="1" stopColor="#DE8DD6" />
                                                         </linearGradient>
                                                     </defs>
-                                                </svg> <span>AI Powered</span>
+                                                </svg> <span>AI Powered Conference Platform</span>
                                             </div>
                                             <h3 className='heading_H3'>Smarter Meetings and Calls</h3>
-                                            <p className='paragraph3'>In meetings and calls, our AI auto-joins and translates and also notes down the summaries at the end for the ease of convenience of your team </p>
+                                            <p className='paragraph3'>AngelMeet makes meetings more productive with auto-join, multilingual support and instant post-call summaries powered by AI </p>
                                             <ul className='ai_list'>
                                                 <li>High quality meetings with no background noise  </li>
                                                 <li>Auto-joins and records with multi-language translation </li>
@@ -328,10 +328,10 @@ const AIRevolution = () => {
                                                             <stop offset="1" stopColor="#DE8DD6" />
                                                         </linearGradient>
                                                     </defs>
-                                                </svg> <span>AI Powered</span>
+                                                </svg> <span>AI Powered Auto Dialer</span>
                                             </div>
                                             <h3 className='heading_H3'>Smarter Outbound Calls </h3>
-                                            <p className='paragraph3'>Let AI handle outbound calls with better timing and logic- AngelDialer takes care of your customers like the way you would want them too, in seconds </p>
+                                            <p className='paragraph3'>Let AngelDialer take over outbound calling with smart logic, perfect timing, and context-rich transfers that drive real conversations</p>
                                             <ul className='ai_list'>
                                                 <li>Only dials when agents are ready to respond</li>
                                                 <li>Shares full context before transfer of the calls </li>

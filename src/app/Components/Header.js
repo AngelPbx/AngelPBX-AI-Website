@@ -1,6 +1,6 @@
 "use client";
 import Link from 'next/link';
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import logo from '@/Assets/images/site-logo.png';
 import { useSwiper } from '../SwiperContext';
@@ -18,6 +18,61 @@ function Header() {
             swiperRef.current.slideToLoop(param);
         }
     }
+
+    useEffect(() => {
+        // Define the callback globally
+        window.googleTranslateElementInit = () => {
+            new window.google.translate.TranslateElement(
+                { pageLanguage: "en" },
+                "google_translate_element"
+            );
+
+            const listenForLanguageChange = () => {
+                const iframe = document.querySelector("iframe.goog-te-menu-frame");
+
+                if (iframe) {
+                    const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+
+                    const observer = new MutationObserver(() => {
+                        const selectedOption = iframeDocument.querySelector(".goog-te-menu2-item-selected a");
+                        if (selectedOption) {
+                            const href = selectedOption.getAttribute("href");
+                            if (href) {
+                                const langCode = href.split("/").pop();
+                                localStorage.setItem("selected_language", langCode);
+                            }
+                        }
+                    });
+
+                    observer.observe(iframeDocument.body, {
+                        childList: true,
+                        subtree: true,
+                    });
+                }
+            };
+
+            setTimeout(listenForLanguageChange, 1000);
+        };
+
+        const addGoogleTranslateScript = () => {
+            if (!document.querySelector("script[src*='translate_a/element.js']")) {
+                const script = document.createElement("script");
+                script.type = "text/javascript";
+                script.src =
+                    "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+                script.async = true;
+                document.body.appendChild(script);
+            }
+        };
+
+        addGoogleTranslateScript();
+
+        // Optional cleanup
+        return () => {
+            const script = document.querySelector("script[src*='translate_a/element.js']");
+            if (script) script.remove();
+        };
+    }, []);
 
 
     return (
@@ -164,9 +219,8 @@ function Header() {
 
                         </ul>
                         <div className='d-flex rightSide_group'>
-                            <li className="nav-item dropdown ">
+                            {/* <li className="nav-item dropdown ">
                                 <Link className="nav-link dropdown-toggle headerItem" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    {/* <i className="fa-light fa-language"></i>   */}
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" className='me-2'>
                                         <g clipPath="url(#clip0_53224_6275)">
                                             <path d="M4.1665 6.66663L9.1665 11.6666M3.33317 11.6666L8.33317 6.66663L9.99984 4.16663M1.6665 4.16663H11.6665M5.83317 1.66663H6.6665M18.3332 18.3333L14.1665 9.99996L9.99984 18.3333M11.6665 15H16.6665" stroke="url(#paint0_linear_53224_6275)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -183,6 +237,22 @@ function Header() {
                                     </svg>
                                     EN
                                 </Link>
+                            </li> */}
+                            <li className="nav-item dropdown ">
+                                <div className="language-selector me-3" style={{ position: "relative", zIndex: 9999 }}>
+                                    <i className="fa-solid fa-language language-icon"></i>
+
+                                    <i
+                                        className="fa-solid fa-chevron-down dropdown-icon"
+                                        style={{ cursor: "pointer", marginLeft: "5px" }}
+                                        title="Change Language"
+                                    ></i>
+
+                                    <div
+                                        id="google_translate_element"
+                                        style={{ position: "absolute", top: "0px", opacity: 0, left: "0" }}
+                                    ></div>
+                                </div>
                             </li>
                             <button className='textBTn headerItem me-3' onClick={() => window.location.href = 'https://service.angelpbx.ai/'}>Login</button>
                             <button className='primaryBtn'>Get a Demo

@@ -20,9 +20,9 @@ const Comparision = () => {
                                         <h4 className='heading4'>Key Features & Capabilities </h4>
                                     </div>
                                     <ul className='ps-0' style={{ paddingTop: '20px' }}>
-                                        <li className='feature_listing'><p>Smart Cloud PBX  <span>Click to call, Smart Call Routing instantly, Visual IVR | Semantic Search with CDR  </span></p></li>
-                                        <li className='feature_listing'><p>Agentic AI Agent   <span>Conversational AI that functions like human  </span></p></li>
-                                        <li className='feature_listing'><p>OmniChannel Messaging Hub  <span>Unified Inbox with Internal messaging  </span></p></li>
+                                        <li className='feature_listing'><p>Smart Cloud PBX  <span>Click-to-call, intelligent call routing, visual IVR & semantic search using CDR </span></p></li>
+                                        <li className='feature_listing'><p>Agentic AI Agent   <span>Conversational AI that behaves and responds like a human, conducts follow-ups  </span></p></li>
+                                        <li className='feature_listing'><p>OmniChannel Messaging Hub  <span>Unified AI-Powered Messaging Hub with built-in internal messaging for faster collaboration   </span></p></li>
                                         <li className='feature_listing'><p> Smart AI tracker   <span>Call tracking from multi-sources with real time ROI </span></p></li>
                                         <li className='feature_listing'><p>AI Video Meet   <span>Auto joins and records with live transcript </span></p></li>
                                         <li className='feature_listing'><p> AI-powered Auto Dialer  <span>Emotion & intent detection, smart scheduling of calls </span></p></li>
