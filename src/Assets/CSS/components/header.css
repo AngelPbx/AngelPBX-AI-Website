@@ -58,6 +58,7 @@
     position: fixed;
     width: 100%;
     z-index: 1111;
+    top: 0;
     left: 0;
     right: 0;
     /* margin-bottom: 108px; */
@@ -153,6 +154,7 @@
     /* fill: #305cfd; */
     color: #305cfd;
 }
+
 .menuWrapper ul li label,
 .menuWrapper ul li svg path {
     /* fill: #305cfd; */

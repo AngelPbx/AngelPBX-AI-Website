@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import { useSwiper } from '../SwiperContext';
 import { allProducts } from '../Metadata/AllProducts';
+import Link from 'next/link';
 
 function Footer() {
     const { swiperRef } = useSwiper();
@@ -63,6 +64,7 @@ function Footer() {
                                         <li><a>API docs</a></li>
                                         <li><a>Blog</a></li>
                                         <li><a>Status page</a></li>
+                                        <li><Link href="#faq">FAQ</Link></li>
                                     </ul>
                                 </div>
                                 <div className='col-xl-4 col-6'>
