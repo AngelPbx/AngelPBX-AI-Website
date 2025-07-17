@@ -25,8 +25,7 @@ const Comparision = () => {
                                         <li className='feature_listing'><p>OmniChannel Messaging Hub  <span>Unified AI-Powered Messaging Hub with built-in internal messaging for faster collaboration   </span></p></li>
                                         <li className='feature_listing'><p> Smart AI tracker   <span>Call tracking from multi-sources with real time ROI </span></p></li>
                                         <li className='feature_listing'><p>AI Video Meet   <span>Auto joins and records with live transcript </span></p></li>
-                                        <li className='feature_listing'><p> AI-powered Auto Dialer  <span>Emotion & intent detection, smart scheduling of calls </span></p></li>
-
+                                        <li className='feature_listing'><p> AI-Powered Auto Dialer  <span>Instantly dials multiple leads at the same time, conducts smart scheduling of calls  </span></p></li>
                                     </ul>
                                 </div>
                                 <div className='listingName'>
