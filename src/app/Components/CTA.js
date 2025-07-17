@@ -29,7 +29,7 @@ function CTA() {
                         </div>
                         <div className='chip'>
                             {/* {allProducts[1].name} */}
-                            Agentic AI Agents
+                            Agentic AI Agent
                         </div>
                         <div className='chip'>
                             {/* {allProducts[2].name} */}

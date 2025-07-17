@@ -108,7 +108,7 @@ const AIRevolution = () => {
                                                 <li>Blocks spam with smart filters</li>
                                                 <li>Reach anyone in seconds with smart, one-click calling</li>
                                             </ul>
-                                            <button className='primaryBtn'>Get a Demo
+                                            <button className='primaryBtn'>Explore
                                                 <span className='arrow'>
                                                     <i className="fa-solid fa-arrow-right"></i>
                                                 </span>
@@ -154,7 +154,7 @@ const AIRevolution = () => {
                                                 <li>Works seamlessly across time zones, channels & touch-points</li>
                                                 <li>Communicates naturally — in multiple languages, like a real person</li>
                                             </ul>
-                                            <button className='primaryBtn'>Get a Demo
+                                            <button className='primaryBtn'>Explore
                                                 <span className='arrow'>
                                                     <i className="fa-solid fa-arrow-right"></i>
                                                 </span>
@@ -200,7 +200,7 @@ const AIRevolution = () => {
                                                 <li>AI-powered Internal Messaging and effective collaboration  </li>
                                                 <li>File and Media Sharing in quick seconds  </li>
                                             </ul>
-                                            <button className='primaryBtn'>Get a Demo
+                                            <button className='primaryBtn'>Explore
                                                 <span className='arrow'>
                                                     <i className="fa-solid fa-arrow-right"></i>
                                                 </span>
@@ -239,14 +239,14 @@ const AIRevolution = () => {
                                                 </svg> <span>AI Powered Call Tracker</span>
                                             </div>
                                             <h3 className='heading_H3'>Track calls, leads, and performance </h3>
-                                            <p className='paragraph3'>AngelTracker tracks calls and performance, checks lead quality and shows your true ROI, helping you scale smarter and faster </p>
+                                            <p className='paragraph3'>AngelTracker monitors calls and performance, lead quality and shows your true ROI, helping you scale smarter and faster </p>
                                             <ul className='ai_list'>
                                                 <li>Track inbound calls from social media, campaigns and others  </li>
                                                 <li>Enabled AI-powered filtering to block spam calls</li>
                                                 <li>AI measures your campaign returns (ROI)  </li>
                                                 <li>AI checks call scores and detects campaign leads </li>
                                             </ul>
-                                            <button className='primaryBtn'>Get a Demo
+                                            <button className='primaryBtn'>Explore
                                                 <span className='arrow'>
                                                     <i className="fa-solid fa-arrow-right"></i>
                                                 </span>
@@ -292,7 +292,7 @@ const AIRevolution = () => {
                                                 <li>Sends recap instantly via Emails </li>
                                                 <li>Smart scheduling as per time zones </li>
                                             </ul>
-                                            <button className='primaryBtn'>Get a Demo
+                                            <button className='primaryBtn'>Explore
                                                 <span className='arrow'>
                                                     <i className="fa-solid fa-arrow-right"></i>
                                                 </span>
@@ -338,7 +338,7 @@ const AIRevolution = () => {
                                                 <li>AI-powered Auto-Dialer with precision sorting</li>
                                                 <li>Easy scheduling for better follow-ups </li>
                                             </ul>
-                                            <button className='primaryBtn'>Get a Demo
+                                            <button className='primaryBtn'>Explore
                                                 <span className='arrow'>
                                                     <i className="fa-solid fa-arrow-right"></i>
                                                 </span>

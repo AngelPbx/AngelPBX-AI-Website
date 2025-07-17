@@ -84,18 +84,18 @@ const Testimonials = () => {
                     >
                         <SwiperSlide>
                             <div className='sliderContent reviewSlid pink '>
-                                <div className='row wi-100 align-items-center'>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
+                                <div className='row wi-100 align-items-center justify-content-between'>
+                                    <div className='col-xxl-4 col-xl-4 col-lg-4 col-sm-4 col-12'>
                                         <div className='logoBox'>
                                             <Image src="/images/testimonials/Airlyfare.png" alt="logo" width={170} height={80} className='clientImg' />
                                         </div>
                                     </div>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
+                                    <div className='col-xxl-8 col-xl-8 col-lg-8 col-sm-8 col-12 ps-5'>
                                         <div className=' d-flex gap-3 flex-column'>
                                             {/* <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' /> */}
 
                                             <h5 className='mt-4'>"AI Agent has reduced my manual dependency”</h5>
-                                            <p className='para5'>AngelECHO takes care of repetitive customer questions, books meetings, and even routes calls. We’ve seen a huge drop in response time and our agents can focus on more complex tasks. It just works</p>
+                                            <p className='para5'>AngelECHO takes care of repetitive customer questions, books meetings, and even routes calls. We’ve seen a huge drop in response time and our agents can focus on more complex tasks. It just works smoothly</p>
                                             <div className='client_info mt-3'>
                                                 <h6>— Carlos Mendes</h6>
                                                 <p> Support Lead</p>
@@ -107,13 +107,13 @@ const Testimonials = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='sliderContent reviewSlid gary'>
-                                <div className='row wi-100 align-items-center'>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 '>
+                                <div className='row wi-100 align-items-center justify-content-between'>
+                                    <div className='col-xxl-4 col-xl-4 col-lg-4 col-sm-4 col-12 '>
                                         <div className='logoBox'>
                                             <Image src="/images/testimonials/Cruise_infinity.png" alt="logo" width={170} height={80} className='clientImg' />
                                         </div>
                                     </div>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
+                                    <div className='col-xxl-8 col-xl-8 col-lg-8 col-sm-8 col-12 ps-5'>
                                         <div className=' d-flex gap-3 flex-column'>
                                             {/* <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' /> */}
 
@@ -130,13 +130,13 @@ const Testimonials = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='sliderContent reviewSlid blue'>
-                                <div className='row wi-100 align-items-center'>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 '>
+                                <div className='row wi-100 align-items-center justify-content-between'>
+                                    <div className='col-xxl-4 col-xl-4 col-lg-4 col-sm-4 col-12'>
                                         <div className='logoBox'>
                                             <Image src="/images/testimonials/Fairsfare.png" alt="logo" width={170} height={80} className='clientImg' />
                                         </div>
                                     </div>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
+                                    <div className='col-xxl-8 col-xl-8 col-lg-8 col-sm-8 col-12 ps-5'>
                                         <div className=' d-flex gap-3 flex-column'>
                                             {/* <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' /> */}
 
@@ -153,21 +153,21 @@ const Testimonials = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='sliderContent reviewSlid gary'>
-                                <div className='row wi-100 align-items-center'>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 '>
+                                <div className='row wi-100 align-items-center justify-content-between'>
+                                    <div className='col-xxl-4 col-xl-4 col-lg-4 col-sm-4 col-12'>
                                         <div className='logoBox'>
                                             <Image src="/images/testimonials/Farefortravel.png" alt="logo" width={170} height={80} className='clientImg' />
                                         </div>
                                     </div>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
+                                    <div className='col-xxl-8 col-xl-8 col-lg-8 col-sm-8 col-12 ps-5'>
                                         <div className=' d-flex gap-3 flex-column'>
                                             {/* <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' /> */}
 
                                             <h5 className='mt-4'>"Entirety of the business complexity is here under one place." </h5>
-                                            <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time. </p>
+                                            <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time </p>
                                             <div className='client_info mt-3'>
                                                 <h6>— Lena Moore</h6>
-                                                <p> Operations Manager, Noventa Group</p>
+                                                <p> Operations Manager</p>
                                             </div>
                                         </div>
                                     </div>
@@ -176,21 +176,21 @@ const Testimonials = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='sliderContent reviewSlid pink'>
-                                <div className='row wi-100 align-items-center'>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 '>
+                                <div className='row wi-100 align-items-center justify-content-between'>
+                                    <div className='col-xxl-4 col-xl-4 col-lg-4 col-sm-4 col-12'>
                                         <div className='logoBox'>
                                             <Image src="/images/testimonials/Gogetatrip.png" alt="logo" width={170} height={80} className='clientImg' />
                                         </div>
                                     </div>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
+                                    <div className='col-xxl-8 col-xl-8 col-lg-8 col-sm-8 col-12 ps-5'>
                                         <div className=' d-flex gap-3 flex-column'>
                                             {/* <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' /> */}
 
                                             <h5 className='mt-4'>"Entirety of the business complexity is here under one place." </h5>
-                                            <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time. </p>
+                                            <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time </p>
                                             <div className='client_info mt-3'>
                                                 <h6>— Lena Moore</h6>
-                                                <p> Operations Manager, Noventa Group</p>
+                                                <p> Operations Manager</p>
                                             </div>
                                         </div>
                                     </div>
@@ -199,21 +199,21 @@ const Testimonials = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='sliderContent reviewSlid pink'>
-                                <div className='row wi-100 align-items-center'>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 '>
+                                <div className='row wi-100 align-items-center justify-content-between'>
+                                    <div className='col-xxl-4 col-xl-4 col-lg-4 col-sm-4 col-12'>
                                         <div className='logoBox'>
                                             <Image src="/images/testimonials/infinity_travels.png" alt="logo" width={170} height={80} className='clientImg' />
                                         </div>
                                     </div>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
+                                    <div className='col-xxl-8 col-xl-8 col-lg-8 col-sm-8 col-12 ps-5'>
                                         <div className=' d-flex gap-3 flex-column'>
                                             {/* <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' /> */}
 
                                             <h5 className='mt-4'>"Entirety of the business complexity is here under one place." </h5>
-                                            <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time. </p>
+                                            <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time </p>
                                             <div className='client_info mt-3'>
                                                 <h6>— Lena Moore</h6>
-                                                <p> Operations Manager, Noventa Group</p>
+                                                <p> Operations Manager</p>
                                             </div>
                                         </div>
                                     </div>
@@ -222,21 +222,21 @@ const Testimonials = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='sliderContent reviewSlid pink'>
-                                <div className='row wi-100 align-items-center'>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 '>
+                                <div className='row wi-100 align-items-center justify-content-between'>
+                                    <div className='col-xxl-4 col-xl-4 col-lg-4 col-sm-4 col-12'>
                                         <div className='logoBox'>
                                             <Image src="/images/testimonials/Justassist.png" alt="logo" width={170} height={80} className='clientImg' />
                                         </div>
                                     </div>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
+                                    <div className='col-xxl-8 col-xl-8 col-lg-8 col-sm-8 col-12 ps-5'>
                                         <div className=' d-flex gap-3 flex-column'>
                                             {/* <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' /> */}
 
                                             <h5 className='mt-4'>"Entirety of the business complexity is here under one place." </h5>
-                                            <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time. </p>
+                                            <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time </p>
                                             <div className='client_info mt-3'>
                                                 <h6>— Lena Moore</h6>
-                                                <p> Operations Manager, Noventa Group</p>
+                                                <p> Operations Manager</p>
                                             </div>
                                         </div>
                                     </div>
@@ -245,21 +245,21 @@ const Testimonials = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='sliderContent reviewSlid pink'>
-                                <div className='row wi-100 align-items-center'>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 '>
+                                <div className='row wi-100 align-items-center justify-content-between'>
+                                    <div className='col-xxl-4 col-xl-4 col-lg-4 col-sm-4 col-12'>
                                         <div className='logoBox'>
                                             <Image src="/images/testimonials/Mydreammemory.png" alt="logo" width={170} height={80} className='clientImg' />
                                         </div>
                                     </div>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
+                                    <div className='col-xxl-8 col-xl-8 col-lg-8 col-sm-8 col-12 ps-5'>
                                         <div className=' d-flex gap-3 flex-column'>
                                             {/* <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' /> */}
 
                                             <h5 className='mt-4'>"Entirety of the business complexity is here under one place." </h5>
-                                            <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time. </p>
+                                            <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time </p>
                                             <div className='client_info mt-3'>
                                                 <h6>— Lena Moore</h6>
-                                                <p> Operations Manager, Noventa Group</p>
+                                                <p> Operations Manager</p>
                                             </div>
                                         </div>
                                     </div>
@@ -268,18 +268,18 @@ const Testimonials = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='sliderContent reviewSlid pink'>
-                                <div className='row wi-100 align-items-center'>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 '>
+                                <div className='row wi-100 align-items-center justify-content-between'>
+                                    <div className='col-xxl-4 col-xl-4 col-lg-4 col-sm-4 col-12 '>
                                         <div className='logoBox'>
                                             <Image src="/images/testimonials/Pnrdecode.png" alt="logo" width={170} height={80} className='clientImg' />
                                         </div>
                                     </div>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
+                                    <div className='col-xxl-8 col-xl-8 col-lg-8 col-sm-8 col-12 ps-5'>
                                         <div className=' d-flex gap-3 flex-column'>
                                             {/* <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' /> */}
 
                                             <h5 className='mt-4'>"Entirety of the business complexity is here under one place." </h5>
-                                            <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time. </p>
+                                            <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time </p>
                                             <div className='client_info mt-3'>
                                                 <h6>— Lena Moore</h6>
                                                 <p> Operations Manager, Noventa Group</p>
@@ -291,21 +291,21 @@ const Testimonials = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='sliderContent reviewSlid pink'>
-                                <div className='row wi-100 align-items-center'>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12 '>
+                                <div className='row wi-100 align-items-center justify-content-between'>
+                                    <div className='col-xxl-4 col-xl-4 col-lg-4 col-sm-4 col-12'>
                                         <div className='logoBox'>
                                             <Image src="/images/testimonials/Webvio.png" alt="logo" width={170} height={80} className='clientImg' />
                                         </div>
                                     </div>
-                                    <div className='col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-12'>
+                                    <div className='col-xxl-8 col-xl-8 col-lg-8 col-sm-8 col-12 ps-5'>
                                         <div className=' d-flex gap-3 flex-column'>
                                             {/* <Image src="/images/noventa.png" alt="logo" width={215} height={32} className='copany_logo' /> */}
 
                                             <h5 className='mt-4'>"Entirety of the business complexity is here under one place." </h5>
-                                            <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time. </p>
+                                            <p className='para5'>AngelPBX.ai helped us bring together calls, WhatsApp, and emails into one easy dashboard. No more switching tabs or missing messages. The setup was fast, and our team adapted in no time </p>
                                             <div className='client_info mt-3'>
                                                 <h6>— Lena Moore</h6>
-                                                <p> Operations Manager, Noventa Group</p>
+                                                <p> Operations Manager</p>
                                             </div>
                                         </div>
                                     </div>
