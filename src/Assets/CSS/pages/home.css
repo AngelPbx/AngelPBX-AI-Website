@@ -469,7 +469,7 @@ element.style {
     gap: 2px;
     height: 20%;
     box-sizing: border-box;
-    max-width: 1167px;
+    max-width: max-content;
     width: 100% !important;
     overflow: auto;
 }
