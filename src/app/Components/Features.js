@@ -103,7 +103,7 @@ function Features() {
                                 <FeatureImageComponent light1='light_1' light2='light_2' />
                             </div>
                             <div className='content align-content-start'>
-                                <h5>Smart AI-Finder for Call Conversations</h5>
+                                <h5>Smart In-Call AI searcher</h5>
                                 <p>You don’t have to now type the exact words that you are trying to find, here AI will focus more on the context and try to bring forward all the relevant searches from the recent call timeline in few seconds</p>
                                 <a>Learn More <i className='fa-solid fa-arrow-right' /></a>
                             </div>

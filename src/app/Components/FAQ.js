@@ -51,7 +51,7 @@ function FAQ() {
                             </div>
                             <div className="accordion-item">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                    How does AngelPBX.AI make video meetings easier for everyone?
+                                    How does AngelMeet make video meetings easier for everyone?
                                 </button>
 
                                 <div id="collapse4" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
