@@ -19,7 +19,7 @@ const Comparision = () => {
                                     <div className='listing_hed'>
                                         <h4 className='heading4'>Key Features & Capabilities </h4>
                                     </div>
-                                    <ul className='ps-0' style={{ paddingTop: '29px' }}>
+                                    <ul className='ps-0' style={{ paddingTop: '20px' }}>
                                         <li className='feature_listing'><p>Smart Cloud PBX  <span>Click to call, Smart Call Routing instantly, Visual IVR | Semantic Search with CDR  </span></p></li>
                                         <li className='feature_listing'><p>Agentic AI Agents   <span>Conversational AI that functions like human  </span></p></li>
                                         <li className='feature_listing'><p>OmniChannel Messaging Hub  <span>Unified Inbox with Internal messaging  </span></p></li>

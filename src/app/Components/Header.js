@@ -164,7 +164,7 @@ function Header() {
 
                         </ul>
                         <div className='d-flex rightSide_group'>
-                            <li className="nav-item dropdown">
+                            <li className="nav-item dropdown ">
                                 <Link className="nav-link dropdown-toggle headerItem" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     {/* <i className="fa-light fa-language"></i>   */}
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" className='me-2'>
@@ -184,7 +184,7 @@ function Header() {
                                     EN
                                 </Link>
                             </li>
-                            <button className='textBTn me-3' onClick={() => window.location.href = 'https://service.angelpbx.ai/'}>Login</button>
+                            <button className='textBTn headerItem me-3' onClick={() => window.location.href = 'https://service.angelpbx.ai/'}>Login</button>
                             <button className='primaryBtn'>Get a Demo
                                 <span className='arrow'>
                                     <i className="fa-solid fa-arrow-right"></i>

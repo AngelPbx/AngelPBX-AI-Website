@@ -42,12 +42,11 @@
     }
 }
 
-/* @media (max-width: 1399px) {
-    .slidWrap .swiper-slide {
-        width: 75% !important;
-        margin-inline: 20px;
+@media (max-width: 1399px) {
+    .fetureBox {
+        width: fit-content;
     }
-} */
+}
 
 @media (max-width: 1350px) {
 
@@ -229,6 +228,9 @@
     .btnGroup {
         margin-bottom: 70px;
     }
+    .mobileCta .btnGroup{
+        margin-bottom: 0;
+    }
 
     img.card3 {
         top: -26%;
@@ -291,7 +293,7 @@
     }
 
     .postionWrap {
-        gap: 160px;
+        gap: 99px;
     }
 }
 
@@ -482,7 +484,7 @@
         width: fit-content;
     }
 
-    .primaryBtn {
+    .listingName .primaryBtn {
         padding-inline: 4px;
     }
 
@@ -498,10 +500,9 @@
         height: 145px;
     }
 
-    .listingName:nth-child(1) ul {
+    /* .listingName:nth-child(1) ul {
         padding: 0 !important;
-        width: 231px;
-    }
+    } */
 }
 
 @media (max-width: 840px) {
@@ -562,6 +563,8 @@
     .btnGroup {
         margin-bottom: 0;
     }
+
+
 
     /* .slidWrap .swiper-slide {
         width: 60% !important;
@@ -673,7 +676,9 @@
         width: 100%;
         height: 333px;
     }
-
+.features .textWrapper h3 {
+    font-size: 35px;
+}
 
 }
 
@@ -697,11 +702,7 @@
     }
 
     .listingName:nth-child(2) {
-        width: 171px;
-    }
-
-    .listingName:nth-child(1) {
-        flex: 1 1 25%;
+        width: 100px;
     }
 
     .listingName .primaryBtn {
@@ -772,5 +773,17 @@
 
     .listingName:nth-child(1) .listing_hed {
         padding: 29px 15px;
+    }
+
+    .listingName:nth-child(1) ul {
+        padding-top: 0 !important;
+    }
+
+    .listingName:nth-child(1) {
+        max-width: 260px;
+        min-width: 260px;
+    }
+    .listingName:nth-child(1) .feature_listing p {
+        padding: 10px 0 10px 0;
     }
 }

@@ -100,16 +100,14 @@
     content: ''
 }
 
-/* .cta .chipWrapper .chip::after {
+.cta .chipWrapper .chip::after {
     content: "";
     position: absolute;
     top: 50%;
-    right: -150px;
+    right: -27px;
     transform: translateY(-50%);
     width: 15px;
     height: 15px;
-
-
     background-image: url('/images/cta/Circle.svg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -117,30 +115,30 @@
     opacity: 0.5;
     z-index: -1;
 
-} */
+}
 
 .cta .chipWrapper .chip:nth-child(1) {
-    right: -125px;
+    right: -161px;
 }
 
 .cta .chipWrapper .chip:nth-child(2) {
-    right: -110px;
+    right: -105px;
 }
 
 .cta .chipWrapper .chip:nth-child(3) {
-    right: -85px;
+    right: -84px;
 }
 
 .cta .chipWrapper .chip:nth-child(4) {
-    right: -118px;
+    right: -86px;
 }
 
 .cta .chipWrapper .chip:nth-child(5) {
-    right: -112px;
+    right: -109px;
 }
 
 .cta .chipWrapper .chip:nth-child(6) {
-    right: -137px;
+    right: -167px;
 }
 
 .apbx-logo {
@@ -176,17 +174,18 @@
     top: 0;
     display: flex;
     justify-content: space-between;
-    gap: 187px;
+    gap: 160px;
     align-items: center;
     height: 100%;
 }
 
 .circleBg {
-    position: absolute;
-    inset: 0;
-    left: -5px;
+      position: absolute;
+    /* inset: 0; */
+    right: -41px;
     top: 0;
-    width: 100%;
+    /* width: 100%; */
+    height: 100%;
 }
 
 .circleBg img {
@@ -244,3 +243,18 @@
 .cta.mobileCta .chipWrapper .chip::after {
     display: none;
 }
+
+/* .mobileCta .circleBg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.mobileCta .circleBg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
