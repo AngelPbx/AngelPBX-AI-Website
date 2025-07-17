@@ -675,7 +675,7 @@ element.style {
 
 .listingName:nth-child(1) .feature_listing p span {
     display: block;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 20px;
     color: var(--Neutral-platinum-500, #64748B);

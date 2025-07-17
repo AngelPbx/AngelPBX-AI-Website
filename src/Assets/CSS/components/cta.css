@@ -120,27 +120,27 @@
 } */
 
 .cta .chipWrapper .chip:nth-child(1) {
-    right: -146px;
+    right: -125px;
 }
 
 .cta .chipWrapper .chip:nth-child(2) {
-    right: -106px;
+    right: -110px;
 }
 
 .cta .chipWrapper .chip:nth-child(3) {
-    right: -128px;
+    right: -85px;
 }
 
 .cta .chipWrapper .chip:nth-child(4) {
-    right: -77px;
+    right: -118px;
 }
 
 .cta .chipWrapper .chip:nth-child(5) {
-    right: -137px;
+    right: -112px;
 }
 
 .cta .chipWrapper .chip:nth-child(6) {
-    right: -74px;
+    right: -137px;
 }
 
 .apbx-logo {
@@ -184,7 +184,7 @@
 .circleBg {
     position: absolute;
     inset: 0;
-    left: 18px;
+    left: -5px;
     top: 0;
     width: 100%;
 }
