@@ -58,7 +58,7 @@ function Features() {
                             </div>
                             <div className='content align-content-start'>
                                 <h5>Make Every Communication Count — Internal or External </h5>
-                                <p>Stay connected with your team through easy video calls, voice chats, or quick messages—all in one place. No need to switch apps.</p>
+                                <p>Connect with anyone, inside or outside your business through AI-powered calls, chats, and video. From team syncs to customer meetings, all in one unified platform.</p>
                                 <a>Learn More <i className='fa-solid fa-arrow-right' /></a>
                             </div>
                         </article>
@@ -104,7 +104,7 @@ function Features() {
                             </div>
                             <div className='content align-content-start'>
                                 <h5>Context-Led Call Search Made Simple </h5>
-                                <p>You don’t have to now type the exact words that you are trying to find, here AI will focus more on the context and try to bring forward all the relevant searches from the recent call timeline in few seconds</p>
+                                <p>Go beyond keyword search as AI now uses CDRs semantically to understand what you mean and instantly brings up the most relevant parts of your call history.</p>
                                 <a>Learn More <i className='fa-solid fa-arrow-right' /></a>
                             </div>
                         </article>
