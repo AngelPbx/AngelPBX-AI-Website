@@ -333,7 +333,7 @@ const AIRevolution = () => {
                                             <h3 className='heading_H3'>Smarter Outbound Calls </h3>
                                             <p className='paragraph3'>Let AngelDialer take over outbound calling with smart logic, perfect timing, and context-rich transfers that drive real conversations</p>
                                             <ul className='ai_list'>
-                                                <li>Only dials when agents are ready to respond</li>
+                                                <li>Instantly dials when agents are ready to respond</li>
                                                 <li>Shares full context before transfer of the calls </li>
                                                 <li>AI-powered Auto-Dialer with precision sorting</li>
                                                 <li>Easy scheduling for better follow-ups </li>
