@@ -56,7 +56,7 @@ function FAQ() {
 
                                 <div id="collapse4" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
-                                        AngelPBX.AI makes meetings smooth and easier than before. You get clear voice and video, real-time translation so everyone can speak in their own language, and an Auto-Join Bot that joins, records, and shares a quick summary if you can’t attend. While you focus on talking, AI handles the rest so meetings stay on track and everyone stays connected.
+                                        AngelMeet makes meetings smooth and easier than before. You get clear voice and video, real-time translation so everyone can speak in their own language, and an Auto-Join Bot that joins, records, and shares a quick summary if you can’t attend. While you focus on talking, AI handles the rest so meetings stay on track and everyone stays connected.
                                     </div>
                                 </div>
                             </div>
