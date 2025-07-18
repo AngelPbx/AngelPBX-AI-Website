@@ -215,7 +215,7 @@ function Header() {
                             <li className="nav-item">
                                 <Link className="nav-link headerItem" href="#faq">FAQ</Link>
                             </li>
-
+                                
                         </ul>
                         <div className='d-flex rightSide_group'>
                             {/* <li className="nav-item dropdown ">
@@ -237,8 +237,8 @@ function Header() {
                                     EN
                                 </Link>
                             </li> */}
-                            <li className="nav-item dropdown">
-                                <div className="nav-link language-selector" style={{ position: "relative", zIndex: 1, padding: '10px' }}>
+                            <li className="nav-item dropdown ">
+                                <div className="nav-link language-selector headerItem" style={{ position: "relative", zIndex: 1, padding: '10px' }}>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" className='me-2'>
                                         <g clipPath="url(#clip0_53224_6275)">
                                             <path d="M4.1665 6.66663L9.1665 11.6666M3.33317 11.6666L8.33317 6.66663L9.99984 4.16663M1.6665 4.16663H11.6665M5.83317 1.66663H6.6665M18.3332 18.3333L14.1665 9.99996L9.99984 18.3333M11.6665 15H16.6665" stroke="url(#paint0_linear_53224_6275)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

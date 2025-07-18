@@ -57,8 +57,8 @@ function Features() {
                                 <FeatureImageComponent light1='light_1_c' light2='light_2_c' />
                             </div>
                             <div className='content align-content-start'>
-                                <h5>Internal Communication –<br /> Video, Audio & Text</h5>
-                                <p>Stay connected with your team through easy video calls, voice chats, or quick messages—all in one place. No need to switch apps.</p>
+                                <h5>Make Every Communication Count — Internal or External </h5>
+                                <p>Connect with anyone, inside or outside your business through AI-powered calls, chats, and video. From team syncs to customer meetings, all in one unified platform.</p>
                                 <a>Learn More <i className='fa-solid fa-arrow-right' /></a>
                             </div>
                         </article>
@@ -103,8 +103,8 @@ function Features() {
                                 <FeatureImageComponent light1='light_1' light2='light_2' />
                             </div>
                             <div className='content align-content-start'>
-                                <h5>Smart In-Call AI searcher</h5>
-                                <p>You don’t have to now type the exact words that you are trying to find, here AI will focus more on the context and try to bring forward all the relevant searches from the recent call timeline in few seconds</p>
+                                <h5>Context-Led Call Search Made Simple </h5>
+                                <p>Go beyond keyword search as AI now uses CDRs semantically to understand what you mean and instantly brings up the most relevant parts of your call history.</p>
                                 <a>Learn More <i className='fa-solid fa-arrow-right' /></a>
                             </div>
                         </article>
