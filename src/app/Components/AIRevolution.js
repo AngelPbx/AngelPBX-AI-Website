@@ -106,7 +106,7 @@ const AIRevolution = () => {
                                                 <li>Smart Call Content Search enabled</li>
                                                 <li>Possession of Visual IVR Builder</li>
                                                 <li>Blocks spam with smart filters</li>
-                                                <li>Reach anyone in seconds with smart, one-click calling</li>
+                                                <li>Semantic search powered by AI and CDRs</li>
                                             </ul>
                                             <button className='primaryBtn'>Explore
                                                 <span className='arrow'>
