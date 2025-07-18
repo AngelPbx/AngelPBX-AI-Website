@@ -25,7 +25,7 @@ function CTA() {
                     <div className='chipWrapper'>
                         <div className='chip'>
                             {/* {allProducts[0].name} */}
-                            Smart Cloud PBX
+                            Cloud PBX System
                         </div>
                         <div className='chip'>
                             {/* {allProducts[1].name} */}
