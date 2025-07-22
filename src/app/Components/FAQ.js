@@ -28,17 +28,6 @@ function FAQ() {
                                 </div>
                             </div>
                             <div className="accordion-item">
-                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                    How does your Visual IVR make communication easier?
-                                </button>
-
-                                <div id="collapse2" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div className="accordion-body">
-                                        Our Visual IVR lets you build call flows just by dragging and placing elements, no coding or complex setup needed. You can easily map out how calls should be handled, add options like call forwarding or voicemail, and update it anytime. It’s quick, flexible, and helps your customers get to the right person faster.
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="accordion-item">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
                                     How does the Unified Inbox help manage customer messages and team communication?
                                 </button>
@@ -46,6 +35,17 @@ function FAQ() {
                                 <div id="collapse3" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
                                         The Unified Inbox brings all your customer messages, calls, chats, emails, and more into one place. Every message reaches the right person fast, so nothing gets missed. At the same time, your team can chat internally, share notes, and get instant help from other departments without switching tools. With AI assisting across channels, replies are faster, smarter, and everyone stays connected.
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                    How does the AI Tracker help your business grow?
+                                </button>
+
+                                <div id="collapse5" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div className="accordion-body">
+                                        The AI Tracker checks every call, gives it a score, and shows where your leads are coming from—like Google, social media, emails, or your website. It also tracks which calls turn into real customers, so you know what’s working and which campaigns bring the best results.
                                     </div>
                                 </div>
                             </div>
@@ -61,13 +61,13 @@ function FAQ() {
                                 </div>
                             </div>
                             <div className="accordion-item">
-                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                                    How does the AI Tracker help your business grow?
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                    How does your Visual IVR make communication easier?
                                 </button>
 
-                                <div id="collapse5" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div id="collapse2" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
-                                        The AI Tracker checks every call, gives it a score, and shows where your leads are coming from—like Google, social media, emails, or your website. It also tracks which calls turn into real customers, so you know what’s working and which campaigns bring the best results.
+                                        Our Visual IVR lets you build call flows just by dragging and placing elements, no coding or complex setup needed. You can easily map out how calls should be handled, add options like call forwarding or voicemail, and update it anytime. It’s quick, flexible, and helps your customers get to the right person faster.
                                     </div>
                                 </div>
                             </div>
